@@ -1,0 +1,265 @@
+/* Meyers Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+  background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+/* *********************** */
+
+/* .guest-container {
+  text-align: center;
+  margin: 0 auto;
+} */
+
+/* Hero Section */
+.hero {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url(https://images.pexels.com/photos/60893/tunnel-underground-underpass-lighting-60893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.welcome {
+  margin: 30px 0 60px 0;
+  font-size: 1.5em;
+  text-shadow: 0 0 5px #ffa500,
+  0 0 15px #ffa500,
+  0 0 20px #ffa500,
+  0 0 40px #ffa500,
+  0 0 60px #ff0000,
+  0 0 10px #ff8d00,
+  0 0 98px #ff0000;
+  color: #fff6a9;
+  animation: blink 12s infinite;
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55%{
+    color: #111;
+    text-shadow: none;
+  }
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 0 0 5px #ffa500,
+    0 0 15px #ffa500,
+    0 0 20px #ffa500,
+    0 0 40px #ffa500,
+    0 0 60px #ff0000,
+    0 0 10px #ff8d00,
+    0 0 98px #ff0000;
+    color: #fff6a9;
+  }
+}
+
+.title {
+  font-size: 4em;
+}
+
+.tagline {
+  color: whitesmoke;
+}
+
+/* Create New Guest Form */
+.create-new-guest-form {
+  text-align: center;
+  width: 40%;
+  margin: 40px auto;
+}
+
+.input-field {
+  margin-bottom: 15px;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.781);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2.5px;
+  border-color: rgba(255, 255, 255, 0);
+}
+
+.input-field:focus, .textarea-field:focus {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.textarea-field {
+  margin-bottom: 15px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.781);
+  border-radius: 2.5px;
+  border-color: rgba(255, 255, 255, 0);
+  resize: none;
+}
+
+.button {
+  font-weight: 900;
+  color: rgb(200, 200, 200);
+  background-color: #000;
+  border: 1px solid #cacaca;
+  border-radius: 1px;
+  padding: 5px 20px;
+  transition: color .5s;
+  margin: 0 20px;
+}
+
+.button:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(200, 200, 200);
+}
+
+@media screen and (max-width: 600px){
+  .title {
+    font-size: 2em;
+  }
+  .create-new-guest-form {
+    width: 70%;
+  }
+  .button {
+    padding: 10px 30px;
+  }
+}
+
+/* Entries */
+.entry {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 150px;
+}
+
+.name-box {
+  border: .5px solid rgba(255, 255, 255, 0.6);
+  border-style: solid dashed;
+  border-left: black;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.name-box a {
+  text-decoration: none;
+}
+
+.name-box a h2 {
+  color: rgb(223, 223, 223);
+  font-family: "Permanent Marker", Verdana, sans-serif;
+  font-size: 3vw;
+}
+
+.name {
+  transition: text-decoration 2s;
+}
+
+.name:hover {
+  text-decoration: underline;
+}
+
+.message {
+  border: .5px solid rgba(255, 255, 255, 0.6);
+  border-style: solid dashed;
+  border-right: black;
+  width: 60%;
+  padding: 30px 20px;
+  background-color: black;
+  overflow: auto;
+  overflow-wrap: break-word;
+}
+
+.message p {
+  font-family: Roboto, sans-serif;
+  color: rgb(223, 223, 223);
+}
+
+@media screen and (max-width: 600px) {
+  .name {
+    font-size: 50px;
+  }
+}
+
+/* Guest */
+
+.single-guest-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20px;
+  height: 100%;
+  /* background-; */
+}
+
+.guest-names {
+  font-size: 10vh;
+  font-family: "Permanent Marker", Verdana, sans-serif;
+  color: rgb(225, 225, 225);
+  margin-bottom: 5vh;
+}
+
+.guest-message {
+  margin-bottom: 5vh;
+  color: rgb(225, 225, 225);
+  font-size: 2vh;
+}
+
+body {
+  background-color:rgb(20, 20 ,20);
+}
