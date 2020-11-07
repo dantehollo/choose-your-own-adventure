@@ -2,43 +2,43 @@
 const mongoose = require('./connection.js')
 
 // Schema
-const scriptSchema = new mongoose.Schema({
+const ScriptSchema = new mongoose.Schema({
     pathName: Number,
-    // : String,
+    responses: Array,
 })
 
 // collection
-const GuestBookCollection = new mongoose.model('Guest', GuestSchema)
+const ScriptCollection = new mongoose.model('script', ScriptSchema)
 
 // get all
-const getAllGuests = () => {
-    return GuestBookCollection.find({})
+const getAllScripts = () => {
+    return ScriptCollection.find({})
 }
 
 // get one
-const getOneGuest = (id) => {
-    return GuestBookCollection.findById(id)
+const getOneScript = (id) => {
+    return ScriptCollection.findById(id)
 }
 
 // create
-const createNewGuest = (guestData) => {
-    return GuestBookCollection.create(guestData)
+const createNewScript = (scriptData) => {
+    return ScriptCollection.create(scriptData)
 }
 
 // update
-const updateGuest = (id, guestData) => {
-    return GuestBookCollection.updateOne({_id: id}, guestData)
+const updateScript = (id, scriptData) => {
+    return ScriptCollection.updateOne({_id: id}, scriptData)
 }
 
 // delete
-const deleteGuest = (id) => {
-    return GuestBookCollection.deleteOne({_id: id})
+const deleteScript = (id) => {
+    return ScriptCollection.deleteOne({_id: id})
 }
 
 module.exports = {
-    getAllGuests,
-    getOneGuest,
-    createNewGuest,
-    updateGuest,
-    deleteGuest
+    getAllScripts,
+    getOneScript,
+    createNewScript,
+    updateScript,
+    deleteScript
 }

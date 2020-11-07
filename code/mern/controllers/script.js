@@ -1,50 +1,50 @@
 
 const express = require('express')
 
-const guestBookApi = require('../models/scripts.js')
+const scriptApi = require('../models/scripts.js')
 
-const guestBookRouter = express.Router()
+const scriptRouter = express.Router()
 
 // get all
-guestBookRouter.get('/', (req, res) => {
-  guestBookApi.getAllGuests()
-    .then((allGuests) => {
-      res.json(allGuests)
+scriptRouter.get('/', (req, res) => {
+  scriptApi.getAllScripts()
+    .then((allScripts) => {
+      res.json(allScripts)
   })
 })
 
 // get one
-guestBookRouter.get('/:id', (req, res) => {
-  guestBookApi.getOneGuest(req.params.id)
-    .then((oneGuest) => {
-      res.json(oneGuest)
+scriptRouter.get('/:id', (req, res) => {
+  scriptApi.getOneScript(req.params.id)
+    .then((oneScript) => {
+      res.json(oneScript)
     })
 })
 
 // create
-guestBookRouter.post('/', (req, res) => {
-  guestBookApi.createNewGuest(req.body)
-    .then((createdGuest) => {
-      res.json(createdGuest)
+scriptRouter.post('/', (req, res) => {
+  scriptApi.createNewScript(req.body)
+    .then((createdScript) => {
+      res.json(createdScript)
     })
 })
 
 // update
-guestBookRouter.put('/:id', (req, res) => {
-  guestBookApi.updateGuest(req.params.id, req.body)
-    .then((updatedGuest) =>{
-      res.json(updatedGuest)
+scriptRouter.put('/:id', (req, res) => {
+  scriptApi.updateScript(req.params.id, req.body)
+    .then((updatedScript) =>{
+      res.json(updatedScript)
     })
 })
 
 // delete
-guestBookRouter.delete('/:id', (req, res) => {
-  guestBookApi.deleteGuest(req.params.id)
-    .then((deletedGuest) => {
-      res.json(deletedGuest)
+scriptRouter.delete('/:id', (req, res) => {
+  scriptApi.deleteScript(req.params.id)
+    .then((deletedScript) => {
+      res.json(deletedScript)
     })
 })
 
 module.exports = {
-  guestBookRouter
+  scriptRouter
 }
