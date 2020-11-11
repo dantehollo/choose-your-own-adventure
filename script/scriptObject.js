@@ -204,7 +204,7 @@ const Stories = {
             }
         ],
         
-        00: [
+        10: [
             {
                 Tehara: "Hey guys! What's going on? You look like you just sucked venom from a snake through its teeth."
             },
@@ -852,7 +852,7 @@ const Stories = {
             }
         ],
 
-        000: [
+        100: [
             {
                 Vadim: "Hello my friends...What's going on here?"
             },
@@ -1190,6 +1190,1202 @@ const Stories = {
             },
             {
                 Vadim: "Good luck friends. With any luck, this will all work out to our advantage."
+            }
+        ],
+        112: [
+            {
+                Usain: "I think I see where you're coming from. I do have a question though."
+            },
+            {
+                Vadim: "And what is question, my friend?"
+            },
+            {
+                Usain: "I would agree with you that who is at the farm and town matters and can change which answer is right. There we agree. What I'm curious about is whether or not there is someone you would not sacrifice for the sake of your mission."
+            },
+            {
+                Vadim: "This would take some time to think about. I cannot think of anyone off top of my head."
+            },
+            {
+                Tehara: "How about your mother?"
+            },
+            {
+                Vadim: "I would gladly sacrifice mother for mission!"
+            },
+            {
+                Tehara: "KINSLAYER!"
+            },
+            {
+                Vadim: "Little Hari, I cannot kill what is already dead."
+            },
+            {
+                Tehara: "Oh."
+            },
+            {
+                Usain: "Sorry for your loss."
+            },
+            {
+                Vadim: "It is fine. In truth, I never knew her well enough to miss her. I will honor her bones, but I did not weep when she died."
+            },
+            {
+                Imhotep: "I can't imagine not having anyone so close that I would not question my own beliefs to save them. It seems like too lonely a path to walk, not loving anyone."
+            },
+            {
+                Tehara: "That sounds like something a loser would say. You can't let personal baggage weigh you down as you rise you up. There is a reason they say it's lonely at the top."
+            },
+            {
+                Usain: "Hari, you said you would save the person you cared for at the farm over the everyone at the town."
+            },
+            {
+                Tehara: "I'm teasing him! Besides, you said it mattered what the person can do you for you, not how much you liked them."
+            },
+            {
+                Usain: "I was trying to find a middle ground between Imhotep's position and yours. If I was to be completely honest, I can name a few people I love enough to sacrifice the town for, regardless of what I get out it."
+            },
+            {
+                Tehara: "Like who?"
+            },
+            {
+                Usain: "I would choose to save you."
+            },
+            {
+                Tehara: "Wha-wha-what?"
+            },
+            {
+                Usain: "I mean, um, uh, Imhotep and Aarit too! Haha, um, yeah. I would save my older sister as well. Because I lover her! But, um, not like, you know, not like that."
+            },
+            {
+                Tehara: "Oh."
+            },
+            {
+                Usain: "And that doesn't mean I would feel good about it. I think Imhotep is right too, I need to try to save as many people as I can."
+            },
+            {
+                Tehara: "Right."
+            },
+            {
+                Imhotep: "Usain, you have all the grace of a child falling down stairs."
+            },
+            {
+                Usain: "What? What did I do?"
+            },
+            {
+                Imhotep: "Oh nothing. If I'm at farm, please send the bandits there. I understand that you are trying to show your appreciation of our friendship by saving me, but I couldn't look you in the eyes if you slaughtered innocent people for my sake."
+            },
+            {
+                Usain: "I'm not sure I can commit to that. "
+            },
+            {
+                Vadim: "Usain, you were so close."
+            },
+            {
+                Usain: "To what?"
+            },
+            {
+                Vadim: "Nothing, nothing. If you won't speak of it, then neither will I!"
+            },
+            {
+                Usain: "What in the blazes are you talking about?"
+            },
+            {
+                Vadim: "Nothing at all. Might I suggest, my friend, a change in career? I know you are trying to become legendary mercenary like myself, but if you do not wish to hurt people you love, it will not be a good job. Mercenaries often fight their friends on the battlefield."
+            },
+            {
+                Tehara: "Try banditry! As your first job, you can help me raid the pantry!"
+            },
+            {
+                Usain: "Glob is cooking tonight, isn't he?"
+            },
+            {
+                Tehara: "So you see how dire the situation is."
+            },
+            {
+                Usain: "Yes, I do. Imhotep, if you're tired of the high road, you can join us on the low road."
+            },
+            {
+                Vadim: "Actually, Imhotep was going to come with me. Basil needs lessons and Imhotep agreed to help."
+            },
+            {
+                Imhotep: "I don't recall ever...why are you looking at me like that?"
+            },
+            {
+                Vadim: "We must be off! Save me sweet roll, you two! Come Imhotep!"
+            },
+            {
+                Imhotep: "But I really don't remember-"
+            },
+            {
+                Vadim: "Come!"
+            },
+            {
+                Imhotep: "All right, fine! You guys, try not to steal everything, will you?"
+            },
+            {
+                Tehara: "No promises."
+            },
+            {
+                Usain: "See ya, guys!"
+            },
+            {
+                Vadim: "Good luck, friend."
+            }
+        ],
+        121: [
+            {
+                Usain: "Huh, I never thought of it like that."
+            },
+            {
+                Vadim: "How do you mean?"
+            },
+            {
+                Usain: "Well, this started with me and Imhotep agreeing that we should save the town instead of the farmer because it saved more lives, even if we had different reasons. Tehara demanded context, which blurred the lines some, but this helps."
+            },
+            {
+                Vadim: "What lines are you talking about, my friend? And what are your reasons?"
+            },
+            {
+                Usain: "I thought I should save the town because it did more good."
+            },
+            {
+                Vadim: "Save more people, do more good. It is simple, but effective reason."
+            },
+            {
+                Usain: "I thought so too. But if there is someone important at the farm, it made you think of it different. Like, we used Marinus versus someone you cared for. Saving Marinus will result in more lives being saved..."
+            },
+            {
+                Tehara: "Allegedly."
+            },
+            {
+                Usain: "Right, allegedly. So even if we had to sacrifice a loved one, Imhotep and I agree that we should send the bandits to wherever it will save more lives."
+            },
+            {
+                Vadim: "Because it is good?"
+            },
+            {
+                Usain: "Yes, precisely. It also fixes the problem of worrying about every life we have to take. If it's in the interest of the greater good, it's worth it."
+            },
+            {
+                Imhotep: "I don't know if I would phrase it like that, exactly."
+            },
+            {
+                Vadim: "I would not say it that way either."
+            },
+            {
+                Usain: "So, in a sentence, how would you both say it?"
+            },
+            {
+                Vadim: "I would say what I said before, mission is what matters, not lives at stake."
+            },
+            {
+                Imhotep: "Do what is right, regardless of how much it may cost you."
+            },
+            {
+                Usain: "Huh. Weird how we can all do the same thing for different reasons."
+            },
+            {
+                Imhotep: "Unsettling, really."
+            },
+            {
+                Usain: "Why?"
+            },
+            {
+                Imhotep: "How little about the situation would we have to change for us to fight each other?"
+            },
+            {
+                Usain: "Oh...oh."
+            },
+            {
+                Tehara: "Oooo, now this is interesting!"
+            },
+            {
+                Vadim: "I admit, this happens often in mercenary work. It is not often pleasant."
+            },
+            {
+                Tehara: "Okay, okay! So let's say, Marinus is at the town and my dad is at the farm, right? You three would send the bandits to the farm, even if it meant you would have to fight me to do it?"
+            },
+            {
+                Usain: "..."
+            },
+            {
+                Vadim: "Sorry friend. I will save your red hair to remind me of your bright smile."
+            },
+            {
+                Imhotep: "I would fight you too, but I wouldn't save your hair."
+            },
+            {
+                Tehara: "Usain?"
+            },
+            {
+                Usain: "...I don't like this line of thought."
+            },
+            {
+                Vadim: "What if Marinus was at farm, and Tehara's papa was at town?"
+            },
+            {
+                Imhotep: "I would send bandits to the farm. If you were hired to protect the emir, I guess that would pit you against Teharaand I, wouldn't it?"
+            },
+            {
+                Vadim: "Yes, my friends, it would. If I win, I would deliver your sword to you brother."
+            },
+            {
+                Imhotep: "Thank you."
+            },
+            {
+                Tehara: "Threaten my father and we won't be friends, Vadim. I'll leave you for the crows."
+            },
+            {
+                Imhotep: "You are ever the charmer Hari. Usain, would you be on my side or his?"
+            },
+            {
+                Usain: "...I don't like this at all."
+            },
+            {
+                Tehara: "I guess if both Marinus and my dad are at the farm, you'd be on your own Imhotep."
+            },
+            {
+                Imhotep: "Yes, I suppose I would be. I would not relish facing the two of you in combat, but someone has to do what's right."
+            },
+            {
+                Vadim: "Put up good fight, friend."
+            },
+            {
+                Imhotep: "Only the best for you two. Have you made up your mind yet, Usain?"
+            },
+            {
+                Tehara: "Yeah, figure yourself out yet?"
+            },
+            {
+                Usain: "It's just...how can we call ourselves friends if we are willing to kill each other over something like this? It feels like we should be able to figure it out without coming to blows."
+            },
+            {
+                Vadim: "Sometimes friends fight. It is the way of war."
+            },
+            {
+                Tehara: "And thievery, banditry, marauding and gambling."
+            },
+            {
+                Imhotep: "I truly never wish to come to blows with you Usain. You are a dear friend, but I must stand by my principles. If we had to fight, I would do my best to spare you."
+            },
+            {
+                Usain: "Thanks, but I don't feel much better."
+            },
+            {
+                Imhotep: "This conversation took a dark turn, didn't it?"
+            },
+            {
+                Usain: "Yeah, it did! And now I won't sleep tonight!"
+            },
+            {
+                Tehara: "Would some sweet tarts help?"
+            },
+            {
+                Usain: "You have sweet tarts?"
+            },
+            {
+                Tehara: "No, but the kitchens were making some today."
+            },
+            {
+                Imhotep: "Hari, no..."
+            },
+            {
+                Tehara: "Aw c'mon! I saw Glob mixing sawdust into the stew. We gotta go raid the pantry if we want anything good tonight!"
+            },
+            {
+                Usain: "Did he really?"
+            },
+            {
+                Tehara: "Yes, yes he did."
+            },
+            {
+                Imhotep: "You're lying, aren't you?"
+            },
+            {
+                Tehara: "No, no I am not."
+            },
+            {
+                Usain: "She's lying."
+            },
+            {
+                Imhotep: "Oh, absolutely."
+            },
+            {
+                Vadim: "Haha! Well if we must take leave of each other, I would ask my friends to save me a tart for tomorrow!"
+            },
+            {
+                Tehara: "Sure, consider it future payment to always take my side in a fight against these two."
+            },
+            {
+                Vadim: "Haha! Done! Hahahaha!"
+            },
+            {
+                Usain: "Bye, Vadim."
+            },
+            {
+                Imhotep: "Good night friend."
+            },
+            {
+                Usain: "Imhotep, you up to play look out?"
+            },
+            {
+                Imhotep: "Why am I always the look out?"
+            },
+            {
+                Tehara: "Because little miss maid has got a crush on you."
+            },
+            {
+                Imhotep: "Which one?"
+            },
+            {
+                Tehara: "All of them."
+            },
+            {
+                Imhotep: "Oh."
+            },
+            {
+                Usain: "Being the emir's cousin helps."
+            },
+            {
+                Imhotep: "I'm sure it does."
+            },
+            {
+                Tehara: "Let's GOOOOOO!"
+            },
+            {
+                Imhotep: "We going to keep her waiting, Usain?"
+            },
+            {
+                Usain: "Haha! Not if we want anything for ourselves!"
+            }
+        ],
+        122: [
+            {
+                Usain: "You're doing the right thing for the wrong reason, I think."
+            },
+            {
+                Imhotep: "I wholeheartedly agree."
+            },
+            {
+                Vadim: "And what is reason?"
+            },
+            {
+                Usain: "If Marinus was at the farm and Basil was at the town, you would send the bandits to the town, right?"
+            },
+            {
+                Vadim: "Of course."
+            },
+            {
+                Usain: "I believe your reason is that you're just following orders, whatever gets the job done, regardless of the aftermath. Saving the town and everyone in it is the right thing to do, even if it means the mission fails."
+            },
+            {
+                Vadim: "If mission fails and Marinus dies Toma falls, yes?"
+            },
+            {
+                Usain: "It would be harder, but it's not guaranteed. Even without Marinus, we still have the elves backing us. Plus, Aarit is Ogma, and that carries a lot of weight. Doing what's right in saving the town will make our war harder, but not impossible."
+            },
+            {
+                Vadim: "My friend, you are most noble in you defense of innocent lives! However, do not forget that each sacrifice you make will war harder. With enough sacrifices, it will become impossible."
+            },
+            {
+                Usain: "I still think doing what is right is better than what is wrong, even when what is wrong is useful."
+            },
+            {
+                Imhotep: "Practicality should not be the basis of our morality, Vadim."
+            },
+            {
+                Vadim: "If you do not do what is practical, how can you accomplish mission? How can you accomplish your war? You save town. Let us say you save this one town and it does not change chances in war. But you save many towns? Now Rae wins, and all elves die and people of Toma are enslaved."
+            },
+            {
+                Imhotep: "What is your point?"
+            },
+            {
+                Vadim: "My point is simple. If you let this one town go, you save more lives later after war. Save town now, you lose war, and many more people die. My friend, shouldn't you look farther ahead than only choice right in front of you?"
+            },
+            {
+                Usain: "What?"
+            },
+            {
+                Vadim: "What if what is right choice in moment is wrong choice later?"
+            },
+            {
+                Usain: "..."
+            },
+            {
+                Vadim: "No answer? Maybe because Vadim is truly intelligent man with many women coming to him for “expert advice”."
+            },
+            {
+                Tehara: "Ha! You wish."
+            },
+            {
+                Imhotep: "How would you handle the corruption of character?"
+            },
+            {
+                Vadim: "Corruption?"
+            },
+            {
+                Imhotep: "We are assuming that the outcome of the war rests on our decision right here with this town. Usain was right earlier, when he said there were other ways to win the war without Marinus."
+            },
+            {
+                Vadim: "There are many important people on our side, yes."
+            },
+            {
+                Imhotep: "So let's say we sacrifice a village to save Marinus. Then, we sacrifice a larger town to save Lae Ling, the elven diplomat. Then, we sacrifice the whole city of Goshen to save Aarit. Eventually, Toma wins, Rae is defeated, and we have sacrificed everyone else in Vessa." 
+            },
+            {
+                Vadim: "Ah, I see what you mean."
+            },
+            {
+                Imhotep: "If we always make compromises in the present for the future prize, how long until there is nothing left of our moral core?"
+            },
+            {
+                Usain: "Nice one."
+            },
+            {
+                Imhotep: "Thank you."
+            },
+            {
+                Tehara: "I'm lost."
+            },
+            {
+                Imhotep: "Of course you are."
+            },
+            {
+                Vadim: "Very well argued! I applaud your thinking! Perhaps, given time, you may become Ogma too!"
+            },
+            {
+                Imhotep: "Thank you, but did I sway your opinion?"
+            },
+            {
+                Vadim: "Ah, my friend, unfortunately no, you have not. I still believe that my mission must take precedent over my moral core, as you call it. If Toma wins and all else burns, I will be satisfied. Perhaps it is because I am mercenary, but I believe goal justifies methods."
+            },
+            {
+                Imhotep: "I am sorry to hear that."
+            },
+            {
+                Usain: "At least you're on our side."
+            },
+            {
+                Tehara: "For as long as Marinus continues to pay him."
+            },
+            {
+                Vadim: "I made many arguments to protect him today. My employment is secure! Haha!"
+            },
+            {
+                Usain: "Haha! We should probably get going to the mess hall. Dinner will be served soon and I don't want to get stuck with the burnt ends again."
+            },
+            {
+                Tehara: "It's Glob's cooking. The whole thing is probably burned."
+            },
+            {
+                Usain: "Yeah, true. We could raid the pantry again."
+            },
+            {
+                Imhotep: "Usain!"
+            },
+            {
+                Tehara: "Sounds like a plan to me. You coming Vadim?"
+            },
+            {
+                Vadim: "I cannot join you in your pantry pillaging today. I have lessons to teach Basil tonight. But if you can, save me sweet tart for tomorrow!"
+            },
+            {
+                Usain: "With her sweet tooth? Good luck."
+            },
+            {
+                Tehara: "Well, if we can't have Vadim I guess you'll have to be the lookout, Imhotep."
+            },
+            {
+                Imhotep: "I'm always your lookout and what's more I don't think..."
+            },
+            {
+                Tehara: "Too slow! Let's go you two, before that scullery maid with the crush on fancy pants here leaves."
+            },
+            {
+                Usain: "I'll get the meats, you grab the sweets!"
+            },
+            {
+                Imhotep: "Guys, I still don't think...hey! Wait for me!"
+            }
+        ],
+        211: [
+            {
+                Usain: "That makes a bit of sense."
+            },
+            {
+                Tehara: "Hey! You were supposed to be on my side!"
+            },
+            {
+                Usain: "Yeah well, I switched sides."
+            },
+            {
+                Tehara: "Traitor!"
+            },
+            {
+                Vadim: "Tehara my friend, what is your side?"
+            },
+            {
+                Tehara: "I agree with you on needing to know who's where, but I think you should save the people that are close to you, not whoever hired you. On the other hand, if we're talking about needing to kill someone, me and you totally agree."
+            },
+            {
+                Vadim: "Ah, so friends and family matter more than your word or your honor?"
+            },
+            {
+                Tehara: "I used to be bandit before these guys recruited me."
+            },
+            {
+                Usain: "Captured, released, then couldn't get rid of you, more like."
+            },
+            {
+                Tehara: "Eh, tomatoes, potatoes. Anyways, I was a bandit. I don't really do the whole 'honor' thing."
+            },
+            {
+                Vadim: "So I see. What was your side, Imhotep?"
+            },
+            {
+                Imhotep: "Unlike those two I believe in a moral code and principle, one that demands I respect and preserve life."
+            },
+            {
+                Vadim: "Following your religion, yes?"
+            },
+            {
+                Imhotep: "Yes, the Laws of Life. I try to adhere to it the best I can. And that would mean saving the town every time."
+            },
+            {
+                Tehara: "Yes, yes we know. 'Because the hallowed Spirits of the rocks and weeds and my dirty undergarments told me so'."
+            },
+            {
+                Imhotep: "Do not mock the Spirits, fire elf."
+            },
+            {
+                Tehara: "I'll mock them all I want. They aren't fae."
+            },
+            {
+                Usain: "You have to admit Imhotep, the idea is kind of silly."
+            },
+            {
+                Imhotep: "Oh? Do tell me of the internal inconsistencies of my religion, Usain. The very same Usain who has refused to accompany me to how many holy day celebrations?"
+            },
+            {
+                Usain: "Look, all I'm saying that I don't think spirits, fae or otherwise, should be the decider of all our morals. I think that we, the people in the situations, are better off deciding for ourselves what is best. The gods are dead and you can't trust fae or magic. Why leave your life's choices in the hands of something that can't see?"
+            },
+            {
+                Imhotep: "Because I can see the good it does the world by following their guidance. I can see that lives are enriched by adhering to the principles the Spirits taught us. The gods are gone, but doesn't mean the supernatural holds no sway over our lives. We are still beings of half flesh and half spirit. Someday, our spirit selves will join the Spirits of the Earth and answer for our deeds upon it."
+            },
+            {
+                Usain: "Those spirits are so weak they can barely manifest as anything more than a mild breeze. Fae could summon entire storm if you let them."
+            },
+            {
+                Tehara: "When they aren't trying to possess you that is."
+            },
+            {
+                Vadim: "I believe I understand what Imhotep is trying to say. In Rodina. we follow Eternal King and Mother Arianne. We follow her by fulfilling our duties to our lords and lieges, and by seeking honor through courageous acts. As we gain her favor, she blesses us with a seat in her Great Hall. It gives much inspiration to us, who fight in her name. There is comfort in knowing that someone is watching, that life has purpose beyond this earth."
+            },
+            {
+                Tehara: "Meh, sounds like too much of a hassle, chasing someone's approval all the time."
+            },
+            {
+                Vadim: "Do Dahn have faith in nothing?"
+            },
+            {
+                Tehara: "Sorta? It's hard to explain to an outsider. Usain?"
+            },
+            {
+                Usain: "We don't really worship anything as much as honor and revere them. And only a few things as they benefit the people, the Dahn as a whole. Like, we honor the Continent, Al-Ilbis, because it is our home. We honor the sun because it gives light so we can see. Same thing with the sands and water. Everything we honor is real and tangible, but we would never pray to them."
+            },
+            {
+                Imhotep: "But you can't get any guidance from anything that way."
+            },
+            {
+                Usain: "Yeah, but why follow gods or spirits? Why are their choices better than anyone else's? I can use my own judgment on a situation, and deal with the consequences afterward. But I don't think it's smart to trust these spirit-things. They could just be my imagination for all I know."
+            },
+            {
+                Imhotep: "You still have personal agency within the Law. They just tell you what is right and what is wrong. It's your choice of whether or not to follow the right path."
+            },
+            {
+                Usain: "How do I know they are right?"
+            },
+            {
+                Imhotep: "You will see it in the world around you, you will feel it in your soul as it grows in harmony with the Earth. Life itself will flourish around you."
+            },
+            {
+                Usain: "So, let's say I sacrifice the farm with Aarit on it to save the town from the bandits. Without Aarit's reputation, Marinus can't muster enough support from the other emir's and Toma bows to Rae, who then goes on to murder all the elves and half-elves in Southern Vessa. How does life 'flourish' in that?"
+            },
+            {
+                Imhotep: "Your choice allows that village to live. That's where the life flourishes. You can't hold that decision responsible for the evils Rae commits."
+            },
+            {
+                Usain: "Yeah, but I save more lives later if I kill, or sacrifice, more people now."
+            },
+            {
+                Imhotep: "Just because the results look better in the immediate context doesn't mean that it will be better for your soul, here or in the afterlife."
+            },
+            {
+                Usain: "I think I'll take my chances with focusing on the here and now. If killing accomplishes my goal, so be it."
+            },
+            {
+                Imhotep: "Usain..."
+            },
+            {
+                Tehara: "Sun and Sands! This is getting boring! Usain, how's about we make our way to the mess hall and see if we can find some grub?"
+            },
+            {
+                Imhotep: "We're in the middle of something here, Hari."
+            },
+            {
+                Usain: "I feeling hungry and it is getting late. Maybe we can pick this up tomorrow?"
+            },
+            {
+                Imhotep: "Fine, fine. Just you wait though. I will get you to come over the Vessii side one of these days."
+            },
+            {
+                Usain: "You can try! Haha! Care to join us in the mess? If Glob is cooking, we could use you as a look out for a pantry raid."
+            },
+            {
+                Imhotep: "No thanks, Hari's insistence that family matters most reminded me that I haven't seen Tutkah since yesterday. I should go check in on my brother. Maybe he and I can get a bite and head to the Green Chapel. You two are welcome to join us."
+            },
+            {
+                Tehara: "Ew."
+            },
+            {
+                Usain: "Pass, but thanks. Vadim?"
+            },
+            {
+                Vadim: "I cannot. I must teach cousin Basil tonight. Perhaps later you can come to my camp and I will tell you stories of Arianne."
+            },
+            {
+                Usain: "Maybe."
+            },
+            {
+                Tehara: "This eternal king of yours, does he kill a lot of people?"
+            },
+            {
+                Vadim: "She, and yes, very, very many."
+            },
+            {
+                Tehara: "Nice!"
+            },
+            {
+                Imhotep: "Hari, you are truly hopeless. Good night all! I wish you all a pleasant night's sleep!"
+            },
+            {
+                Usain: "Night, friend! May your spirits keep you!"
+            },
+            {
+                Tehara: "We better get going, Usain, before we miss our window of opportunity."
+            },
+            {
+                Usain: "Yeah, let's go. See you later Vadim. Try not to work Basil over too hard tonight."
+            },
+            {
+                Vadim: "Hard lessons make us sleep better. I get tired and Basil gets brained! Hahaha!"
+            },
+            {
+                Usain: "Ha, well good night then."
+            },
+            {
+                Vadim: "Good night my friends! May Arianne fill your hearts with courage!"
+            },
+            {
+                Tehara: "Usain let's go!"
+            },
+            {
+                Usain: "Hey! Slow down! Sun-touched fire elf!"
+            }
+        ],
+        212: [
+            {
+                Usain: "I think I see where you're coming from, but I'm going to disagree."
+            },
+            {
+                Vadim: "Why?"
+            },
+            {
+                Usain: "Family and friends, they're more important than the others in the town, even if that person is someone important, like your employer. I don't think I could replace any one of you guys, but Marinus is no different than any other emir to me."
+            },
+            {
+                Imhotep: "At least it's not a Dahnic response."
+            },
+            {
+                Usain: "Careful, Imhotep."
+            },
+            {
+                Vadim: "Usain, we both are mercenaries, soldiers of fortune. If you fail missions because you are unwilling to make personal sacrifice, why should someone hire you?"
+            },
+            {
+                Usain: "I don't think I'm going to be a mercenary, not with Aarit training me in the ways of the Ogma."
+            },
+            {
+                Vadim: "This may be true. Aarit is mighty general, known from the Vessii hills, to the highlands of Rodina. However, do you not believe there is value in keeping your word?"
+            },
+            {
+                Usain: "What?"
+            },
+            {
+                Vadim: "Let us say, you become Ogma. Now let us say, you fight for city, you command their armies, yes? Now let us say, your friend is captured by enemy city, and the say you must change sides and sabotage the city you fight for, or else they kill friend. Do you not have obligation to city that hired you?"
+            },
+            {
+                Usain: "I think it would depend on who they kidnapped, but I think I have more of an obligation to my friends and family."
+            },
+            {
+                Tehara: "What's so bad about banditry? I was one before you guys found me, and I think I turned out all right."
+            },
+            {
+                Vadim: "Oh ho! That's how you put? Obligation to friends and family, not duty or honor."
+            },
+            {
+                Imhotep: "I disagree with your choice here, not to say I agree with Vadim either, but doesn't that go against the Dahnic Code? Every Dahn I've ever met have always been about nothing but duty and honor."
+            },
+            {
+                Usain: "Yeah, I guess it does. Shouldn't that make you happy?"
+            },
+            {
+                Imhotep: "You're still committing to the wrong idea. Friends and family are important, but there needs to be a higher ideal than that, something to give you a vision for the future and tells you how to act."
+            },
+            {
+                Usain: "Why can't I tell myself how to act? Why give myself over to anything?"
+            },
+            {
+                Tehara: "Now you're talking! No masters but ourselves!"
+            },
+            {
+                Imhotep: "You can hardly claim the intellectual superiority of a fire elf, Usain."
+            },
+            {
+                Tehara: "Hey!"
+            },
+            {
+                Usain: "I can admit when she's right. My duty lies with people I care about, not with warlords or priests."
+            },
+            {
+                Vadim: "Even when causes you to act dishonorably?"
+            },
+            {
+                Usain: "Others might hate me, but I'll save who I care for."
+            },
+            {
+                Vadim: "What if it is your friends that are fighting and you must choose to save one?"
+            },
+            {
+                Usain: "That...that makes it more difficult."
+            },
+            {
+                Vadim: "In war, friends fight. Not because they want to, but they have to. What do you do when you have to choose between one friend or the other?"
+            },
+            {
+                Tehara: "It's simple. You let them be stupid and kill each other."
+            },
+            {
+                Vadim: "If you do not help, you lose both friends."
+            },
+            {
+                Tehara: "If they are forcing me to choose one or the other, they aren't acting like my friends, now are they?"
+            },
+            {
+                Vadim: "There is something here I cannot agree with. Tehara, are you saying that your friends are your friends only for how long you wish them to be? That you owe them no loyalty?"
+            },
+            {
+                Tehara: "Of course. Who else should decide who gets to be friends with me?"
+            },
+            {
+                Vadim: "Tehara, my friend, this would make you a poor friend."
+            },
+            {
+                Imhotep: "Fickle would be the word."
+            },
+            {
+                Tehara: "What? I have to help my friends be idiots? No way!"
+            },
+            {
+                Vadim: "You do not have to, but who wants friend that does not stand with them in trouble?"
+            },
+            {
+                Usain: "We really have veered off the original question here, haven't we?"
+            },
+            {
+                Vadim: "Then let us say that a friend is at farm and a friend is at town. Who lives, who dies?"
+            },
+            {
+                Tehara: "Whoever I like more."
+            },
+            {
+                Vadim: "And if you like both the same?"
+            },
+            {
+                Tehara: "I don't know! Whoever I feel like right then!"
+            },
+            {
+                Vadim: "And there is problem. My friend, I am sorry to push you so hard, but you must see that this standard is no good!"
+            },
+            {
+                Tehara: "It's better than being a slave to some contract or religion! At least I get to decide what happens to me!"
+            },
+            {
+                Usain: "Better to control your own destiny and make the hard choices for yourself than give the decision away to something else."
+            },
+            {
+                Imhotep: "There is such a thing as being right, Usain! Surly you can see that!"
+            },
+            {
+                Usain: "And it's not with your spirits or his duty! C'mon Hari! I'm sick of this riddley puzzle. Let's go find some food and leave these two to squabble."
+            },
+            {
+                Tehara: "Way ahead of you, friend. Let's go see what we can steal from the larder."
+            },
+            {
+                Usain: "Great idea, friend! After that, we can head the Tower and enjoy the spoils!"
+            },
+            {
+                Tehara: "Right behind you, friend!"
+            },
+            {
+                Vadim: "Oh dear. We seem to have upset them."
+            },
+            {
+                Imhotep: "It seems we have. I wonder, if Aarit knew how much of an effect she would have on Usain, if he would ever have freed her?"
+            }
+        ],
+        221: [
+            {
+                Imhotep: "As I have been telling these two here, that is the wrong way entirely."
+            },
+            {
+                Tehara: "That's kinslaying, that's what that is!"
+            },
+            {
+                Usain: "Yeah, but it makes a cut throat kind of sense."
+            },
+            {
+                Imhotep: "Usain!"
+            },
+            {
+                Vadim: "Do what must be done. It is not always pretty, but it is always necessary."
+            },
+            {
+                Tehara: "Tell that to Basil."
+            },
+            {
+                Vadim: "He knows choices of this life we lead."
+            },
+            {
+                Usain: "We're soldiers of fortune. The job must be completed."
+            },
+            {
+                Imhotep: "I have a huge problem with this."
+            },
+            {
+                Tehara: "Besides the kinslaying?"
+            },
+            {
+                Imhotep: "I don't like the thought of that, but I can concede it may be necessary to protect the interests of preserving life. However, what if your mission is not in that interest? What if you are hired to do harm?"
+            },
+            {
+                Vadim: "Explain please."
+            },
+            {
+                Imhotep: "What if you were hired by the tyrant of Rae to kill Emir Marinus? You know as well as we do that Rae seeks the extermination of all the elves. Would you continue the mission, in spite of that, knowing full well the misery you are going to spread and the extent of the lives that will be lost?"
+            },
+            {
+                Vadim: "Yes, I would."
+            },
+            {
+                Imhotep: "So you don't care who gets hurt?"
+            },
+            {
+                Vadim: "I have fought in two wars already, Imhotep. This life you wish to preserve and misery you want to prevent, it will happen no matter who wins. Tell me, what happens to Rae if you win?"
+            },
+            {
+                Imhotep: "Well we... we will treat them fairly but sternly. We will limit their army size, levy war indemnities, perhaps occupy Rae itself for a time to ensure demands are met. All the while we will act with honor and discipline."
+            },
+            {
+                Usain: "That's assuming we can pressure the shah to side with us in the first place. No shah, no Toma, and the elves stand alone."
+            },
+            {
+                Imhotep: "I have faith he will."
+            },
+            {
+                Vadim: "Imhotep, until you experience war there is little I can say to sway you in this opinion. All I will say is war spreads misery. If you try to stop tears from falling, you will only drown yourself."
+            },
+            {
+                Imhotep: "That's an excuse."
+            },
+            {
+                Vadim: "That is reality."
+            },
+            {
+                Usain: "No, we talked about earlier this, remember? It's a bad choice either way, but the choice has to be made. This might be the answer, to follow your duty, even if it feels wrong."
+            },
+            {
+                Imhotep: "But there has to be a line, some point you just don't cross."
+            },
+            {
+                Tehara: "How's about kinslaying? That's a pretty big line, ain't it?"
+            },
+            {
+                Vadim: "What is more important than duty?"
+            },
+            {
+                Imhotep: "Life, Vadim. Life!"
+            },
+            {
+                Vadim: "Sorry my friend, but on this we must disagree. I will do what is best to complete mission, and if there is no mission, I do what is best for me."
+            },
+            {
+                Tehara: "What if what is best for you is bad for your duty? Let's go back to the scenario where you save Marinus or Basil and let's assume you complete the mission and sacrifice Basil to protect Marinus, but now everyone knows you are responsible for Basil's death. Wouldn't that that be horrible for you reputation?"
+            },
+            {
+                Vadim: "Haha, so whole world finds out about kinslaying Basil?"
+            },
+            {
+                Usain: "It wouldn't change anything, would it?"
+            },
+            {
+                Vadim: "No my friends, it would not."
+            },
+            {
+                Usain: "Yeah, this I can get behind. Every action I take will have consequences and I can't worry about them all. If I try to control every echo, ripple and wave I create, I will never be able to do anything. Instead, do what I have to, and keep moving forward. The world can sort itself out."
+            },
+            {
+                Vadim: "This is the way."
+            },
+            {
+                Imhotep: "Indeed, ramifications be damned. You three are hopeless."
+            },
+            {
+                Tehara: "Maybe, but I get to have my family with me in the end."
+            },
+            {
+                Vadim: "And I will get many more contracts."
+            },
+            {
+                Imhotep: "Usain, will you really bring this to Aarit and tell him it doesn't matter where you send the bandits so long as it follows orders? Ogma are philosophers as much as they are warriors. Do you really think he will be content with you leaving moral decisions to others?"
+            },
+            {
+                Usain: "No, I'll tell him that my loyalty to my employer and contract comes first, and that I will hold fast to my word, my honor, and my duty, even if it hurts me."
+            },
+            {
+                Vadim: "My friend! Very well said!"
+            },
+            {
+                Imhotep: "My friend! That reeks worse than death!"
+            },
+            {
+                Tehara: "My friends! Can we drop this now?"
+            },
+            {
+                Imhotep: "Yes, please let us."
+            },
+            {
+                Usain: "Alright, alright. It's almost dinner time anyways. Shall we go to the Tower?"
+            },
+            {
+                Vadim: "Tower?"
+            },
+            {
+                Usain: "It's that's big tree about a mile or two west of here."
+            },
+            {
+                Vadim: "That sounds bit far for evening meal."
+            },
+            {
+                Tehara: "Well, the housekeepers chased us off the stairs yesterday, and cooks banned us from the kitchens, so somewhere outside does sound nice."
+            },
+            {
+                Imhotep: "A nice fire, good food and better company! Let's put this episode behind us and have some fun this evening!"
+            },
+            {
+                Usain: "Vadim, you want to join us?"
+            },
+            {
+                Vadim: "Thank you, but no. I have lessons to teach Basil tonight and must be up early tomorrow morning. But please, enjoy yourselves."
+            },
+            {
+                Tehara: "Suit yourself. To the mess! Last one there has to distract the cooks while we pilfer the pantry!"
+            },
+            {
+                Usain: "You're on!"
+            },
+            {
+                Imhotep: "Come now, can we have a little decorum for once and just wait in line like everyone else? H-hey! Wait for me!"
+            }
+        ],
+        222: [
+            {
+                Usain: "I don't think I can agree with that."
+            },
+            {
+                Vadim: "Why not?"
+            },
+            {
+                Usain: "I don't think it matters who is where."
+            },
+            {
+                Vadim: "Then what does matter Usain?"
+            },
+            {
+                Usain: "Well..."
+            },
+            {
+                Imhotep: "Yeah, Usain, what does matter to you? You wanted to send them to the town at the start, before Tehara came in."
+            },
+            {
+                Tehara: "And you disagreed with me about saving whoever is more important to you."
+            },
+            {
+                Usain: "..."
+            },
+            {
+                Vadim: "Not sure who is right?"
+            },
+            {
+                Usain: "...no..."
+            },
+            {
+                Vadim: "You are Dahn, yes? What would the Dahn say?"
+            },
+            {
+                Imhotep: "Tears of heaven, not this again!"
+            },
+            {
+                Usain: "Raiding bandits are an affront to order. My priority should be getting rid of them, but I've already been captured."
+            },
+            {
+                Vadim: "So what is next?"
+            },
+            {
+                Usain: "I need to find a way to kill the threat. I will need time, and men, weapons..."
+            },
+            {
+                Vadim: "Yes?"
+            },
+            {
+                Usain: "I send the bandits to the farm. Then I run to the town and tell them of the threat, marshal them into fighting groups and pursue the bandits. Meanwhile, I should send runners from the town to other nearby settlements to warn them of the bandit horde and recruit more capable fighters. Then, when we catch up to them we wait, ambush and kill every single one of them."
+            },
+            {
+                Vadim: "Good! Practical!"
+            },
+            {
+                Usain: "Then I kill myself to atone for my dishonor of being captured and robbed, and to pay the blood price to the farmer's family."
+            },
+            {
+                Vadim: "This is not good."
+            },
+            {
+                Usain: "I'm not excited about that part either."
+            },
+            {
+                Imhotep: "As well you shouldn't."
+            },
+            {
+                Usain: "That's the Dahnic Code though."
+            },
+            {
+                Imhotep: "Break it."
+            },
+            {
+                Usain: "But..."
+            },
+            {
+                Tehara: "Look, Usain, Imhotep is an blind mutt yapping at us, the desert lions. Dogs can't understand why lions do what they do, and lions don't answer to the curs either."
+            },
+            {
+                Imhotep: "Excuse me!?"
+            },
+            {
+                Tehara: "That said, I think that the world is better off with more lions in it, even if one has lost his pride."
+            },
+            {
+                Usain: "Thanks Tehara."
+            },
+            {
+                Tehara: "Don't mention it."
+            },
+            {
+                Imhotep: "You're both hopeless."
+            },
+            {
+                Vadim: "But the question has been answered, yes? And more people have been saved than lost. Are you not happy my friend?"
+            },
+            {
+                Imhotep: "Of course not! The reason behind the action is just as important as the action itself. Usain's reason is just senselessly following an old, murderous code. He's not acting on his own ideas and that's what Aarit is going after. Even he doesn't like the Dahnic Code."
+            },
+            {
+                Tehara: "Pfft, just another dog."
+            },
+            {
+                Usain: "You're just unhappy I don't agree to your Vessii religion and its silly little spirits."
+            },
+            {
+                Imhotep: "What's wrong with the spirits?"
+            },
+            {
+                Usain: "They're awfully close those cursed Fae, that's what."
+            },
+            {
+                Imhotep: "How dare you!"
+            },
+            {
+                Tehara: "Says the guy that will insult anything Dahn, in front of Dahn."
+            },
+            {
+                Imhotep: "I will call a spade, a spade, Tehara."
+            },
+            {
+                Usain: "Then how's this: You're wrong, and the preservation of life at all costs is one of the most stupid ideas I have ever heard."
+            },
+            {
+                Imhotep: "Fine then! Be Dahn! Be the very epitome of Dahn! Be so Dahn that you vomit sand!"
+            },
+            {
+                Tehara: "Sand for your grave, Vessii."
+            },
+            {
+                Imhotep: "Curse you all! I'm going to find my brother. His company should prove to be  less contemptible than yours, Tehara. Usain, feel free to come find my AFTER Aarit knocks that damn head of yours sideways!"
+            },
+            {
+                Vadim: "That was handled poorly."
+            },
+            {
+                Usain: "I didn't see you stepping in to stop it."
+            },
+            {
+                Tehara: "Of course not. No one told him to."
+            },
+            {
+                Vadim: "Tehara, temper your tongue before someone cuts it out. And Usain, I do not “step in” because these are your fights to win, or lose."
+            },
+            {
+                Usain: "Aarit is already training me, Vadim. I don't need two teachers."
+            },
+            {
+                Vadim: "I shall take note. Well, good night my friends, I have things to do this evening. Hopefully we all find ourselves in better tempers tomorrow."
+            },
+            {
+                Usain: "Good night."
+            },
+            {
+                Tehara: "Well, looks like it's just us Dahn to keep each other company. C'mon Usain, let's go raid the pantry. I think I saw the cooks making sweet tarts earlier."
+            },
+            {
+                Usain: "Actually, I think I'm just going to eat in the mess."
+            },
+            {
+                Tehara: "But why? You always liked the sweet tarts."
+            },
+            {
+                Usain: "Yeah, I know, I just don't want to right now, okay?"
+            },
+            {
+                Tehara: "Why?"
+            },
+            {
+                Usain: "I don't want to eat with the people I just spent the afternoon yelling at, that's why!"
+            },
+            {
+                Tehara: "..."
+            },
+            {
+                Usain: "Sorry Hari. See you in the morning."
+            },
+            {
+                Tehara: "I don't like how this ended..."
             }
         ]
     }
