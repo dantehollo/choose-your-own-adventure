@@ -2,34 +2,48 @@ const Stories = {
     moralityProblem: {
         0: [
             {
-                Usain: "sigh I don\'t know about this one. Nothing makes sense. I thought riddles were supposed to have one good answer that made all the pieces come together. But this one...I just can\'t figure it out."
+                speaker: "Usain",
+                dialogue: "I don't know about this one. Nothing makes sense. I thought riddles were supposed to have one good answer that made all the pieces come together. But this one...I just can't figure it out.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Good afternoon friend! Splendid day we\'re having, is it not? Are you heading for the mess hall for dinner?"
+                speaker: "Imhotep",
+                dialogue: "Good afternoon friend! Splendid day we're having, is it not? Are you heading for the mess hall for dinner?",
+                emotion: "neutral"
             },
             {
-                Usain: "Oh, hey Imhotep. Is it that late already? I must have lost track of the time."
+                speaker: "Usain",
+                dialogue: "Oh, hey Imhotep. Is it that late already? I must have lost track of the time.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Is there something on your mind?"
+                speaker: "Imhotep",
+                dialogue: "Is there something on your mind?",
+                emotion: "neutral"
             },
             {
-                Usain: "Just another of Aarit\'s riddles."
+                speaker: "Usain",
+                dialogue: "Just another of Aarit's riddles.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "I see."
+                speaker: "Imhotep",
+                dialogue: "I see.",
+                emotion: "neutral"
             },
             {
-                Usain: "Yeah, this one is really hard. He gave it to me around lunch and I\'ve been thinking about nothing but it since. No matter which way I come at it, there doesn\'t seem to be an easy answer."
+                speaker: "Usain",
+                Usain: "Yeah, this one is really hard. He gave it to me around lunch and I've been thinking about nothing but it since. No matter which way I come at it, there doesn't seem to be an easy answer.",
+                emotion: "neutral"
             },
             {
                 Imhotep: "Maybe because answers are supposed to be hard fought and well earned. Now that you mentioned it, I think I did see Aarit arguing with the Emir Marinus and Lae Ling this morning. It looked heated. They were probably discussing the coming war, if I was to hazard a guess."
             },
             {
-                Usain: "Fantastic. Every time those three butt heads, I wind up the worse for it. If I didn\'t know better, I would say Aarit is trying to get back at them by hurting me."
+                Usain: "Fantastic. Every time those three butt heads, I wind up the worse for it. If I didn't know better, I would say Aarit is trying to get back at them by hurting me."
             },
             {
-                Imhotep: "The Ogma hurting his own student? I think that\'s part of the deal, friend. You can\'t expect to be groomed by one of the greatest warrior-poets of our time without some challenges. Though I will admit, your training does...intensify after any considerable disagreements Aarit has with my cousin or the elvish diplomat."
+                Imhotep: "The Ogma hurting his own student? I think that's part of the deal, friend. You can't expect to be groomed by one of the greatest warrior-poets of our time without some challenges. Though I will admit, your training does...intensify after any considerable disagreements Aarit has with my cousin or the elvish diplomat."
             },
             {
                 Usain: "Gee, thanks for noticing. Maybe is it will help the bruising heal faster."
@@ -38,28 +52,28 @@ const Stories = {
                 Imhotep: "Stop the sarcasm. We are preparing for a war with Rae, a foe much more powerful than we are. Those three are in charge of everything, from the logistics and supplies, troop training and influence peddling for support back home in Toma. This is no small undertaking and frankly, I am surprised they are handling half as well as they are."
             },
             {
-                Usain: "Yeah, sure, war is hard business. I just wish your cousin and my teacher got along better. If I can\'t give Aarit a good answer tomorrow he\'s going to kill me with the practice yard."
+                Usain: "Yeah, sure, war is hard business. I just wish your cousin and my teacher got along better. If I can't give Aarit a good answer tomorrow he's going to kill me with the practice yard."
             },
             {
                 Imhotep: "You are better than you think Usain. Try to have a little confidence in your own abilities. What is this riddle anyways?"
             },
             {
-                Usain: "\'A raiding party of bandits catch you at a fork in the road. They rob you, then give you a choice of which path they take next. Down one road there is a little town, but down the other road is a little farm where only one person lives. If you choose the first road, the town will be attacked and many people will die. Choosing the second road will surely kill the farmer. Which way do you pick?\'"
+                Usain: "'A raiding party of bandits catch you at a fork in the road. They rob you, then give you a choice of which path they take next. Down one road there is a little town, but down the other road is a little farm where only one person lives. If you choose the first road, the town will be attacked and many people will die. Choosing the second road will surely kill the farmer. Which way do you pick?'"
             },
             {
                 Imhotep: "I thought riddles were supposed to rhyme."
             },
             {
-                Usain: "That\'s not really the issue here, but yeah, now that you mention it, that\'s a little weird."
+                Usain: "That's not really the issue here, but yeah, now that you mention it, that's a little weird."
             },
             {
                 Imhotep: "Why were you having a hard time with this? The answer is obvious. You should send the troop of bandits to the farm."
             },
             {
-                Usain: "Why though? That\'s what Aarit\'s going to ask."
+                Usain: "Why though? That's what Aarit's going to ask."
             },
             {
-                Imhotep: "To save the most lives of course. Directing the bandits to the town does nothing but put more blood on your hands. It\'s a bad choice either way, but one is clearly better than the other. Why? What were you going to say?"
+                Imhotep: "To save the most lives of course. Directing the bandits to the town does nothing but put more blood on your hands. It's a bad choice either way, but one is clearly better than the other. Why? What were you going to say?"
             }
         ],
         
@@ -80,43 +94,43 @@ const Stories = {
                 Usain: "Why? We sacrifice the farmer to save the town, and avert a massacre."
             },
             {
-                Imhotep: "We\'re still condemning a man to death though."
+                Imhotep: "We're still condemning a man to death though."
             },
             {
-                Usain: "People die. If society is better off for it, it\'s a good thing."
+                Usain: "People die. If society is better off for it, it's a good thing."
             },
             {
-                Imhotep: "Do you truely believe that? I know the Dahn favor the needs of the whole over the the individual, but personally, wouldn\'t it bother you?" 
+                Imhotep: "Do you truely believe that? I know the Dahn favor the needs of the whole over the the individual, but personally, wouldn't it bother you?" 
             },
             {
-                Usain: "\'What\'s good for the people is good for the person.\'"
+                Usain: "'What's good for the people is good for the person.'"
             },
             {
-                Imhotep: "Don\'t hide behind Dahnic proverbs."
+                Imhotep: "Don't hide behind Dahnic proverbs."
             },
             {
-                Usain: "That\'s what I would be telling myself as I direct the bandits to the farm."
+                Usain: "That's what I would be telling myself as I direct the bandits to the farm."
             },
             {
-                Imhotep: "Really? You don\'t find that unsatisfactory?"
+                Imhotep: "Really? You don't find that unsatisfactory?"
             },
             {
-                Usain: "Yes. I mean, I would feel bad that someone is dying. It\'s my choice after all, but what am I supposed to do? You said you would make the same choice too."
+                Usain: "Yes. I mean, I would feel bad that someone is dying. It's my choice after all, but what am I supposed to do? You said you would make the same choice too."
             },
             {
-                Imhotep: "I know, I know. However, the more I think upon it is the less I like either choice. I abhor the idea of arbitrarily condemning a man I don\'t know to death. I\'m Vessii, and consider life sacred, It\'s my duty to protect it where I can. Though I can rightly justify my actions, every reason I tell myself makes the decision sound so unbearably cold. Hearing you say it out loud only makes it worse. The Dahn make the individual life seem so despicably trivial."
+                Imhotep: "I know, I know. However, the more I think upon it is the less I like either choice. I abhor the idea of arbitrarily condemning a man I don't know to death. I'm Vessii, and consider life sacred, It's my duty to protect it where I can. Though I can rightly justify my actions, every reason I tell myself makes the decision sound so unbearably cold. Hearing you say it out loud only makes it worse. The Dahn make the individual life seem so despicably trivial."
             },
             {
-                Usain: "You\'re half Dahn, Imhotep. How can you spurn your own heritage?"
+                Usain: "You're half Dahn, Imhotep. How can you spurn your own heritage?"
             },
             {
-                Imhotep: "By blood maybe, but I wasn\'t raised in their ways. We Vessii believe an individual\'s life matters, no matter how insignificant the person."
+                Imhotep: "By blood maybe, but I wasn't raised in their ways. We Vessii believe an individual's life matters, no matter how insignificant the person."
             },
             {
                 Usain: "Lives matters to the Dahn too."
             },
             {
-                Imhotep: "Some lives matters, and some more than others. That\'s a significant difference."
+                Imhotep: "Some lives matters, and some more than others. That's a significant difference."
             },
             {
                 Usain: "I know that, but..."
@@ -125,13 +139,13 @@ const Stories = {
                 Imhotep: "But what?"
             },
             {
-                Usain: "If you look at it like that, that every life matters the same, you\'re going to agonize over every decision. We\'re getting ready for war here. How are we supposed to do go out and fight if we have to carry the weight of every single person we kill?"
+                Usain: "If you look at it like that, that every life matters the same, you're going to agonize over every decision. We're getting ready for war here. How are we supposed to do go out and fight if we have to carry the weight of every single person we kill?"
             },
             {
                 Imhotep: "How can you claim a soul and not care for your fellow man?"
             },
             {
-                Usain: "Now you\'re just quoting that religion of yours."
+                Usain: "Now you're just quoting that religion of yours."
             },
         ],
 
@@ -146,31 +160,31 @@ const Stories = {
                 Usain: "The townsfolk should be able to kill a few of the bandits. That will make it easier for the whoever comes later to wipe the horde of brigands out."
             },
             {
-                Imhotep: "That\'s a horrible answer Usain."
+                Imhotep: "That's a horrible answer Usain."
             },
             {
-                Usain: "Yeah, but what\'s the farmer going to do? Besides die? Nothing is gained if you send the bandits that way."
+                Usain: "Yeah, but what's the farmer going to do? Besides die? Nothing is gained if you send the bandits that way."
             },
             {
                 Imhotep: "You gain the lives of everyone in the town."
             },
             {
-                Usain: "\'There is no honor in a quiet death.\'"
+                Usain: "'There is no honor in a quiet death.'"
             },
             {
-                Imhotep: "Dahnic proverbs? Seriously? Usain, peoples\' lives matter. Stopping the bandits isn\'t the singular goal. You have to consider the repercussions of your actions."
+                Imhotep: "Dahnic proverbs? Seriously? Usain, peoples' lives matter. Stopping the bandits isn't the singular goal. You have to consider the repercussions of your actions."
             },
             {
-                Usain: "They\'re the proverbs of my people. I am Dahn, as are you."
+                Usain: "They're the proverbs of my people. I am Dahn, as are you."
             },
             {
                 Imhotep: "I am only half Dahn, and I was raised to be Vessii. The Dahn prioritize threat elimination over saving lives, and it always results in more death. I refuse to agree to the way they operate, or give moral credence to their culture."
             },
             {
-                Usain: "If you don\'t like us so much, why keep me as a friend?"
+                Usain: "If you don't like us so much, why keep me as a friend?"
             },
             {
-                Imhotep: "I didn\'t mean it like that. Besides, you don\'t behave like a typical Dahn. You have a more compassionate nature than most. Remember last week when Marinus\' son was getting smacked around during his dueling practice?"
+                Imhotep: "I didn't mean it like that. Besides, you don't behave like a typical Dahn. You have a more compassionate nature than most. Remember last week when Marinus' son was getting smacked around during his dueling practice?"
             },
             {
                 Usain: "Yeah..."
@@ -188,7 +202,7 @@ const Stories = {
                 Usain: "We had to eat first, before anyone else."
             },
             {
-                Imhotep: "See? That\'s what I expect out of you. When someone\'s having a bad day you do these little acts of kindness to help them feel better and raise the quality of their life. But when anybody asks you a question, you just reply with what you think the Dahn are supposed to say."
+                Imhotep: "See? That's what I expect out of you. When someone's having a bad day you do these little acts of kindness to help them feel better and raise the quality of their life. But when anybody asks you a question, you just reply with what you think the Dahn are supposed to say."
             },
             {
                 Usain: "..."
@@ -197,43 +211,43 @@ const Stories = {
                 Imhotep: "Why not just go with your heart?"
             },
             {
-                Usain: "...I don\'t know. It\'s a terrible choice either way. Both cases make you responsible for someone else\'s death. Everything I say just feels wrong. Condemn the farmer, why? Because it\'s more convenient for my conscience? That seems selfish. I don\'t think I would sleep well after that. At least the town has a fighting chance."
+                Usain: "...I don't know. It's a terrible choice either way. Both cases make you responsible for someone else's death. Everything I say just feels wrong. Condemn the farmer, why? Because it's more convenient for my conscience? That seems selfish. I don't think I would sleep well after that. At least the town has a fighting chance."
             },
             {
-                Imhotep: "It\'s okay Usain. I believe in you. I know you would make the right decision."
+                Imhotep: "It's okay Usain. I believe in you. I know you would make the right decision."
             }
         ],
         
         10: [
             {
-                Tehara: "Hey guys! What\'s going on? You look like you just sucked venom from a snake through its teeth."
+                Tehara: "Hey guys! What's going on? You look like you just sucked venom from a snake through its teeth."
             },
             {
-                Usain: "Hi Hari! I didn\'t see you coming. Have the archers stopped drilling? I thought you would be out there with them a while longer."
+                Usain: "Hi Hari! I didn't see you coming. Have the archers stopped drilling? I thought you would be out there with them a while longer."
             },
             {   
-                Tehara: "Most of them are still at it, I just left. I prefer the blade. Kills feel more personal, y\'know?"
+                Tehara: "Most of them are still at it, I just left. I prefer the blade. Kills feel more personal, y'know?"
             },
             {   
                 Imhotep: "I always feel safer with you around, Tehara."
             },
             {   
-                Tehara: "You should, I\'ve seen you train."
+                Tehara: "You should, I've seen you train."
             },
             {   
-                Imhotep: "Sweet Spirits temper me! If Aarit wasn\'t vouching for you, I would eject you from the camp so fast you would think you were flying."
+                Imhotep: "Sweet Spirits temper me! If Aarit wasn't vouching for you, I would eject you from the camp so fast you would think you were flying."
             },
             {   
                 Tehara: "Try me, fancy-pants."
             },
             {   
-                Usain: "Guys! Guys! What\'s Aarit gonna say if he hears we\'re fighting? Again?"
+                Usain: "Guys! Guys! What's Aarit gonna say if he hears we're fighting? Again?"
             },
             {   
-                Imhotep: "With any luck he\'ll recognize who the source of the problem is."
+                Imhotep: "With any luck he'll recognize who the source of the problem is."
             },
             {   
-                Usain: "Or he\'ll see you two as distractions for me from my lessons and move camps. Do you really want to see me go?"
+                Usain: "Or he'll see you two as distractions for me from my lessons and move camps. Do you really want to see me go?"
             },
             {   
                 Imhotep: "No, I guess not."
@@ -242,16 +256,16 @@ const Stories = {
                 Tehara:"Ha!"
             },
             {   
-                Usain: "Hari, the only reason anyone puts up with your antics is because Aarit freed you after your gang of highwaymen left you behind when they failed to raid Lae Ling\'s caravan. Gods know why he\'s willing to put up with a fire elf, but he does when no one else will. So maybe try not to pick fights with his students, AND your only friends."
+                Usain: "Hari, the only reason anyone puts up with your antics is because Aarit freed you after your gang of highwaymen left you behind when they failed to raid Lae Ling's caravan. Gods know why he's willing to put up with a fire elf, but he does when no one else will. So maybe try not to pick fights with his students, AND your only friends."
             },
             {   
-                Tehara: "Pfft, fine, fine. Just admit I\'m better than you and we can drop it."
+                Tehara: "Pfft, fine, fine. Just admit I'm better than you and we can drop it."
             },
             {   
                 Usain: "Tehara..."
             },
             {   
-                Tehara:"Okay, okay. Geez, learn to take a joke. Anyways, what\'s going on?"
+                Tehara:"Okay, okay. Geez, learn to take a joke. Anyways, what's going on?"
             },
             {   
                 Imhotep: "Aarit just gave Usain another riddle."
@@ -260,7 +274,7 @@ const Stories = {
                 Tehara: "Oh. Bye."
             },
             {   
-                Usain: "Wait! Hari! C\'mon!"
+                Usain: "Wait! Hari! C'mon!"
             },
             {   
                 Tehara: "No! The last time we tried to figure out one of these it took all day! And we were still wrong!"
@@ -269,7 +283,7 @@ const Stories = {
                 Imhotep: "Maybe if you had applied yourself instead of chasing dandelions we would have got it."
             },
             {   
-                Usain: "Knock it off, Imhotep. We aren\'t getting close to an answer on our own."
+                Usain: "Knock it off, Imhotep. We aren't getting close to an answer on our own."
             },
             {   
                 Tehara: "Sun and sands..."
@@ -290,49 +304,49 @@ const Stories = {
                 Usain: "Well?"
             },
             {   
-                Tehara: "That\'s not a riddle. It doesn\'t even rhyme."
+                Tehara: "That's not a riddle. It doesn't even rhyme."
             },
             {   
                 Imhotep: "I said the very same."
             },
             {   
-                Usain: "Wha...never mind. What\'s your choice?"
+                Usain: "Wha...never mind. What's your choice?"
             },
             {   
-                Tehara: "Who\'s at the farm?"
+                Tehara: "Who's at the farm?"
             },
             {   
-                Usain: "Um, we don\'t know."
+                Usain: "Um, we don't know."
             },
             {   
-                Tehara: "Okay. Who\'s in the town?"
+                Tehara: "Okay. Who's in the town?"
             },
             {   
-                Usain: "We don\'t know that either."
+                Usain: "We don't know that either."
             },
             {   
                 Tehara: "Then why do I care?"
             },
             {   
-                Imhotep: "Because you don\'t want anyone to suffer and die needlessly?"
+                Imhotep: "Because you don't want anyone to suffer and die needlessly?"
             },
             {   
-                Tehara: "Why? I\'m more concerned about how I got robbed."
+                Tehara: "Why? I'm more concerned about how I got robbed."
             },
             {   
                 Usain: "Tehara, you have to choose one."
             },
             {   
-                Tehara: "Pfft, no I don\'t."
+                Tehara: "Pfft, no I don't."
             },
             {   
-                Imhotep: "Let\'s say the bandits will kill you if you refuse to play their game."
+                Imhotep: "Let's say the bandits will kill you if you refuse to play their game."
             },
             {   
-                Tehara: "Then I just pick a random direction. Either or. Doesn\'t matter."
+                Tehara: "Then I just pick a random direction. Either or. Doesn't matter."
             },
             {   
-                Usain: "You don\'t care? At all?"
+                Usain: "You don't care? At all?"
             },
             {   
                 Tehara: "Nope."
@@ -341,31 +355,31 @@ const Stories = {
                 Usain: "But why?"
             },
             {    
-                Tehara: "Why should I? If I don\'t know who\'s getting killed, so why should it matter?"
+                Tehara: "Why should I? If I don't know who's getting killed, so why should it matter?"
             },
             {   
-                Imhotep: "Of course it matters! You\'re the one getting them killed!"
+                Imhotep: "Of course it matters! You're the one getting them killed!"
             },
             {   
-                Tehara: "No I\'m not. The bandits are the ones doing the killing. I just point them in a direction. To save my own life, I might add."
+                Tehara: "No I'm not. The bandits are the ones doing the killing. I just point them in a direction. To save my own life, I might add."
             },
             {   
-                Imhotep: "That\'s abominable Tehara."
+                Imhotep: "That's abominable Tehara."
             },
             {   
-                Tehara: "People die every day. I don\'t see you crying over them."
+                Tehara: "People die every day. I don't see you crying over them."
             },
             {   
                 Imhotep: "My choices are not causally tied to their deaths."
             },
             {   
-                Tehara: "And I\'m not involved with whoever the bandits kill." 
+                Tehara: "And I'm not involved with whoever the bandits kill." 
             },
             {   
                 Imhotep: "That is wholly and completely different."
             },
             {   
-                Tehara: "Isn\'t it?"
+                Tehara: "Isn't it?"
             },
             {   
                 Imhotep: "No!"
@@ -374,13 +388,13 @@ const Stories = {
                 Usain: "What would make you care?"
             },
             {   
-                Tehara: "Well, like I said, I would have to know who is in the town and who is at the farm. If the town is full of Vessii, and a fire elf lives at the farm, I\'ll send the bandits to the town. Saving the life of another fire elf matters more to me than a village full of strangers."
+                Tehara: "Well, like I said, I would have to know who is in the town and who is at the farm. If the town is full of Vessii, and a fire elf lives at the farm, I'll send the bandits to the town. Saving the life of another fire elf matters more to me than a village full of strangers."
             },
             {   
                 Imhotep: "The life of one fire elf is in no way worth more than the lives of whole town!"
             },
             {   
-                Tehara: "To me it is. There aren\'t a whole lot of elves around anymore, much less fire elves. And no one likes us anyways. We need to look out for our own."
+                Tehara: "To me it is. There aren't a whole lot of elves around anymore, much less fire elves. And no one likes us anyways. We need to look out for our own."
             },
             {   
                 Usain: "What if it was a town of Vessii and a Dahn farmer?"
@@ -392,19 +406,19 @@ const Stories = {
                 Imhotep: "Amazing. Simply amazing. You are truly a paragon of integrity Tehara."
             },
             {   
-                Tehara: "Imhotep, Fire elves are half Dahn. Sure, most Dahn hate our guts because we\'re, you know, elves, but still their sorta like family."
+                Tehara: "Imhotep, Fire elves are half Dahn. Sure, most Dahn hate our guts because we're, you know, elves, but still their sorta like family."
             },
             {   
-                Imhotep: "And that\'s enough reason to send women and children to their deaths?"
+                Imhotep: "And that's enough reason to send women and children to their deaths?"
             },
             {   
-                Tehara: "So long as I don\'t know them personally, yeah." 
+                Tehara: "So long as I don't know them personally, yeah." 
             }
         ],
 
         11: [
             {
-                Usain: "I\'m kinda on her side here."
+                Usain: "I'm kinda on her side here."
             },
             {
                 Imhotep: "What!?"
@@ -431,16 +445,16 @@ const Stories = {
                 Usain: "More than everyone in Toma and the elven cities?"
             },
             {
-                Imhotep: "You can\'t compare the two like that!"
+                Imhotep: "You can't compare the two like that!"
             },
             {
                 Tehara: "Oooooo! Admit it, he got you!"
             },
             {
-                Imhotep: "No! No, he hasn\'t. This is Aarit we are talking about. He could probably fight off a whole bandit gang by himself."
+                Imhotep: "No! No, he hasn't. This is Aarit we are talking about. He could probably fight off a whole bandit gang by himself."
             },
             {
-                Tehara: "Wow. You trying to grab at the moon with how far you\'re reaching? Aarit\'s good, but one old man against enough brigands to wipe out a town? No way."
+                Tehara: "Wow. You trying to grab at the moon with how far you're reaching? Aarit's good, but one old man against enough brigands to wipe out a town? No way."
             },
             {
                 Imhotep: "Usain, that was your first mission with him, was it not? You raided some bandits that had been threatening villages? That was how you came to be here, with us."
@@ -455,22 +469,22 @@ const Stories = {
                 Usain: "The story has grown some since last I lived it. The point being, when faced with twenty armed thugs Aarit himself ran, even with me there with him."
             },
             {
-                Tehara: "Heh, I would\'ve run too."
+                Tehara: "Heh, I would've run too."
             },
             {
-                Imhotep: "Fine, fine! So Aarit can\'t fight off all the bandits. I still don\'t believe you should send the bandits to the town!"
+                Imhotep: "Fine, fine! So Aarit can't fight off all the bandits. I still don't believe you should send the bandits to the town!"
             },
             {
                 Tehara: "Ooo! Ooo! My turn to be the annoying one and ask why!"
             },
             {
-                Imhotep: "Because we shouldn\'t show favoritism to people we know over people we don\'t, because life is precious and we have to protect as much of it as we can and because sacrificing children for ANY cause is abhorrent!"
+                Imhotep: "Because we shouldn't show favoritism to people we know over people we don't, because life is precious and we have to protect as much of it as we can and because sacrificing children for ANY cause is abhorrent!"
             },
             {
-                Usain: "But didn\'t you just say that we should sacrifice the few to save the many?"
+                Usain: "But didn't you just say that we should sacrifice the few to save the many?"
             },
             {
-                Imhotep: "Like you have any room to stand. You changed your mind the second this fiery wastrel gave you a reason to. At least I\'m being consistent!"
+                Imhotep: "Like you have any room to stand. You changed your mind the second this fiery wastrel gave you a reason to. At least I'm being consistent!"
             },
             {
                 Tehara: "Consistently stupid, amIright?"
@@ -488,7 +502,7 @@ const Stories = {
                 Tehara: "Are you telling me you would send them to kill your own?"
             },
             {
-                Usain: "I don\'t think is matters who is where. Besides, we shouldn\'t be playing favorites."
+                Usain: "I don't think is matters who is where. Besides, we shouldn't be playing favorites."
             },
             {
                 Tehara: "Why not? If a man is told to kill a stranger or his wife are you going to blame him for killing the stranger?"
@@ -497,13 +511,13 @@ const Stories = {
                 Usain: "Well..."
             },
             {
-                Tehara: "Well what? You know I\'m right."
+                Tehara: "Well what? You know I'm right."
             },
             {
                 Imhotep: "It is selfish and short-sighted, Hari."
             },
             {
-                Tehara: "Selfish? SELFISH! What\'s selfish about choosing the person that matters to you? A person that you might actually like and want to spare? I save who matters to me, not who matters to anyone else."
+                Tehara: "Selfish? SELFISH! What's selfish about choosing the person that matters to you? A person that you might actually like and want to spare? I save who matters to me, not who matters to anyone else."
             },
             {
                 Usain: "What if it was someone you loved versus someone you needed?"
@@ -512,13 +526,13 @@ const Stories = {
                 Tehara: "Huh?"
             },
             {
-                Usain: "You don\'t like the emir, Miranus, right?"
+                Usain: "You don't like the emir, Miranus, right?"
             },
             {
-                Tehara: "Of course not. He\'s a weaselly Vessii who talks better than he fights. He\'s rich and rules over a few small towns, but he\'s gross all the same. I feel like I need a bath after being in the same room as him."
+                Tehara: "Of course not. He's a weaselly Vessii who talks better than he fights. He's rich and rules over a few small towns, but he's gross all the same. I feel like I need a bath after being in the same room as him."
             },
             {
-                Imhotep: "He\'s my cousin and I should be offended by that, but it\'s hard to argue with."
+                Imhotep: "He's my cousin and I should be offended by that, but it's hard to argue with."
             },
             {
                 Usain: "He is financing our war effort though."
@@ -527,13 +541,13 @@ const Stories = {
                 Tehara: "So what?"
             },
             {
-                Usain: "We can\'t fight Rae without his money or his troops, and we can\'t convince the rest of the council in Toma to back us without his connections."
+                Usain: "We can't fight Rae without his money or his troops, and we can't convince the rest of the council in Toma to back us without his connections."
             },
             {
-                Tehara: "Doesn\'t mean I have to like him."
+                Tehara: "Doesn't mean I have to like him."
             },
             {
-                Usain: "You don\'t have to. However, would you say he\'s necessary?"
+                Usain: "You don't have to. However, would you say he's necessary?"
             },
             {
                 Tehara: "Regrettably, yes."
@@ -551,19 +565,19 @@ const Stories = {
                 Tehara: "Ugh. I like my dad. Mom and I starved more days than not because he was such a bad thief, but he was good man."
             },
             {
-                Usain: "Okay, how about this: The bandits are going to raid either Miranus\' town where all his armorers, weapon smiths and war chest is located, or they attack a farm your dad is at."
+                Usain: "Okay, how about this: The bandits are going to raid either Miranus' town where all his armorers, weapon smiths and war chest is located, or they attack a farm your dad is at."
             },
             {
-                Tehara: "I send them to Miranus\' town. If the war chest is there, so too will be his soldiers."
+                Tehara: "I send them to Miranus' town. If the war chest is there, so too will be his soldiers."
             },
             {
-                Usain: "Let\'s say there are no soldiers, just non-combatants."
+                Usain: "Let's say there are no soldiers, just non-combatants."
             },
             {
                 Tehara: "Why?"
             },
             {
-                Usain: "Because he\'s stupid! Look, can we move on and not question everything? Let\'s assume whoever the bandits hit, everyone dies."
+                Usain: "Because he's stupid! Look, can we move on and not question everything? Let's assume whoever the bandits hit, everyone dies."
             },
             {
                 Tehara: "But THAT is stupid!"
@@ -578,10 +592,10 @@ const Stories = {
                 Imhotep: "How can you still say that?"
             },
             {
-                Tehara: "First of all, I say it to spite you two pit-vipers. Second of all, I hate Miranus. Third of all, Toma is your city, not mine. Fourth, and most importantly, HE\'S MY DAMN FATHER!"
+                Tehara: "First of all, I say it to spite you two pit-vipers. Second of all, I hate Miranus. Third of all, Toma is your city, not mine. Fourth, and most importantly, HE'S MY DAMN FATHER!"
             },
             {
-                Usain: "So you don\'t care for Toma, fine, I\'m not too tied to it either. Rae wants to control all of southern Vessa. That means annihilating the elven cities that contest it. Sooner or later, they\'ll try to wipe out the fire elves too."
+                Usain: "So you don't care for Toma, fine, I'm not too tied to it either. Rae wants to control all of southern Vessa. That means annihilating the elven cities that contest it. Sooner or later, they'll try to wipe out the fire elves too."
             },
             {
                 Tehara: "Let them try!"
@@ -608,25 +622,25 @@ const Stories = {
                 Usain: "Can I ask why?"
             },
             {
-                Tehara: "What\'s the greatest honor for a half-Dahn?"
+                Tehara: "What's the greatest honor for a half-Dahn?"
             },
             {
-                Usain: "To return to Al-Ilbis, to walk the Continent once again after our ancestor\'s dishonor of mixing with the lesser races has been cleansed."
+                Usain: "To return to Al-Ilbis, to walk the Continent once again after our ancestor's dishonor of mixing with the lesser races has been cleansed."
             },
             {
-                Tehara: "Fire elves are half Dahn, half elf. To the proper Dahn, the pure bloods, elves aren\'t human. In fact, they\'re worse than mongrels. No fire elf, even though we\'re half breeds, will ever walk the Continent again. Not even our children, or our children\'s children will be acceptable. That\'s why some fire elves cut the points off their ears, so we can rid ourselves of what marks us as elves, instead of Dahn."
+                Tehara: "Fire elves are half Dahn, half elf. To the proper Dahn, the pure bloods, elves aren't human. In fact, they're worse than mongrels. No fire elf, even though we're half breeds, will ever walk the Continent again. Not even our children, or our children's children will be acceptable. That's why some fire elves cut the points off their ears, so we can rid ourselves of what marks us as elves, instead of Dahn."
             },
             {
                 Usain: "You still have your points, though."
             },
             {
-                Tehara: "Because my dad told me to keep them. Elf and human, both were important to make me who I am. He told me not to reject one for the other. My mom, she wanted me to be Dahn, she drilled me every damn day in the culture, memorizing the Codes, learning to fight with a spear and shield. In spite of her elf blood, she was more Dahn than most pure Dahn I\'ve ever met and she pushed me to be the same. But dad, a pure blooded Dahn, he liked me for me. He told me that elf ears were pretty, and asked that I keep them."
+                Tehara: "Because my dad told me to keep them. Elf and human, both were important to make me who I am. He told me not to reject one for the other. My mom, she wanted me to be Dahn, she drilled me every damn day in the culture, memorizing the Codes, learning to fight with a spear and shield. In spite of her elf blood, she was more Dahn than most pure Dahn I've ever met and she pushed me to be the same. But dad, a pure blooded Dahn, he liked me for me. He told me that elf ears were pretty, and asked that I keep them."
             },
             {
                 Usain: "Hari..."
             },
             {
-                Tehara: "I like my dad. I don\'t like half of my own people, but I love him. Call it selfish if you have to, but if it comes down to it, I choose who I love over everyone else. Every. Single. Time."
+                Tehara: "I like my dad. I don't like half of my own people, but I love him. Call it selfish if you have to, but if it comes down to it, I choose who I love over everyone else. Every. Single. Time."
             },
             {
                 Imhotep: "This is what we meant by short-sighted." 
@@ -644,7 +658,7 @@ const Stories = {
 
         21: [
             {
-                Usain: "I\'m kinda on her side here."
+                Usain: "I'm kinda on her side here."
             },
             {
                 Imhotep: "Not you too. Usain, I expected better."
@@ -662,28 +676,28 @@ const Stories = {
                 Imhotep: "..."
             },
             {   
-                Usain: "Aarit is the one who brought Rae\'s treachery to light. His reputation as a famed general, as Ogma, is half reason anyone is willing to help us in a war against Rae. Rae will kill more people if left unchecked than the bandits ever could. Would the lives of everyone in Toma, your city, be worth less than the lives of a some women and children in a backwater village?"
+                Usain: "Aarit is the one who brought Rae's treachery to light. His reputation as a famed general, as Ogma, is half reason anyone is willing to help us in a war against Rae. Rae will kill more people if left unchecked than the bandits ever could. Would the lives of everyone in Toma, your city, be worth less than the lives of a some women and children in a backwater village?"
             },
             {   
                 Imhotep: "Backwater villa...!? Usain, listen to yourself!"
             },
             {   
-                Usain: "Plus, we know Aarit. He\'s a good man. A little harsh sometimes, but no one serves as a better moral compass for the army than him. I\'m not going to kill him off so a little town can live. Some lives matter more than others."
+                Usain: "Plus, we know Aarit. He's a good man. A little harsh sometimes, but no one serves as a better moral compass for the army than him. I'm not going to kill him off so a little town can live. Some lives matter more than others."
             },
             {   
                 Imhotep: "Absolutely not! We were all born of the same Earth. Aarit is more useful to us alive, but his singular life does not outweigh that of a town, no matter how small!"
             },
             {   
-                Tehara: "He doesn\'t even need to be useful, you just have to like him enough to want to save him."
+                Tehara: "He doesn't even need to be useful, you just have to like him enough to want to save him."
             },
             {   
                 Usain: "Utility plays a role in that, or are you telling me you would save the town over Aarit if you disliked him?"
             },
             {   
-                Tehara: "Maybe. He has some nice things I wouldn\'t mind picking off his corpse."
+                Tehara: "Maybe. He has some nice things I wouldn't mind picking off his corpse."
             },
             {   
-                Usain: "Okay, now that\'s where I\'m going to draw the line."
+                Usain: "Okay, now that's where I'm going to draw the line."
             },
             {   
                 Imhotep: "Yes, looting the dead is much worse than creating a small hill of bodies. Your callousness is astounding."
@@ -692,10 +706,10 @@ const Stories = {
                 Tehara: "Thanks!"
             },
             {   
-                Imhotep: "That wasn\'t a compliment."
+                Imhotep: "That wasn't a compliment."
             },
             {   
-                Tehara: "Don\'t really care."
+                Tehara: "Don't really care."
             },
             {   
                 Imhotep: "Perfect."
@@ -710,7 +724,7 @@ const Stories = {
                 Tehara: "Are you telling me you would send them to kill your own?"
             },
             {
-                Usain: "I don\'t think it matters who is where."
+                Usain: "I don't think it matters who is where."
             },
             {
                 Tehara: "Why not? If a man is told to kill a stranger or his wife are you going to blame him for killing the stranger?"
@@ -719,43 +733,43 @@ const Stories = {
                 Usain: "Well..."
             },
             {
-                Tehara: "Well what? You know I\'m right."
+                Tehara: "Well what? You know I'm right."
             },
             {
                 Imhotep: "It just seems kind of selfish, Hari."
             },
             {
-                Tehara: "Selfish? SELFISH! What\'s selfish about choosing the person that matters to you? A person that you actually like and want to spare? I\'ll save who matters to me, not who matters to anyone else."
+                Tehara: "Selfish? SELFISH! What's selfish about choosing the person that matters to you? A person that you actually like and want to spare? I'll save who matters to me, not who matters to anyone else."
             },
             {
                 Usain: "What if you had to choose between someone you loved or someone you hated, but needed?"
             },
             {
-                Tehara: "Now you\'re talking like fancy-pants over there. State it plain."
+                Tehara: "Now you're talking like fancy-pants over there. State it plain."
             },
             {
-                Usain: "Okay, you don\'t like the emir, Miranus, right?"
+                Usain: "Okay, you don't like the emir, Miranus, right?"
             },
             {
-                Tehara: "Of course not. He\'s a weaselly Vessii who talks better than he fights. Sure, he\'s rich and rules over a few towns, but he\'s a gross. I feel like I need a bath after being in the same room as him."
+                Tehara: "Of course not. He's a weaselly Vessii who talks better than he fights. Sure, he's rich and rules over a few towns, but he's a gross. I feel like I need a bath after being in the same room as him."
             },
             {
-                Imhotep: "He\'s my cousin and I should be offended by that."
+                Imhotep: "He's my cousin and I should be offended by that."
             },
             {
-                Usain: "He is financing us though. Our war can\'t happen without him."
+                Usain: "He is financing us though. Our war can't happen without him."
             },
             {
                 Tehara: "So what?"
             },
             {
-                Usain: "We can\'t fight Rae without his money or his troops, and we can\'t convince the rest of the council to help without his connections."
+                Usain: "We can't fight Rae without his money or his troops, and we can't convince the rest of the council to help without his connections."
             },
             {
-                Tehara: "Doesn\'t mean I have to like him."
+                Tehara: "Doesn't mean I have to like him."
             },
             {
-                Usain: "You don\'t have to. However, would you say he\'s necessary?"
+                Usain: "You don't have to. However, would you say he's necessary?"
             },
             {
                 Tehara: "Regrettably, yes."
@@ -773,28 +787,28 @@ const Stories = {
                 Tehara: "Ugh. I like my dad. Mom and I starved more days than not because he was such a bad thief, but he was good man."
             },
             {
-                Usain: "Okay, how about this: The bandits are going to raid either Miranus\' town where all his armorers, weapon smiths and war chest is located, or they attack a farm your dad is at."
+                Usain: "Okay, how about this: The bandits are going to raid either Miranus' town where all his armorers, weapon smiths and war chest is located, or they attack a farm your dad is at."
             },
             {
-                Tehara: "I send them to Miranus\' town. If the war chest is there, he\'ll have soldiers guarding it."
+                Tehara: "I send them to Miranus' town. If the war chest is there, he'll have soldiers guarding it."
             },
             {
-                Usain: "Let\'s say there are no soldiers, just non-combatants."
+                Usain: "Let's say there are no soldiers, just non-combatants."
             },
             {
                 Tehara: "Why?"
             },
             {
-                Usain: "Because he\'s stupid! Look, can we move on and not question everything? Let\'s assume whoever the bandits hit, everyone dies."
+                Usain: "Because he's stupid! Look, can we move on and not question everything? Let's assume whoever the bandits hit, everyone dies."
             },
             {
-                Tehara: "But that\'s stupid!"
+                Tehara: "But that's stupid!"
             },
             {
                 Usain: "Tehara, please."
             },
             {
-                Tehara: "FINE! So the question is either I sacrifice my dad, or Rae annexes Toma and kills all the elves because Miranus wasn\'t there to help us? I choose to save my dad!"
+                Tehara: "FINE! So the question is either I sacrifice my dad, or Rae annexes Toma and kills all the elves because Miranus wasn't there to help us? I choose to save my dad!"
             },
             {
                 Imhotep: "How can you say that? With everything we just added, you would still kill everyone to save your father? Do the lives of everyone else matter nothing to you? What is it with you and Usain making all the worst calls."
@@ -803,16 +817,16 @@ const Stories = {
                 Tehara: "That just means the two of us are smarter than you!"
             },
             {
-                Imhotep: "What is your problem with me, Tehara? Ever since day one you\'ve done nothing but seek to belittle me like an angry child. Every time we speak there is always some new insult, some new way to put me down like you are so much better than me."
+                Imhotep: "What is your problem with me, Tehara? Ever since day one you've done nothing but seek to belittle me like an angry child. Every time we speak there is always some new insult, some new way to put me down like you are so much better than me."
             },
             {
                 Usain: "...guys..."
             },
             {
-                Tehara: "Because you\'re a whiny baby who had everything handed to him! Someone bought you your weapons, you didn\'t make them. You got those fancy robes to wear around, but what did you do to earn them? Nothing! You haven\'t even seen a real battle, yet you have the gall to stand here and lecture me about how I should behave?"
+                Tehara: "Because you're a whiny baby who had everything handed to him! Someone bought you your weapons, you didn't make them. You got those fancy robes to wear around, but what did you do to earn them? Nothing! You haven't even seen a real battle, yet you have the gall to stand here and lecture me about how I should behave?"
             },
             {
-                Imhotep: "Because you couldn\'t behave well if it was the only thing that stood between you and returning to your stupid Continent!"
+                Imhotep: "Because you couldn't behave well if it was the only thing that stood between you and returning to your stupid Continent!"
             },
             {
                 Tehara: "Take that back! Al-Ilbis is the glory of all Dahn!"
@@ -821,7 +835,7 @@ const Stories = {
                 Usain: "Guys..."
             },
             {
-                Imhotep: "As if I would! You fire elves are just like the rest of these contemptible Dahn outcasts. You revere some place you\'ve never been, full of a people that hate very existence! It\'s bad enough they exile their own people for having relations with anyone who isn\'t Dahn, but the way that they view you elves? Your lower than dogs to them, yet lap up what little attention they give like broken hounds!"
+                Imhotep: "As if I would! You fire elves are just like the rest of these contemptible Dahn outcasts. You revere some place you've never been, full of a people that hate very existence! It's bad enough they exile their own people for having relations with anyone who isn't Dahn, but the way that they view you elves? Your lower than dogs to them, yet lap up what little attention they give like broken hounds!"
             },
             {
                 Tehara: "You step too far, Vessii scum!"
@@ -836,13 +850,13 @@ const Stories = {
                 Tehara: "But he..."
             },
             {
-                Usain: "Save it for someone who cares! I try to like you in spite of your nature and this is what you give me? I couldn\'t find a bigger headache than you if I stabbed myself in the face! And you Imhotep, the loving, the kind, the one values all life...unless it\'s Dahn."
+                Usain: "Save it for someone who cares! I try to like you in spite of your nature and this is what you give me? I couldn't find a bigger headache than you if I stabbed myself in the face! And you Imhotep, the loving, the kind, the one values all life...unless it's Dahn."
             },
             {
-                Imhotep: "That\'s not fair!"
+                Imhotep: "That's not fair!"
             },
             {
-                Usain: "Isn\'t it? This whole time you\'ve been complaining about how the desert people are too cold, how we don\'t think life is sacred enough, how your bleeding Vessi ideals are so much better! Did you forget that I\'m Dahn? That Toma is majority Dahn? That we are going to fight a war with the Dahn? For someone who constantly talks up the value of virtue you hold precious little of it yourself."
+                Usain: "Isn't it? This whole time you've been complaining about how the desert people are too cold, how we don't think life is sacred enough, how your bleeding Vessi ideals are so much better! Did you forget that I'm Dahn? That Toma is majority Dahn? That we are going to fight a war with the Dahn? For someone who constantly talks up the value of virtue you hold precious little of it yourself."
             },
             {
                 Imhotep: "Usain, I..."
@@ -854,7 +868,7 @@ const Stories = {
 
         100: [
             {
-                Vadim: "Hello my friends...What\'s going on here?"
+                Vadim: "Hello my friends...What's going on here?"
             },
             {
                 Usain: "Hi, Vadim. We were just, um..."
@@ -866,13 +880,13 @@ const Stories = {
                 Vadim: "That is all, Usain?"
             },
             {
-                Usain: "Yeah, that\'s it."
+                Usain: "Yeah, that's it."
             },
             {
                 Vadim: "I believe there is something else here, but if you do not wish to speak, I will not press. What is riddle?"
             },
             {
-                Usain: "A raiding party of bandits catch you at a fork in the road. They rob you, then give you a choice of which path they take next. Down one road there is a little town, but down the other road is a little farm. If you choose the first road, the town will be attacked and many people will die. Choosing the second road will surely kill everyone at the farm. Which do you pick? We haven\'t had any luck figuring out the answer."
+                Usain: "A raiding party of bandits catch you at a fork in the road. They rob you, then give you a choice of which path they take next. Down one road there is a little town, but down the other road is a little farm. If you choose the first road, the town will be attacked and many people will die. Choosing the second road will surely kill everyone at the farm. Which do you pick? We haven't had any luck figuring out the answer."
             },
             {
                 Vadim: "Usain, this is not riddle."
@@ -899,19 +913,19 @@ const Stories = {
                 Vadim: "Yes, scholars craft these puzzles to teach students about thinking. I never liked them, but others find them useful."
             },
             {
-                Usain: "What\'s wrong with them?"
+                Usain: "What's wrong with them?"
             },
             {
                 Vadim: "What people say they will do is not always the same as what they really do. I could say I send bandits to the farm to spare village, but when I am in real situation, I freeze and cannot make decision. You understand, yes?"
             },
             {
-                Usain: "Yeah, I guess that\'s a drawback. You never really know what you\'re capable of until you are faced with it."
+                Usain: "Yeah, I guess that's a drawback. You never really know what you're capable of until you are faced with it."
             },
             {
                 Vadim: "Exactly, my friend."
             },
             {
-                Tehara: "Great! So then we\'ve been arguing over absolutely nothing this whole time!"
+                Tehara: "Great! So then we've been arguing over absolutely nothing this whole time!"
             },
             {
                 Imhotep: "The esoteric is still important, Tehara."
@@ -920,7 +934,7 @@ const Stories = {
                 Tehara: "Eso-what now?"
             },
             {
-                Imhotep: "Esoteric. It\'s knowledge known by a few. Maybe it\'s not universally applicable, but if we don\'t think about it, how can we prepare for it?"
+                Imhotep: "Esoteric. It's knowledge known by a few. Maybe it's not universally applicable, but if we don't think about it, how can we prepare for it?"
             },
             {
                 Vadim: "This is also true. My advice? Do not get hung up on it." 
@@ -938,13 +952,13 @@ const Stories = {
                 Usain: "Mission?"
             },
             {
-                Vadim: "Yes, mission always comes first. I am mercenary. Maybe I have been sent to scout out town\'s defenses before my army attacks, yes? I can save army\'s strength and time by sending bandits to town. On other hand, maybe I have to assassinate someone at farm. Then I send bandits to farm."
+                Vadim: "Yes, mission always comes first. I am mercenary. Maybe I have been sent to scout out town's defenses before my army attacks, yes? I can save army's strength and time by sending bandits to town. On other hand, maybe I have to assassinate someone at farm. Then I send bandits to farm."
             },
             {
                 Tehara: "Hmm, makes sense."
             },
             {
-                Imhotep: "If you\'re unpricipled."
+                Imhotep: "If you're unpricipled."
             },
             {
                 Usain: "But what if there is no mission? What if you were just traveling between jobs and got attacked?"
@@ -965,10 +979,10 @@ const Stories = {
                 Vadim: "Ah, this is Vessi religion?"
             },
             {
-                Imhotep: "Yes, we believe life is sacred and needs to be preserved, particularly the lives of humans and elves. Pure elves believe much the same as us, except they value the grasses and trees as much as themselves. Even so, the Vessii and Elven Cites get along well enough that we\'re willing to help them against Rae. Unlike the Dahn."
+                Imhotep: "Yes, we believe life is sacred and needs to be preserved, particularly the lives of humans and elves. Pure elves believe much the same as us, except they value the grasses and trees as much as themselves. Even so, the Vessii and Elven Cites get along well enough that we're willing to help them against Rae. Unlike the Dahn."
             },
             {
-                Tehara: "\'If you can\'t defend yourself, you must be destroyed, so that the strong may have your part.\'"
+                Tehara: "'If you can't defend yourself, you must be destroyed, so that the strong may have your part.'"
             },
             {
                 Imhotep: "More Dahnic proverbs. Wonderful."
@@ -980,7 +994,7 @@ const Stories = {
                 Vadim: "No, it is whatever serves mission best. It may hurt me or someone else, but if mission is accomplished, then all is good."
             },
             {
-                Usain: "Even if someone else\'s life hangs in the balance?"
+                Usain: "Even if someone else's life hangs in the balance?"
             },
             {
                 Vadim: "Again, I am mercenary. That is usually case."
@@ -1004,7 +1018,7 @@ const Stories = {
                 Vadim: "Sorry cousin Basil, mission must come first. I send bandits to farm."
             },
             {
-                Tehara: "But he\'s your family!"
+                Tehara: "But he's your family!"
             },
             {
                 Vadim: "Yes, and I would grieve greatly for him. But I have mission to protect Marinus. Basil cannot get in way."
@@ -1027,10 +1041,10 @@ const Stories = {
                 Usain: "Well everyone just keeps making up valid points and I thought that..."
             },
             {
-                Imhotep: "Thought what? You could just rely on us for answers to questions you can\'t figure out yourself?"
+                Imhotep: "Thought what? You could just rely on us for answers to questions you can't figure out yourself?"
             },
             {
-                Usain: "It\'s not like that at all!"
+                Usain: "It's not like that at all!"
             },
             {
                 Imhotep: "Then what is it, Usain? "
@@ -1045,13 +1059,13 @@ const Stories = {
                 Tehara: "I think you should save whoever matters to you most."
             },
             {
-                Imhotep: "I think you should save the town regardless of the circumstance. It\'s your moral obligation."
+                Imhotep: "I think you should save the town regardless of the circumstance. It's your moral obligation."
             },
             {
                 Vadim: "I see. And Usain, you think both are right?"
             },
             {
-                Usain: "Yeah, but like...I don\'t know. Both make sense, in their own way. Sending the bandits to the town is bad and I would never want to do that, but I also think I should save my friends and family."
+                Usain: "Yeah, but like...I don't know. Both make sense, in their own way. Sending the bandits to the town is bad and I would never want to do that, but I also think I should save my friends and family."
             },
             {
                 Vadim: "But Usain, you cannot have it both ways. What if you must make decision quickly? You must know these things, how to act, before you are confronted with situation. How else will you become mercenary if you freeze like this?"
@@ -1060,13 +1074,13 @@ const Stories = {
                 Usain: "But I..."
             },
             {
-                Tehara: "C\'mon, Usain, old buddy, old pal! You know I\'m right!"
+                Tehara: "C'mon, Usain, old buddy, old pal! You know I'm right!"
             },
             {
-                Imhotep: "As if. Usain, I know you will pick the right choice. Don\'t be so easily persuaded by this devilish little urchin."
+                Imhotep: "As if. Usain, I know you will pick the right choice. Don't be so easily persuaded by this devilish little urchin."
             },
             {
-                Tehara: "How\'s about you shut up and let him decide for himself?"
+                Tehara: "How's about you shut up and let him decide for himself?"
             },
             {
                 Vadim: "I admit, I am curious what Usain will say as well." 
@@ -1081,7 +1095,7 @@ const Stories = {
                 Usain: "I would...well..."
             },
             {
-                Vadim: "We\'re waiting, friend."
+                Vadim: "We're waiting, friend."
             },
             {
                 Usain: "Well I..."
@@ -1090,13 +1104,13 @@ const Stories = {
                 Tehara: "Spit it out already!"
             },
             {
-                Usain: "I don\'t...I don\'t know."
+                Usain: "I don't...I don't know."
             },
             {
-                Imhotep: "You don\'t know? Really?"
+                Imhotep: "You don't know? Really?"
             },
             {
-                Usain: "What do you expect me to say? That you\'re right? That they are wrong? That any of your choices are more righteous than the others? Is that it? Sorry, I can\'t do that. Maybe I\'m just not righteous enough myself to make a call like this."
+                Usain: "What do you expect me to say? That you're right? That they are wrong? That any of your choices are more righteous than the others? Is that it? Sorry, I can't do that. Maybe I'm just not righteous enough myself to make a call like this."
             },
             {
                 Imhotep: "No one is calling you righteous, Usain."
@@ -1105,7 +1119,7 @@ const Stories = {
                 Usain: "No one should call you righteous either! All your fancy rules are just there to shirk off any sense responsibility!"
             },
             {
-                Imhotep: "I didn\'t mean it like..."
+                Imhotep: "I didn't mean it like..."
             },
             {
                 Vadim: "Usain, it is okay. We are all friends here, yes? No need to get angry."
@@ -1114,7 +1128,7 @@ const Stories = {
                 Usain: "Too late for that!"
             },
             {
-                Tehara: "If I recall correctly, you and Imhotep were the ones that roped me into this. Don\'t go acting like this whole argument wasn\'t your idea in the first place!"
+                Tehara: "If I recall correctly, you and Imhotep were the ones that roped me into this. Don't go acting like this whole argument wasn't your idea in the first place!"
             },
             {
                 Usain: "Yeah, and I regret ever bringing it up now."
@@ -1126,13 +1140,13 @@ const Stories = {
                 Vadim: "Tehara, you are only making this worse."
             },
             {
-                Tehara: "Me!? This isn\'t even my fault!"
+                Tehara: "Me!? This isn't even my fault!"
             },
             {
-                Usain: "You know what? Forget it. I\'ll go figure this out by myself some other time. Good night."
+                Usain: "You know what? Forget it. I'll go figure this out by myself some other time. Good night."
             },
             {
-                Imhotep: "Come now, Usain. Don\'t be like that. The sun hasn\'t even set yet. We can reconcile."
+                Imhotep: "Come now, Usain. Don't be like that. The sun hasn't even set yet. We can reconcile."
             },
             {
                 Usain: "Try me after I get eaten out by Aarit for not having a good enough answer for him."
@@ -1144,7 +1158,7 @@ const Stories = {
                 Tehara: "You can say that again."
             },
             {
-                Imhotep: "You didn\'t help either."
+                Imhotep: "You didn't help either."
             },
             {
                 Tehara: "What did I do? This is all your fault!"
@@ -1162,10 +1176,10 @@ const Stories = {
                 Imhotep: "If we got him a sweet from the pantry, do you think he would forgive us?"
             },
             {
-                Tehara: "I don\'t need his forgiveness...but he might start talking to us sooner if we stole him a couple."
+                Tehara: "I don't need his forgiveness...but he might start talking to us sooner if we stole him a couple."
             },
             {
-                Imhotep: "If it\'s for a good cause, I guess I\'ll help. Vadim, care to join us?"
+                Imhotep: "If it's for a good cause, I guess I'll help. Vadim, care to join us?"
             },
             {
                 Vadim: "I cannot. I have previous engagement in my own camp."
@@ -1174,16 +1188,16 @@ const Stories = {
                 Imhotep: "Very well. Tehara, shall we be off?"
             },
             {
-                Tehara: "I suppose so. But just so we\'re clear, I\'m doing this for him, not you."
+                Tehara: "I suppose so. But just so we're clear, I'm doing this for him, not you."
             },
             {
-                Imhotep: "To put it bluntly, I rather be stung by a scorpion than stand near you. I don\'t want him going to sleep angry at me though, so I\'ll endure you."
+                Imhotep: "To put it bluntly, I rather be stung by a scorpion than stand near you. I don't want him going to sleep angry at me though, so I'll endure you."
             },
             {
-                Tehara: "Geez, with a tongue like that, no wonder he\'s mad at you. You play the look out, got it?"
+                Tehara: "Geez, with a tongue like that, no wonder he's mad at you. You play the look out, got it?"
             },
             {
-                Imhotep: "Yes, yes, very well. Let\'s get this over with. So long Vadim."
+                Imhotep: "Yes, yes, very well. Let's get this over with. So long Vadim."
             },
             {
                 Tehara: "See ya!"
@@ -1194,13 +1208,13 @@ const Stories = {
         ],
         112: [
             {
-                Usain: "I think I see where you\'re coming from. I do have a question though."
+                Usain: "I think I see where you're coming from. I do have a question though."
             },
             {
                 Vadim: "And what is question, my friend?"
             },
             {
-                Usain: "I would agree with you that who is at the farm and town matters and can change which answer is right. There we agree. What I\'m curious about is whether or not there is someone you would not sacrifice for the sake of your mission."
+                Usain: "I would agree with you that who is at the farm and town matters and can change which answer is right. There we agree. What I'm curious about is whether or not there is someone you would not sacrifice for the sake of your mission."
             },
             {
                 Vadim: "This would take some time to think about. I cannot think of anyone off top of my head."
@@ -1227,19 +1241,19 @@ const Stories = {
                 Vadim: "It is fine. In truth, I never knew her well enough to miss her. I will honor her bones, but I did not weep when she died."
             },
             {
-                Imhotep: "I can\'t imagine not having anyone so close that I would not question my own beliefs to save them. It seems like too lonely a path to walk, not loving anyone."
+                Imhotep: "I can't imagine not having anyone so close that I would not question my own beliefs to save them. It seems like too lonely a path to walk, not loving anyone."
             },
             {
-                Tehara: "That sounds like something a loser would say. You can\'t let personal baggage weigh you down as you rise you up. There is a reason they say it\'s lonely at the top."
+                Tehara: "That sounds like something a loser would say. You can't let personal baggage weigh you down as you rise you up. There is a reason they say it's lonely at the top."
             },
             {
                 Usain: "Hari, you said you would save the person you cared for at the farm over the everyone at the town."
             },
             {
-                Tehara: "I\'m teasing him! Besides, you said it mattered what the person can do you for you, not how much you liked them."
+                Tehara: "I'm teasing him! Besides, you said it mattered what the person can do you for you, not how much you liked them."
             },
             {
-                Usain: "I was trying to find a middle ground between Imhotep\'s position and yours. If I was to be completely honest, I can name a few people I love enough to sacrifice the town for, regardless of what I get out it."
+                Usain: "I was trying to find a middle ground between Imhotep's position and yours. If I was to be completely honest, I can name a few people I love enough to sacrifice the town for, regardless of what I get out it."
             },
             {
                 Tehara: "Like who?"
@@ -1257,7 +1271,7 @@ const Stories = {
                 Tehara: "Oh."
             },
             {
-                Usain: "And that doesn\'t mean I would feel good about it. I think Imhotep is right too, I need to try to save as many people as I can."
+                Usain: "And that doesn't mean I would feel good about it. I think Imhotep is right too, I need to try to save as many people as I can."
             },
             {
                 Tehara: "Right."
@@ -1269,10 +1283,10 @@ const Stories = {
                 Usain: "What? What did I do?"
             },
             {
-                Imhotep: "Oh nothing. If I\'m at farm, please send the bandits there. I understand that you are trying to show your appreciation of our friendship by saving me, but I couldn\'t look you in the eyes if you slaughtered innocent people for my sake."
+                Imhotep: "Oh nothing. If I'm at farm, please send the bandits there. I understand that you are trying to show your appreciation of our friendship by saving me, but I couldn't look you in the eyes if you slaughtered innocent people for my sake."
             },
             {
-                Usain: "I\'m not sure I can commit to that. "
+                Usain: "I'm not sure I can commit to that. "
             },
             {
                 Vadim: "Usain, you were so close."
@@ -1281,7 +1295,7 @@ const Stories = {
                 Usain: "To what?"
             },
             {
-                Vadim: "Nothing, nothing. If you won\'t speak of it, then neither will I!"
+                Vadim: "Nothing, nothing. If you won't speak of it, then neither will I!"
             },
             {
                 Usain: "What in the blazes are you talking about?"
@@ -1293,25 +1307,25 @@ const Stories = {
                 Tehara: "Try banditry! As your first job, you can help me raid the pantry!"
             },
             {
-                Usain: "Glob is cooking tonight, isn\'t he?"
+                Usain: "Glob is cooking tonight, isn't he?"
             },
             {
                 Tehara: "So you see how dire the situation is."
             },
             {
-                Usain: "Yes, I do. Imhotep, if you\'re tired of the high road, you can join us on the low road."
+                Usain: "Yes, I do. Imhotep, if you're tired of the high road, you can join us on the low road."
             },
             {
                 Vadim: "Actually, Imhotep was going to come with me. Basil needs lessons and Imhotep agreed to help."
             },
             {
-                Imhotep: "I don\'t recall ever...why are you looking at me like that?"
+                Imhotep: "I don't recall ever...why are you looking at me like that?"
             },
             {
                 Vadim: "We must be off! Save me sweet roll, you two! Come Imhotep!"
             },
             {
-                Imhotep: "But I really don\'t remember-"
+                Imhotep: "But I really don't remember-"
             },
             {
                 Vadim: "Come!"
@@ -1361,10 +1375,10 @@ const Stories = {
                 Vadim: "Because it is good?"
             },
             {
-                Usain: "Yes, precisely. It also fixes the problem of worrying about every life we have to take. If it\'s in the interest of the greater good, it\'s worth it."
+                Usain: "Yes, precisely. It also fixes the problem of worrying about every life we have to take. If it's in the interest of the greater good, it's worth it."
             },
             {
-                Imhotep: "I don\'t know if I would phrase it like that, exactly."
+                Imhotep: "I don't know if I would phrase it like that, exactly."
             },
             {
                 Vadim: "I would not say it that way either."
@@ -1400,7 +1414,7 @@ const Stories = {
                 Vadim: "I admit, this happens often in mercenary work. It is not often pleasant."
             },
             {
-                Tehara: "Okay, okay! So let\'s say, Marinus is at the town and my dad is at the farm, right? You three would send the bandits to the farm, even if it meant you would have to fight me to do it?"
+                Tehara: "Okay, okay! So let's say, Marinus is at the town and my dad is at the farm, right? You three would send the bandits to the farm, even if it meant you would have to fight me to do it?"
             },
             {
                 Usain: "..."
@@ -1409,19 +1423,19 @@ const Stories = {
                 Vadim: "Sorry friend. I will save your red hair to remind me of your bright smile."
             },
             {
-                Imhotep: "I would fight you too, but I wouldn\'t save your hair."
+                Imhotep: "I would fight you too, but I wouldn't save your hair."
             },
             {
                 Tehara: "Usain?"
             },
             {
-                Usain: "...I don\'t like this line of thought."
+                Usain: "...I don't like this line of thought."
             },
             {
-                Vadim: "What if Marinus was at farm, and Tehara\'s papa was at town?"
+                Vadim: "What if Marinus was at farm, and Tehara's papa was at town?"
             },
             {
-                Imhotep: "I would send bandits to the farm. If you were hired to protect the emir, I guess that would pit you against Teharaand I, wouldn\'t it?"
+                Imhotep: "I would send bandits to the farm. If you were hired to protect the emir, I guess that would pit you against Teharaand I, wouldn't it?"
             },
             {
                 Vadim: "Yes, my friends, it would. If I win, I would deliver your sword to you brother."
@@ -1430,19 +1444,19 @@ const Stories = {
                 Imhotep: "Thank you."
             },
             {
-                Tehara: "Threaten my father and we won\'t be friends, Vadim. I\'ll leave you for the crows."
+                Tehara: "Threaten my father and we won't be friends, Vadim. I'll leave you for the crows."
             },
             {
                 Imhotep: "You are ever the charmer Hari. Usain, would you be on my side or his?"
             },
             {
-                Usain: "...I don\'t like this at all."
+                Usain: "...I don't like this at all."
             },
             {
-                Tehara: "I guess if both Marinus and my dad are at the farm, you\'d be on your own Imhotep."
+                Tehara: "I guess if both Marinus and my dad are at the farm, you'd be on your own Imhotep."
             },
             {
-                Imhotep: "Yes, I suppose I would be. I would not relish facing the two of you in combat, but someone has to do what\'s right."
+                Imhotep: "Yes, I suppose I would be. I would not relish facing the two of you in combat, but someone has to do what's right."
             },
             {
                 Vadim: "Put up good fight, friend."
@@ -1454,7 +1468,7 @@ const Stories = {
                 Tehara: "Yeah, figure yourself out yet?"
             },
             {
-                Usain: "It\'s just...how can we call ourselves friends if we are willing to kill each other over something like this? It feels like we should be able to figure it out without coming to blows."
+                Usain: "It's just...how can we call ourselves friends if we are willing to kill each other over something like this? It feels like we should be able to figure it out without coming to blows."
             },
             {
                 Vadim: "Sometimes friends fight. It is the way of war."
@@ -1466,13 +1480,13 @@ const Stories = {
                 Imhotep: "I truly never wish to come to blows with you Usain. You are a dear friend, but I must stand by my principles. If we had to fight, I would do my best to spare you."
             },
             {
-                Usain: "Thanks, but I don\'t feel much better."
+                Usain: "Thanks, but I don't feel much better."
             },
             {
-                Imhotep: "This conversation took a dark turn, didn\'t it?"
+                Imhotep: "This conversation took a dark turn, didn't it?"
             },
             {
-                Usain: "Yeah, it did! And now I won\'t sleep tonight!"
+                Usain: "Yeah, it did! And now I won't sleep tonight!"
             },
             {
                 Tehara: "Would some sweet tarts help?"
@@ -1487,7 +1501,7 @@ const Stories = {
                 Imhotep: "Hari, no..."
             },
             {
-                Tehara: "Aw c\'mon! I saw Glob mixing sawdust into the stew. We gotta go raid the pantry if we want anything good tonight!"
+                Tehara: "Aw c'mon! I saw Glob mixing sawdust into the stew. We gotta go raid the pantry if we want anything good tonight!"
             },
             {
                 Usain: "Did he really?"
@@ -1496,13 +1510,13 @@ const Stories = {
                 Tehara: "Yes, yes he did."
             },
             {
-                Imhotep: "You\'re lying, aren\'t you?"
+                Imhotep: "You're lying, aren't you?"
             },
             {
                 Tehara: "No, no I am not."
             },
             {
-                Usain: "She\'s lying."
+                Usain: "She's lying."
             },
             {
                 Imhotep: "Oh, absolutely."
@@ -1541,13 +1555,13 @@ const Stories = {
                 Imhotep: "Oh."
             },
             {
-                Usain: "Being the emir\'s cousin helps."
+                Usain: "Being the emir's cousin helps."
             },
             {
-                Imhotep: "I\'m sure it does."
+                Imhotep: "I'm sure it does."
             },
             {
-                Tehara: "Let\'s GOOOOOO!"
+                Tehara: "Let's GOOOOOO!"
             },
             {
                 Imhotep: "We going to keep her waiting, Usain?"
@@ -1558,7 +1572,7 @@ const Stories = {
         ],
         122: [
             {
-                Usain: "You\'re doing the right thing for the wrong reason, I think."
+                Usain: "You're doing the right thing for the wrong reason, I think."
             },
             {
                 Imhotep: "I wholeheartedly agree."
@@ -1573,13 +1587,13 @@ const Stories = {
                 Vadim: "Of course."
             },
             {
-                Usain: "I believe your reason is that you\'re just following orders, whatever gets the job done, regardless of the aftermath. Saving the town and everyone in it is the right thing to do, even if it means the mission fails."
+                Usain: "I believe your reason is that you're just following orders, whatever gets the job done, regardless of the aftermath. Saving the town and everyone in it is the right thing to do, even if it means the mission fails."
             },
             {
                 Vadim: "If mission fails and Marinus dies Toma falls, yes?"
             },
             {
-                Usain: "It would be harder, but it\'s not guaranteed. Even without Marinus, we still have the elves backing us. Plus, Aarit is Ogma, and that carries a lot of weight. Doing what\'s right in saving the town will make our war harder, but not impossible."
+                Usain: "It would be harder, but it's not guaranteed. Even without Marinus, we still have the elves backing us. Plus, Aarit is Ogma, and that carries a lot of weight. Doing what's right in saving the town will make our war harder, but not impossible."
             },
             {
                 Vadim: "My friend, you are most noble in you defense of innocent lives! However, do not forget that each sacrifice you make will war harder. With enough sacrifices, it will become impossible."
@@ -1597,7 +1611,7 @@ const Stories = {
                 Imhotep: "What is your point?"
             },
             {
-                Vadim: "My point is simple. If you let this one town go, you save more lives later after war. Save town now, you lose war, and many more people die. My friend, shouldn\'t you look farther ahead than only choice right in front of you?"
+                Vadim: "My point is simple. If you let this one town go, you save more lives later after war. Save town now, you lose war, and many more people die. My friend, shouldn't you look farther ahead than only choice right in front of you?"
             },
             {
                 Usain: "What?"
@@ -1627,7 +1641,7 @@ const Stories = {
                 Vadim: "There are many important people on our side, yes."
             },
             {
-                Imhotep: "So let\'s say we sacrifice a village to save Marinus. Then, we sacrifice a larger town to save Lae Ling, the elven diplomat. Then, we sacrifice the whole city of Goshen to save Aarit. Eventually, Toma wins, Rae is defeated, and we have sacrificed everyone else in Vessa." 
+                Imhotep: "So let's say we sacrifice a village to save Marinus. Then, we sacrifice a larger town to save Lae Ling, the elven diplomat. Then, we sacrifice the whole city of Goshen to save Aarit. Eventually, Toma wins, Rae is defeated, and we have sacrificed everyone else in Vessa." 
             },
             {
                 Vadim: "Ah, I see what you mean."
@@ -1642,7 +1656,7 @@ const Stories = {
                 Imhotep: "Thank you."
             },
             {
-                Tehara: "I\'m lost."
+                Tehara: "I'm lost."
             },
             {
                 Imhotep: "Of course you are."
@@ -1660,7 +1674,7 @@ const Stories = {
                 Imhotep: "I am sorry to hear that."
             },
             {
-                Usain: "At least you\'re on our side."
+                Usain: "At least you're on our side."
             },
             {
                 Tehara: "For as long as Marinus continues to pay him."
@@ -1669,10 +1683,10 @@ const Stories = {
                 Vadim: "I made many arguments to protect him today. My employment is secure! Haha!"
             },
             {
-                Usain: "Haha! We should probably get going to the mess hall. Dinner will be served soon and I don\'t want to get stuck with the burnt ends again."
+                Usain: "Haha! We should probably get going to the mess hall. Dinner will be served soon and I don't want to get stuck with the burnt ends again."
             },
             {
-                Tehara: "It\'s Glob\'s cooking. The whole thing is probably burned."
+                Tehara: "It's Glob's cooking. The whole thing is probably burned."
             },
             {
                 Usain: "Yeah, true. We could raid the pantry again."
@@ -1690,19 +1704,19 @@ const Stories = {
                 Usain: "With her sweet tooth? Good luck."
             },
             {
-                Tehara: "Well, if we can\'t have Vadim I guess you\'ll have to be the lookout, Imhotep."
+                Tehara: "Well, if we can't have Vadim I guess you'll have to be the lookout, Imhotep."
             },
             {
-                Imhotep: "I\'m always your lookout and what\'s more I don\'t think..."
+                Imhotep: "I'm always your lookout and what's more I don't think..."
             },
             {
-                Tehara: "Too slow! Let\'s go you two, before that scullery maid with the crush on fancy pants here leaves."
+                Tehara: "Too slow! Let's go you two, before that scullery maid with the crush on fancy pants here leaves."
             },
             {
-                Usain: "I\'ll get the meats, you grab the sweets!"
+                Usain: "I'll get the meats, you grab the sweets!"
             },
             {
-                Imhotep: "Guys, I still don\'t think...hey! Wait for me!"
+                Imhotep: "Guys, I still don't think...hey! Wait for me!"
             }
         ],
         211: [
@@ -1722,7 +1736,7 @@ const Stories = {
                 Vadim: "Tehara my friend, what is your side?"
             },
             {
-                Tehara: "I agree with you on needing to know who\'s where, but I think you should save the people that are close to you, not whoever hired you. On the other hand, if we\'re talking about needing to kill someone, me and you totally agree."
+                Tehara: "I agree with you on needing to know who's where, but I think you should save the people that are close to you, not whoever hired you. On the other hand, if we're talking about needing to kill someone, me and you totally agree."
             },
             {
                 Vadim: "Ah, so friends and family matter more than your word or your honor?"
@@ -1731,10 +1745,10 @@ const Stories = {
                 Tehara: "I used to be bandit before these guys recruited me."
             },
             {
-                Usain: "Captured, released, then couldn\'t get rid of you, more like."
+                Usain: "Captured, released, then couldn't get rid of you, more like."
             },
             {
-                Tehara: "Eh, tomatoes, potatoes. Anyways, I was a bandit. I don\'t really do the whole \'honor\' thing."
+                Tehara: "Eh, tomatoes, potatoes. Anyways, I was a bandit. I don't really do the whole 'honor' thing."
             },
             {
                 Vadim: "So I see. What was your side, Imhotep?"
@@ -1749,13 +1763,13 @@ const Stories = {
                 Imhotep: "Yes, the Laws of Life. I try to adhere to it the best I can. And that would mean saving the town every time."
             },
             {
-                Tehara: "Yes, yes we know. \'Because the hallowed Spirits of the rocks and weeds and my dirty undergarments told me so\'."
+                Tehara: "Yes, yes we know. 'Because the hallowed Spirits of the rocks and weeds and my dirty undergarments told me so'."
             },
             {
                 Imhotep: "Do not mock the Spirits, fire elf."
             },
             {
-                Tehara: "I\'ll mock them all I want. They aren\'t fae."
+                Tehara: "I'll mock them all I want. They aren't fae."
             },
             {
                 Usain: "You have to admit Imhotep, the idea is kind of silly."
@@ -1764,40 +1778,40 @@ const Stories = {
                 Imhotep: "Oh? Do tell me of the internal inconsistencies of my religion, Usain. The very same Usain who has refused to accompany me to how many holy day celebrations?"
             },
             {
-                Usain: "Look, all I\'m saying that I don\'t think spirits, fae or otherwise, should be the decider of all our morals. I think that we, the people in the situations, are better off deciding for ourselves what is best. The gods are dead and you can\'t trust fae or magic. Why leave your life\'s choices in the hands of something that can\'t see?"
+                Usain: "Look, all I'm saying that I don't think spirits, fae or otherwise, should be the decider of all our morals. I think that we, the people in the situations, are better off deciding for ourselves what is best. The gods are dead and you can't trust fae or magic. Why leave your life's choices in the hands of something that can't see?"
             },
             {
-                Imhotep: "Because I can see the good it does the world by following their guidance. I can see that lives are enriched by adhering to the principles the Spirits taught us. The gods are gone, but doesn\'t mean the supernatural holds no sway over our lives. We are still beings of half flesh and half spirit. Someday, our spirit selves will join the Spirits of the Earth and answer for our deeds upon it."
+                Imhotep: "Because I can see the good it does the world by following their guidance. I can see that lives are enriched by adhering to the principles the Spirits taught us. The gods are gone, but doesn't mean the supernatural holds no sway over our lives. We are still beings of half flesh and half spirit. Someday, our spirit selves will join the Spirits of the Earth and answer for our deeds upon it."
             },
             {
                 Usain: "Those spirits are so weak they can barely manifest as anything more than a mild breeze. Fae could summon entire storm if you let them."
             },
             {
-                Tehara: "When they aren\'t trying to possess you that is."
+                Tehara: "When they aren't trying to possess you that is."
             },
             {
                 Vadim: "I believe I understand what Imhotep is trying to say. In Rodina. we follow Eternal King and Mother Arianne. We follow her by fulfilling our duties to our lords and lieges, and by seeking honor through courageous acts. As we gain her favor, she blesses us with a seat in her Great Hall. It gives much inspiration to us, who fight in her name. There is comfort in knowing that someone is watching, that life has purpose beyond this earth."
             },
             {
-                Tehara: "Meh, sounds like too much of a hassle, chasing someone\'s approval all the time."
+                Tehara: "Meh, sounds like too much of a hassle, chasing someone's approval all the time."
             },
             {
                 Vadim: "Do Dahn have faith in nothing?"
             },
             {
-                Tehara: "Sorta? It\'s hard to explain to an outsider. Usain?"
+                Tehara: "Sorta? It's hard to explain to an outsider. Usain?"
             },
             {
-                Usain: "We don\'t really worship anything as much as honor and revere them. And only a few things as they benefit the people, the Dahn as a whole. Like, we honor the Continent, Al-Ilbis, because it is our home. We honor the sun because it gives light so we can see. Same thing with the sands and water. Everything we honor is real and tangible, but we would never pray to them."
+                Usain: "We don't really worship anything as much as honor and revere them. And only a few things as they benefit the people, the Dahn as a whole. Like, we honor the Continent, Al-Ilbis, because it is our home. We honor the sun because it gives light so we can see. Same thing with the sands and water. Everything we honor is real and tangible, but we would never pray to them."
             },
             {
-                Imhotep: "But you can\'t get any guidance from anything that way."
+                Imhotep: "But you can't get any guidance from anything that way."
             },
             {
-                Usain: "Yeah, but why follow gods or spirits? Why are their choices better than anyone else\'s? I can use my own judgment on a situation, and deal with the consequences afterward. But I don\'t think it\'s smart to trust these spirit-things. They could just be my imagination for all I know."
+                Usain: "Yeah, but why follow gods or spirits? Why are their choices better than anyone else's? I can use my own judgment on a situation, and deal with the consequences afterward. But I don't think it's smart to trust these spirit-things. They could just be my imagination for all I know."
             },
             {
-                Imhotep: "You still have personal agency within the Law. They just tell you what is right and what is wrong. It\'s your choice of whether or not to follow the right path."
+                Imhotep: "You still have personal agency within the Law. They just tell you what is right and what is wrong. It's your choice of whether or not to follow the right path."
             },
             {
                 Usain: "How do I know they are right?"
@@ -1806,28 +1820,28 @@ const Stories = {
                 Imhotep: "You will see it in the world around you, you will feel it in your soul as it grows in harmony with the Earth. Life itself will flourish around you."
             },
             {
-                Usain: "So, let\'s say I sacrifice the farm with Aarit on it to save the town from the bandits. Without Aarit\'s reputation, Marinus can\'t muster enough support from the other emir\'s and Toma bows to Rae, who then goes on to murder all the elves and half-elves in Southern Vessa. How does life \'flourish\' in that?"
+                Usain: "So, let's say I sacrifice the farm with Aarit on it to save the town from the bandits. Without Aarit's reputation, Marinus can't muster enough support from the other emir's and Toma bows to Rae, who then goes on to murder all the elves and half-elves in Southern Vessa. How does life 'flourish' in that?"
             },
             {
-                Imhotep: "Your choice allows that village to live. That\'s where the life flourishes. You can\'t hold that decision responsible for the evils Rae commits."
+                Imhotep: "Your choice allows that village to live. That's where the life flourishes. You can't hold that decision responsible for the evils Rae commits."
             },
             {
                 Usain: "Yeah, but I save more lives later if I kill, or sacrifice, more people now."
             },
             {
-                Imhotep: "Just because the results look better in the immediate context doesn\'t mean that it will be better for your soul, here or in the afterlife."
+                Imhotep: "Just because the results look better in the immediate context doesn't mean that it will be better for your soul, here or in the afterlife."
             },
             {
-                Usain: "I think I\'ll take my chances with focusing on the here and now. If killing accomplishes my goal, so be it."
+                Usain: "I think I'll take my chances with focusing on the here and now. If killing accomplishes my goal, so be it."
             },
             {
                 Imhotep: "Usain..."
             },
             {
-                Tehara: "Sun and Sands! This is getting boring! Usain, how\'s about we make our way to the mess hall and see if we can find some grub?"
+                Tehara: "Sun and Sands! This is getting boring! Usain, how's about we make our way to the mess hall and see if we can find some grub?"
             },
             {
-                Imhotep: "We\'re in the middle of something here, Hari."
+                Imhotep: "We're in the middle of something here, Hari."
             },
             {
                 Usain: "I feeling hungry and it is getting late. Maybe we can pick this up tomorrow?"
@@ -1839,7 +1853,7 @@ const Stories = {
                 Usain: "You can try! Haha! Care to join us in the mess? If Glob is cooking, we could use you as a look out for a pantry raid."
             },
             {
-                Imhotep: "No thanks, Hari\'s insistence that family matters most reminded me that I haven\'t seen Tutkah since yesterday. I should go check in on my brother. Maybe he and I can get a bite and head to the Green Chapel. You two are welcome to join us."
+                Imhotep: "No thanks, Hari's insistence that family matters most reminded me that I haven't seen Tutkah since yesterday. I should go check in on my brother. Maybe he and I can get a bite and head to the Green Chapel. You two are welcome to join us."
             },
             {
                 Tehara: "Ew."
@@ -1863,7 +1877,7 @@ const Stories = {
                 Tehara: "Nice!"
             },
             {
-                Imhotep: "Hari, you are truly hopeless. Good night all! I wish you all a pleasant night\'s sleep!"
+                Imhotep: "Hari, you are truly hopeless. Good night all! I wish you all a pleasant night's sleep!"
             },
             {
                 Usain: "Night, friend! May your spirits keep you!"
@@ -1872,7 +1886,7 @@ const Stories = {
                 Tehara: "We better get going, Usain, before we miss our window of opportunity."
             },
             {
-                Usain: "Yeah, let\'s go. See you later Vadim. Try not to work Basil over too hard tonight."
+                Usain: "Yeah, let's go. See you later Vadim. Try not to work Basil over too hard tonight."
             },
             {
                 Vadim: "Hard lessons make us sleep better. I get tired and Basil gets brained! Hahaha!"
@@ -1884,7 +1898,7 @@ const Stories = {
                 Vadim: "Good night my friends! May Arianne fill your hearts with courage!"
             },
             {
-                Tehara: "Usain let\'s go!"
+                Tehara: "Usain let's go!"
             },
             {
                 Usain: "Hey! Slow down! Sun-touched fire elf!"
@@ -1892,16 +1906,16 @@ const Stories = {
         ],
         212: [
             {
-                Usain: "I think I see where you\'re coming from, but I\'m going to disagree."
+                Usain: "I think I see where you're coming from, but I'm going to disagree."
             },
             {
                 Vadim: "Why?"
             },
             {
-                Usain: "Family and friends, they\'re more important than the others in the town, even if that person is someone important, like your employer. I don\'t think I could replace any one of you guys, but Marinus is no different than any other emir to me."
+                Usain: "Family and friends, they're more important than the others in the town, even if that person is someone important, like your employer. I don't think I could replace any one of you guys, but Marinus is no different than any other emir to me."
             },
             {
-                Imhotep: "At least it\'s not a Dahnic response."
+                Imhotep: "At least it's not a Dahnic response."
             },
             {
                 Usain: "Careful, Imhotep."
@@ -1910,7 +1924,7 @@ const Stories = {
                 Vadim: "Usain, we both are mercenaries, soldiers of fortune. If you fail missions because you are unwilling to make personal sacrifice, why should someone hire you?"
             },
             {
-                Usain: "I don\'t think I\'m going to be a mercenary, not with Aarit training me in the ways of the Ogma."
+                Usain: "I don't think I'm going to be a mercenary, not with Aarit training me in the ways of the Ogma."
             },
             {
                 Vadim: "This may be true. Aarit is mighty general, known from the Vessii hills, to the highlands of Rodina. However, do you not believe there is value in keeping your word?"
@@ -1925,25 +1939,25 @@ const Stories = {
                 Usain: "I think it would depend on who they kidnapped, but I think I have more of an obligation to my friends and family."
             },
             {
-                Tehara: "What\'s so bad about banditry? I was one before you guys found me, and I think I turned out all right."
+                Tehara: "What's so bad about banditry? I was one before you guys found me, and I think I turned out all right."
             },
             {
-                Vadim: "Oh ho! That\'s how you put? Obligation to friends and family, not duty or honor."
+                Vadim: "Oh ho! That's how you put? Obligation to friends and family, not duty or honor."
             },
             {
-                Imhotep: "I disagree with your choice here, not to say I agree with Vadim either, but doesn\'t that go against the Dahnic Code? Every Dahn I\'ve ever met have always been about nothing but duty and honor."
+                Imhotep: "I disagree with your choice here, not to say I agree with Vadim either, but doesn't that go against the Dahnic Code? Every Dahn I've ever met have always been about nothing but duty and honor."
             },
             {
-                Usain: "Yeah, I guess it does. Shouldn\'t that make you happy?"
+                Usain: "Yeah, I guess it does. Shouldn't that make you happy?"
             },
             {
-                Imhotep: "You\'re still committing to the wrong idea. Friends and family are important, but there needs to be a higher ideal than that, something to give you a vision for the future and tells you how to act."
+                Imhotep: "You're still committing to the wrong idea. Friends and family are important, but there needs to be a higher ideal than that, something to give you a vision for the future and tells you how to act."
             },
             {
-                Usain: "Why can\'t I tell myself how to act? Why give myself over to anything?"
+                Usain: "Why can't I tell myself how to act? Why give myself over to anything?"
             },
             {
-                Tehara: "Now you\'re talking! No masters but ourselves!"
+                Tehara: "Now you're talking! No masters but ourselves!"
             },
             {
                 Imhotep: "You can hardly claim the intellectual superiority of a fire elf, Usain."
@@ -1952,13 +1966,13 @@ const Stories = {
                 Tehara: "Hey!"
             },
             {
-                Usain: "I can admit when she\'s right. My duty lies with people I care about, not with warlords or priests."
+                Usain: "I can admit when she's right. My duty lies with people I care about, not with warlords or priests."
             },
             {
                 Vadim: "Even when causes you to act dishonorably?"
             },
             {
-                Usain: "Others might hate me, but I\'ll save who I care for."
+                Usain: "Others might hate me, but I'll save who I care for."
             },
             {
                 Vadim: "What if it is your friends that are fighting and you must choose to save one?"
@@ -1970,13 +1984,13 @@ const Stories = {
                 Vadim: "In war, friends fight. Not because they want to, but they have to. What do you do when you have to choose between one friend or the other?"
             },
             {
-                Tehara: "It\'s simple. You let them be stupid and kill each other."
+                Tehara: "It's simple. You let them be stupid and kill each other."
             },
             {
                 Vadim: "If you do not help, you lose both friends."
             },
             {
-                Tehara: "If they are forcing me to choose one or the other, they aren\'t acting like my friends, now are they?"
+                Tehara: "If they are forcing me to choose one or the other, they aren't acting like my friends, now are they?"
             },
             {
                 Vadim: "There is something here I cannot agree with. Tehara, are you saying that your friends are your friends only for how long you wish them to be? That you owe them no loyalty?"
@@ -1997,7 +2011,7 @@ const Stories = {
                 Vadim: "You do not have to, but who wants friend that does not stand with them in trouble?"
             },
             {
-                Usain: "We really have veered off the original question here, haven\'t we?"
+                Usain: "We really have veered off the original question here, haven't we?"
             },
             {
                 Vadim: "Then let us say that a friend is at farm and a friend is at town. Who lives, who dies?"
@@ -2009,13 +2023,13 @@ const Stories = {
                 Vadim: "And if you like both the same?"
             },
             {
-                Tehara: "I don\'t know! Whoever I feel like right then!"
+                Tehara: "I don't know! Whoever I feel like right then!"
             },
             {
                 Vadim: "And there is problem. My friend, I am sorry to push you so hard, but you must see that this standard is no good!"
             },
             {
-                Tehara: "It\'s better than being a slave to some contract or religion! At least I get to decide what happens to me!"
+                Tehara: "It's better than being a slave to some contract or religion! At least I get to decide what happens to me!"
             },
             {
                 Usain: "Better to control your own destiny and make the hard choices for yourself than give the decision away to something else."
@@ -2024,10 +2038,10 @@ const Stories = {
                 Imhotep: "There is such a thing as being right, Usain! Surly you can see that!"
             },
             {
-                Usain: "And it\'s not with your spirits or his duty! C\'mon Hari! I\'m sick of this riddley puzzle. Let\'s go find some food and leave these two to squabble."
+                Usain: "And it's not with your spirits or his duty! C'mon Hari! I'm sick of this riddley puzzle. Let's go find some food and leave these two to squabble."
             },
             {
-                Tehara: "Way ahead of you, friend. Let\'s go see what we can steal from the larder."
+                Tehara: "Way ahead of you, friend. Let's go see what we can steal from the larder."
             },
             {
                 Usain: "Great idea, friend! After that, we can head the Tower and enjoy the spoils!"
@@ -2047,7 +2061,7 @@ const Stories = {
                 Imhotep: "As I have been telling these two here, that is the wrong way entirely."
             },
             {
-                Tehara: "That\'s kinslaying, that\'s what that is!"
+                Tehara: "That's kinslaying, that's what that is!"
             },
             {
                 Usain: "Yeah, but it makes a cut throat kind of sense."
@@ -2065,7 +2079,7 @@ const Stories = {
                 Vadim: "He knows choices of this life we lead."
             },
             {
-                Usain: "We\'re soldiers of fortune. The job must be completed."
+                Usain: "We're soldiers of fortune. The job must be completed."
             },
             {
                 Imhotep: "I have a huge problem with this."
@@ -2074,7 +2088,7 @@ const Stories = {
                 Tehara: "Besides the kinslaying?"
             },
             {
-                Imhotep: "I don\'t like the thought of that, but I can concede it may be necessary to protect the interests of preserving life. However, what if your mission is not in that interest? What if you are hired to do harm?"
+                Imhotep: "I don't like the thought of that, but I can concede it may be necessary to protect the interests of preserving life. However, what if your mission is not in that interest? What if you are hired to do harm?"
             },
             {
                 Vadim: "Explain please."
@@ -2086,7 +2100,7 @@ const Stories = {
                 Vadim: "Yes, I would."
             },
             {
-                Imhotep: "So you don\'t care who gets hurt?"
+                Imhotep: "So you don't care who gets hurt?"
             },
             {
                 Vadim: "I have fought in two wars already, Imhotep. This life you wish to preserve and misery you want to prevent, it will happen no matter who wins. Tell me, what happens to Rae if you win?"
@@ -2095,7 +2109,7 @@ const Stories = {
                 Imhotep: "Well we... we will treat them fairly but sternly. We will limit their army size, levy war indemnities, perhaps occupy Rae itself for a time to ensure demands are met. All the while we will act with honor and discipline."
             },
             {
-                Usain: "That\'s assuming we can pressure the shah to side with us in the first place. No shah, no Toma, and the elves stand alone."
+                Usain: "That's assuming we can pressure the shah to side with us in the first place. No shah, no Toma, and the elves stand alone."
             },
             {
                 Imhotep: "I have faith he will."
@@ -2104,19 +2118,19 @@ const Stories = {
                 Vadim: "Imhotep, until you experience war there is little I can say to sway you in this opinion. All I will say is war spreads misery. If you try to stop tears from falling, you will only drown yourself."
             },
             {
-                Imhotep: "That\'s an excuse."
+                Imhotep: "That's an excuse."
             },
             {
                 Vadim: "That is reality."
             },
             {
-                Usain: "No, we talked about earlier this, remember? It\'s a bad choice either way, but the choice has to be made. This might be the answer, to follow your duty, even if it feels wrong."
+                Usain: "No, we talked about earlier this, remember? It's a bad choice either way, but the choice has to be made. This might be the answer, to follow your duty, even if it feels wrong."
             },
             {
-                Imhotep: "But there has to be a line, some point you just don\'t cross."
+                Imhotep: "But there has to be a line, some point you just don't cross."
             },
             {
-                Tehara: "How\'s about kinslaying? That\'s a pretty big line, ain\'t it?"
+                Tehara: "How's about kinslaying? That's a pretty big line, ain't it?"
             },
             {
                 Vadim: "What is more important than duty?"
@@ -2128,19 +2142,19 @@ const Stories = {
                 Vadim: "Sorry my friend, but on this we must disagree. I will do what is best to complete mission, and if there is no mission, I do what is best for me."
             },
             {
-                Tehara: "What if what is best for you is bad for your duty? Let\'s go back to the scenario where you save Marinus or Basil and let\'s assume you complete the mission and sacrifice Basil to protect Marinus, but now everyone knows you are responsible for Basil\'s death. Wouldn\'t that that be horrible for you reputation?"
+                Tehara: "What if what is best for you is bad for your duty? Let's go back to the scenario where you save Marinus or Basil and let's assume you complete the mission and sacrifice Basil to protect Marinus, but now everyone knows you are responsible for Basil's death. Wouldn't that that be horrible for you reputation?"
             },
             {
                 Vadim: "Haha, so whole world finds out about kinslaying Basil?"
             },
             {
-                Usain: "It wouldn\'t change anything, would it?"
+                Usain: "It wouldn't change anything, would it?"
             },
             {
                 Vadim: "No my friends, it would not."
             },
             {
-                Usain: "Yeah, this I can get behind. Every action I take will have consequences and I can\'t worry about them all. If I try to control every echo, ripple and wave I create, I will never be able to do anything. Instead, do what I have to, and keep moving forward. The world can sort itself out."
+                Usain: "Yeah, this I can get behind. Every action I take will have consequences and I can't worry about them all. If I try to control every echo, ripple and wave I create, I will never be able to do anything. Instead, do what I have to, and keep moving forward. The world can sort itself out."
             },
             {
                 Vadim: "This is the way."
@@ -2155,10 +2169,10 @@ const Stories = {
                 Vadim: "And I will get many more contracts."
             },
             {
-                Imhotep: "Usain, will you really bring this to Aarit and tell him it doesn\'t matter where you send the bandits so long as it follows orders? Ogma are philosophers as much as they are warriors. Do you really think he will be content with you leaving moral decisions to others?"
+                Imhotep: "Usain, will you really bring this to Aarit and tell him it doesn't matter where you send the bandits so long as it follows orders? Ogma are philosophers as much as they are warriors. Do you really think he will be content with you leaving moral decisions to others?"
             },
             {
-                Usain: "No, I\'ll tell him that my loyalty to my employer and contract comes first, and that I will hold fast to my word, my honor, and my duty, even if it hurts me."
+                Usain: "No, I'll tell him that my loyalty to my employer and contract comes first, and that I will hold fast to my word, my honor, and my duty, even if it hurts me."
             },
             {
                 Vadim: "My friend! Very well said!"
@@ -2173,13 +2187,13 @@ const Stories = {
                 Imhotep: "Yes, please let us."
             },
             {
-                Usain: "Alright, alright. It\'s almost dinner time anyways. Shall we go to the Tower?"
+                Usain: "Alright, alright. It's almost dinner time anyways. Shall we go to the Tower?"
             },
             {
                 Vadim: "Tower?"
             },
             {
-                Usain: "It\'s that\'s big tree about a mile or two west of here."
+                Usain: "It's that's big tree about a mile or two west of here."
             },
             {
                 Vadim: "That sounds bit far for evening meal."
@@ -2188,7 +2202,7 @@ const Stories = {
                 Tehara: "Well, the housekeepers chased us off the stairs yesterday, and cooks banned us from the kitchens, so somewhere outside does sound nice."
             },
             {
-                Imhotep: "A nice fire, good food and better company! Let\'s put this episode behind us and have some fun this evening!"
+                Imhotep: "A nice fire, good food and better company! Let's put this episode behind us and have some fun this evening!"
             },
             {
                 Usain: "Vadim, you want to join us?"
@@ -2200,7 +2214,7 @@ const Stories = {
                 Tehara: "Suit yourself. To the mess! Last one there has to distract the cooks while we pilfer the pantry!"
             },
             {
-                Usain: "You\'re on!"
+                Usain: "You're on!"
             },
             {
                 Imhotep: "Come now, can we have a little decorum for once and just wait in line like everyone else? H-hey! Wait for me!"
@@ -2208,13 +2222,13 @@ const Stories = {
         ],
         222: [
             {
-                Usain: "I don\'t think I can agree with that."
+                Usain: "I don't think I can agree with that."
             },
             {
                 Vadim: "Why not?"
             },
             {
-                Usain: "I don\'t think it matters who is where."
+                Usain: "I don't think it matters who is where."
             },
             {
                 Vadim: "Then what does matter Usain?"
@@ -2244,7 +2258,7 @@ const Stories = {
                 Imhotep: "Tears of heaven, not this again!"
             },
             {
-                Usain: "Raiding bandits are an affront to order. My priority should be getting rid of them, but I\'ve already been captured."
+                Usain: "Raiding bandits are an affront to order. My priority should be getting rid of them, but I've already been captured."
             },
             {
                 Vadim: "So what is next?"
@@ -2262,19 +2276,19 @@ const Stories = {
                 Vadim: "Good! Practical!"
             },
             {
-                Usain: "Then I kill myself to atone for my dishonor of being captured and robbed, and to pay the blood price to the farmer\'s family."
+                Usain: "Then I kill myself to atone for my dishonor of being captured and robbed, and to pay the blood price to the farmer's family."
             },
             {
                 Vadim: "This is not good."
             },
             {
-                Usain: "I\'m not excited about that part either."
+                Usain: "I'm not excited about that part either."
             },
             {
-                Imhotep: "As well you shouldn\'t."
+                Imhotep: "As well you shouldn't."
             },
             {
-                Usain: "That\'s the Dahnic Code though."
+                Usain: "That's the Dahnic Code though."
             },
             {
                 Imhotep: "Break it."
@@ -2283,7 +2297,7 @@ const Stories = {
                 Usain: "But..."
             },
             {
-                Tehara: "Look, Usain, Imhotep is an blind mutt yapping at us, the desert lions. Dogs can\'t understand why lions do what they do, and lions don\'t answer to the curs either."
+                Tehara: "Look, Usain, Imhotep is an blind mutt yapping at us, the desert lions. Dogs can't understand why lions do what they do, and lions don't answer to the curs either."
             },
             {
                 Imhotep: "Excuse me!?"
@@ -2295,28 +2309,28 @@ const Stories = {
                 Usain: "Thanks Tehara."
             },
             {
-                Tehara: "Don\'t mention it."
+                Tehara: "Don't mention it."
             },
             {
-                Imhotep: "You\'re both hopeless."
+                Imhotep: "You're both hopeless."
             },
             {
                 Vadim: "But the question has been answered, yes? And more people have been saved than lost. Are you not happy my friend?"
             },
             {
-                Imhotep: "Of course not! The reason behind the action is just as important as the action itself. Usain\'s reason is just senselessly following an old, murderous code. He\'s not acting on his own ideas and that\'s what Aarit is going after. Even he doesn\'t like the Dahnic Code."
+                Imhotep: "Of course not! The reason behind the action is just as important as the action itself. Usain's reason is just senselessly following an old, murderous code. He's not acting on his own ideas and that's what Aarit is going after. Even he doesn't like the Dahnic Code."
             },
             {
                 Tehara: "Pfft, just another dog."
             },
             {
-                Usain: "You\'re just unhappy I don\'t agree to your Vessii religion and its silly little spirits."
+                Usain: "You're just unhappy I don't agree to your Vessii religion and its silly little spirits."
             },
             {
-                Imhotep: "What\'s wrong with the spirits?"
+                Imhotep: "What's wrong with the spirits?"
             },
             {
-                Usain: "They\'re awfully close those cursed Fae, that\'s what."
+                Usain: "They're awfully close those cursed Fae, that's what."
             },
             {
                 Imhotep: "How dare you!"
@@ -2328,7 +2342,7 @@ const Stories = {
                 Imhotep: "I will call a spade, a spade, Tehara."
             },
             {
-                Usain: "Then how\'s this: You\'re wrong, and the preservation of life at all costs is one of the most stupid ideas I have ever heard."
+                Usain: "Then how's this: You're wrong, and the preservation of life at all costs is one of the most stupid ideas I have ever heard."
             },
             {
                 Imhotep: "Fine then! Be Dahn! Be the very epitome of Dahn! Be so Dahn that you vomit sand!"
@@ -2337,13 +2351,13 @@ const Stories = {
                 Tehara: "Sand for your grave, Vessii."
             },
             {
-                Imhotep: "Curse you all! I\'m going to find my brother. His company should prove to be  less contemptible than yours, Tehara. Usain, feel free to come find my AFTER Aarit knocks that damn head of yours sideways!"
+                Imhotep: "Curse you all! I'm going to find my brother. His company should prove to be  less contemptible than yours, Tehara. Usain, feel free to come find my AFTER Aarit knocks that damn head of yours sideways!"
             },
             {
                 Vadim: "That was handled poorly."
             },
             {
-                Usain: "I didn\'t see you stepping in to stop it."
+                Usain: "I didn't see you stepping in to stop it."
             },
             {
                 Tehara: "Of course not. No one told him to."
@@ -2352,7 +2366,7 @@ const Stories = {
                 Vadim: "Tehara, temper your tongue before someone cuts it out. And Usain, I do not “step in” because these are your fights to win, or lose."
             },
             {
-                Usain: "Aarit is already training me, Vadim. I don\'t need two teachers."
+                Usain: "Aarit is already training me, Vadim. I don't need two teachers."
             },
             {
                 Vadim: "I shall take note. Well, good night my friends, I have things to do this evening. Hopefully we all find ourselves in better tempers tomorrow."
@@ -2361,22 +2375,22 @@ const Stories = {
                 Usain: "Good night."
             },
             {
-                Tehara: "Well, looks like it\'s just us Dahn to keep each other company. C\'mon Usain, let\'s go raid the pantry. I think I saw the cooks making sweet tarts earlier."
+                Tehara: "Well, looks like it's just us Dahn to keep each other company. C'mon Usain, let's go raid the pantry. I think I saw the cooks making sweet tarts earlier."
             },
             {
-                Usain: "Actually, I think I\'m just going to eat in the mess."
+                Usain: "Actually, I think I'm just going to eat in the mess."
             },
             {
                 Tehara: "But why? You always liked the sweet tarts."
             },
             {
-                Usain: "Yeah, I know, I just don\'t want to right now, okay?"
+                Usain: "Yeah, I know, I just don't want to right now, okay?"
             },
             {
                 Tehara: "Why?"
             },
             {
-                Usain: "I don\'t want to eat with the people I just spent the afternoon yelling at, that\'s why!"
+                Usain: "I don't want to eat with the people I just spent the afternoon yelling at, that's why!"
             },
             {
                 Tehara: "..."
@@ -2385,7 +2399,7 @@ const Stories = {
                 Usain: "Sorry Hari. See you in the morning."
             },
             {
-                Tehara: "I don\'t like how this ended..."
+                Tehara: "I don't like how this ended..."
             }
         ]
     }
