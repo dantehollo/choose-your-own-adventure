@@ -1,15 +1,11 @@
 import React, { Component } from 'react'
 import axios from 'axios'
+import { Stories } from './scriptObject.js'
 import { Link } from 'react-router-dom'
 
 export default class TextBox extends Component {
-    state = {
-        paths: {},
-        newPath: {
-            newPathNumber: '',
-            newPathDialouge: []
-        }
-    }
+
+    // import scriptObject and place it in the props of the componenet 
 
     componentDidMount() {
         this.refreshTextBox()
@@ -22,40 +18,18 @@ export default class TextBox extends Component {
         })
     }
 
-    createNewPath = () => {
-        const newPath = {
-            pathNumber: this.state.newPath.newPathNumber,
-            pathDialouge: this.state.newPath.newPathDialouge
-        }
-
-        axios.post('api/script', newPath)
-        .then(() => {
-            this.refreshTextBox
-        })
-    }
-
-    onNewPathChange = (event) => {
-        const newPath = {...this.state.newPath}
-        newPath[event.target.name] = event.target.value
-        this.setState({newPath: newPath})
-    }
-
-    handleSubmit = (event) => {
-        this.setState({newPath: {
-            newPathNumber: '',
-            newPathDialouge: {}
-        }})
-        event.preventDefualt()
-    }
-
-    // clear form
-    // clearForm = () => {
-    //     const pathForm = document.getElementById('test-form')
-    //     console.log(pathForm)
-    //     pathForm.reset()
-    // }
-
     render() {
-        
+        return (
+            <div className='textbox-main'>
+                <div className='name-box'>
+                    Name Here
+                    {/* {this.state.paths} */}
+                </div>
+                <div className='message-box'>
+                    Dialouge Here
+                    {Stories.moralityProblem[0].Usain}
+                </div>
+            </div>
+        )
     }
 }

@@ -45,3 +45,13 @@ q:before, q:after {
 blockquote, q {
 	quotes: "" "";
 }
+
+/* ********************************************** */
+
+.name-box{
+  border: 1px solid black;
+}
+
+.message-box{
+  border: 1px solid black;
+}
