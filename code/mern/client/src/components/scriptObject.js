@@ -33,188 +33,304 @@ const Stories = {
             },
             {
                 speaker: "Usain",
-                Usain: "Yeah, this one is really hard. He gave it to me around lunch and I've been thinking about nothing but it since. No matter which way I come at it, there doesn't seem to be an easy answer.",
+                dialogue: "Yeah, this one is really hard. He gave it to me around lunch and I've been thinking about nothing but it since. No matter which way I come at it, there doesn't seem to be an easy answer.",
                 emotion: "neutral"
             },
             {
-                Imhotep: "Maybe because answers are supposed to be hard fought and well earned. Now that you mentioned it, I think I did see Aarit arguing with the Emir Marinus and Lae Ling this morning. It looked heated. They were probably discussing the coming war, if I was to hazard a guess."
+                speaker: "Imhotep",
+                dialogue: "Maybe because answers are supposed to be hard fought and well earned. Now that you mentioned it, I think I did see Aarit arguing with the Emir Marinus and Lae Ling this morning. It looked heated. They were probably discussing the coming war, if I was to hazard a guess.",
+                emotion: "neutral"
             },
             {
-                Usain: "Fantastic. Every time those three butt heads, I wind up the worse for it. If I didn't know better, I would say Aarit is trying to get back at them by hurting me."
+                speaker: "Usain",
+                dialogue: "Fantastic. Every time those three butt heads, I wind up the worse for it. If I didn't know better, I would say Aarit is trying to get back at them by hurting me.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "The Ogma hurting his own student? I think that's part of the deal, friend. You can't expect to be groomed by one of the greatest warrior-poets of our time without some challenges. Though I will admit, your training does...intensify after any considerable disagreements Aarit has with my cousin or the elvish diplomat."
+                speaker: "Imhotep",
+                dialogue: "The Ogma hurting his own student? I think that's part of the deal, friend. You can't expect to be groomed by one of the greatest warrior-poets of our time without some challenges. Though I will admit, your training does...intensify after any considerable disagreements Aarit has with my cousin or the elvish diplomat.",
+                emotion: "neutral"
             },
             {
-                Usain: "Gee, thanks for noticing. Maybe is it will help the bruising heal faster."
+                speaker: "Usain", 
+                dialogue: "Gee, thanks for noticing. Maybe is it will help the bruising heal faster.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Stop the sarcasm. We are preparing for a war with Rae, a foe much more powerful than we are. Those three are in charge of everything, from the logistics and supplies, troop training and influence peddling for support back home in Toma. This is no small undertaking and frankly, I am surprised they are handling half as well as they are."
+                speaker: "Imhotep", 
+                dialogue: "Stop the sarcasm. We are preparing for a war with Rae, a foe much more powerful than we are. Those three are in charge of everything, from the logistics and supplies, troop training and influence peddling for support back home in Toma. This is no small undertaking and frankly, I am surprised they are handling half as well as they are.",
+                emotion: "neutral"
             },
             {
-                Usain: "Yeah, sure, war is hard business. I just wish your cousin and my teacher got along better. If I can't give Aarit a good answer tomorrow he's going to kill me with the practice yard."
+                speaker: "Usain", 
+                dialogue: "Yeah, sure, war is hard business. I just wish your cousin and my teacher got along better. If I can't give Aarit a good answer tomorrow he's going to kill me with the practice yard.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "You are better than you think Usain. Try to have a little confidence in your own abilities. What is this riddle anyways?"
+                speaker: "Imhotep",
+                dialogue: "You are better than you think Usain. Try to have a little confidence in your own abilities. What is this riddle anyways?",
+                emotion: "neutral"
             },
             {
-                Usain: "'A raiding party of bandits catch you at a fork in the road. They rob you, then give you a choice of which path they take next. Down one road there is a little town, but down the other road is a little farm where only one person lives. If you choose the first road, the town will be attacked and many people will die. Choosing the second road will surely kill the farmer. Which way do you pick?'"
+                speaker: "Usain",
+                dialogue: "'A raiding party of bandits catch you at a fork in the road. They rob you, then give you a choice of which path they take next. Down one road there is a little town, but down the other road is a little farm where only one person lives. If you choose the first road, the town will be attacked and many people will die. Choosing the second road will surely kill the farmer. Which way do you pick?'",
+                emotion: "neutral"
             },
             {
-                Imhotep: "I thought riddles were supposed to rhyme."
+                speaker: "Imhotep",
+                dialogue: "I thought riddles were supposed to rhyme.",
+                emotion: "neutral"
             },
             {
-                Usain: "That's not really the issue here, but yeah, now that you mention it, that's a little weird."
+                speaker: "Usain",
+                dialogue: "That's not really the issue here, but yeah, now that you mention it, that's a little weird.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Why were you having a hard time with this? The answer is obvious. You should send the troop of bandits to the farm."
+                speaker: "Imhotep",
+                dialogue: "Why were you having a hard time with this? The answer is obvious. You should send the troop of bandits to the farm.",
+                emotion: "neutral"
             },
             {
-                Usain: "Why though? That's what Aarit's going to ask."
+                speaker: "Usain",
+                dialogue: "Why though? That's what Aarit's going to ask.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "To save the most lives of course. Directing the bandits to the town does nothing but put more blood on your hands. It's a bad choice either way, but one is clearly better than the other. Why? What were you going to say?"
+                speaker: "Imhotep", 
+                dialogue: "To save the most lives of course. Directing the bandits to the town does nothing but put more blood on your hands. It's a bad choice either way, but one is clearly better than the other. Why? What were you going to say?",
+                emotion: "neutral"
             }
         ],
         
         1: [
             {
-                Usain: "I agree, send the bandits to the farmers house. Only one person dies in that scenario."
+                speaker: "Usain", 
+                dialogue: "I agree, send the bandits to the farmers house. Only one person dies in that scenario.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Hmmm..."
+                speaker: "Imhotep",
+                dialogue: "Hmmm...",
+                emotion: "neutral"
             },
             {
-                Usain: "What?"
+                speaker: "Usain",
+                dialogue: "What?",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Nothing. Though it is the right decision, I still find it distasteful."
+                speaker: "Imhotep",
+                dialogue: "Nothing. Though it is the right decision, I still find it distasteful.",
+                emotion: "neutral"
             },
             {
-                Usain: "Why? We sacrifice the farmer to save the town, and avert a massacre."
+                speaker: "Usain",
+                dialogue: "Why? We sacrifice the farmer to save the town, and avert a massacre.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "We're still condemning a man to death though."
+                speaker: "Imhotep",
+                dialogue: "We're still condemning a man to death though.",
+                emotion: "neutral"
             },
             {
-                Usain: "People die. If society is better off for it, it's a good thing."
+                speaker: "Usain",
+                dialogue: "People die. If society is better off for it, it's a good thing.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Do you truely believe that? I know the Dahn favor the needs of the whole over the the individual, but personally, wouldn't it bother you?" 
+                speaker: "Imhotep",
+                dialogue: "Do you truely believe that? I know the Dahn favor the needs of the whole over the the individual, but personally, wouldn't it bother you?",
+                emotion: "neutral"
             },
             {
-                Usain: "'What's good for the people is good for the person.'"
+                speaker: "Usain",
+                dialogue: "'What's good for the people is good for the person.'",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Don't hide behind Dahnic proverbs."
+                speaker: "Imhotep",
+                dialogue: "Don't hide behind Dahnic proverbs.",
+                emotion: "neutral"
             },
             {
-                Usain: "That's what I would be telling myself as I direct the bandits to the farm."
+                speaker: "Usain",
+                dialogue: "That's what I would be telling myself as I direct the bandits to the farm.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Really? You don't find that unsatisfactory?"
+                speaker: "Imhotep",
+                dialogue: "Really? You don't find that unsatisfactory?",
+                emotion: "neutral"
             },
             {
-                Usain: "Yes. I mean, I would feel bad that someone is dying. It's my choice after all, but what am I supposed to do? You said you would make the same choice too."
+                speaker: "Usain",
+                dialogue: "Yes. I mean, I would feel bad that someone is dying. It's my choice after all, but what am I supposed to do? You said you would make the same choice too.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "I know, I know. However, the more I think upon it is the less I like either choice. I abhor the idea of arbitrarily condemning a man I don't know to death. I'm Vessii, and consider life sacred, It's my duty to protect it where I can. Though I can rightly justify my actions, every reason I tell myself makes the decision sound so unbearably cold. Hearing you say it out loud only makes it worse. The Dahn make the individual life seem so despicably trivial."
+                speaker: "Imhotep",
+                dialogue: "I know, I know. However, the more I think upon it is the less I like either choice. I abhor the idea of arbitrarily condemning a man I don't know to death. I'm Vessii, and consider life sacred, It's my duty to protect it where I can. Though I can rightly justify my actions, every reason I tell myself makes the decision sound so unbearably cold. Hearing you say it out loud only makes it worse. The Dahn make the individual life seem so despicably trivial.",
+                emotion: "neutral"
             },
             {
-                Usain: "You're half Dahn, Imhotep. How can you spurn your own heritage?"
+                speaker: "Usain",
+                dialogue: "You're half Dahn, Imhotep. How can you spurn your own heritage?",
+                emotion: "neutral"
             },
             {
-                Imhotep: "By blood maybe, but I wasn't raised in their ways. We Vessii believe an individual's life matters, no matter how insignificant the person."
+                speaker: "Imhotep",
+                dialogue: "By blood maybe, but I wasn't raised in their ways. We Vessii believe an individual's life matters, no matter how insignificant the person.",
+                emotion: "neutral"
             },
             {
-                Usain: "Lives matters to the Dahn too."
+                speaker: "Usain",
+                dialogue: "Lives matters to the Dahn too.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Some lives matters, and some more than others. That's a significant difference."
+                speaker: "Imhotep",
+                dialogue: "Some lives matters, and some more than others. That's a significant difference.",
+                emotion: "neutral"
             },
             {
-                Usain: "I know that, but..."
+                speaker: "Usain",
+                dialogue: "I know that, but...",
+                emotion: "neutral"
             },
             {
-                Imhotep: "But what?"
+                speaker: "Imhotep",
+                dialogue: "But what?",
+                emotion: "neutral"
             },
             {
-                Usain: "If you look at it like that, that every life matters the same, you're going to agonize over every decision. We're getting ready for war here. How are we supposed to do go out and fight if we have to carry the weight of every single person we kill?"
+                speaker: "Usain",
+                dialogue: "If you look at it like that, that every life matters the same, you're going to agonize over every decision. We're getting ready for war here. How are we supposed to do go out and fight if we have to carry the weight of every single person we kill?",
+                emotion: "neutral"
             },
             {
-                Imhotep: "How can you claim a soul and not care for your fellow man?"
+                speaker: "Imhotep",
+                dialogue: "How can you claim a soul and not care for your fellow man?",
+                emotion: "neutral"
             },
             {
-                Usain: "Now you're just quoting that religion of yours."
+                speaker: "Usain",
+                dialogue: "Now you're just quoting that religion of yours.",
+                emotion: "neutral"
             },
         ],
 
         2: [
             {
-                Usain: "I actually would send them to the town."
+                speaker: "Usain",
+                dialogue: "I actually would send them to the town.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Whatever for?"
+                speaker: "Imhotep",
+                dialogue: "Whatever for?",
+                emotion: "neutral"
             },
             {
-                Usain: "The townsfolk should be able to kill a few of the bandits. That will make it easier for the whoever comes later to wipe the horde of brigands out."
+                speaker: "Usain",
+                dialogue: "The townsfolk should be able to kill a few of the bandits. That will make it easier for the whoever comes later to wipe the horde of brigands out.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "That's a horrible answer Usain."
+                speaker: "Imhotep",
+                dialogue: "That's a horrible answer Usain.",
+                emotion: "neutral"
             },
             {
-                Usain: "Yeah, but what's the farmer going to do? Besides die? Nothing is gained if you send the bandits that way."
+                speaker: "Usain",
+                dialogue: "Yeah, but what's the farmer going to do? Besides die? Nothing is gained if you send the bandits that way.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "You gain the lives of everyone in the town."
+                speaker: "Imhotep",
+                dialogue: "You gain the lives of everyone in the town.",
+                emotion: "neutral"
             },
             {
-                Usain: "'There is no honor in a quiet death.'"
+                speaker: "Usain",
+                dialogue: "'There is no honor in a quiet death.'",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Dahnic proverbs? Seriously? Usain, peoples' lives matter. Stopping the bandits isn't the singular goal. You have to consider the repercussions of your actions."
+                speaker: "Imhotep",
+                dialogue: "Dahnic proverbs? Seriously? Usain, peoples' lives matter. Stopping the bandits isn't the singular goal. You have to consider the repercussions of your actions.",
+                emotion: "neutral"
             },
             {
-                Usain: "They're the proverbs of my people. I am Dahn, as are you."
+                speaker: "Usain",
+                dialogue: "They're the proverbs of my people. I am Dahn, as are you.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "I am only half Dahn, and I was raised to be Vessii. The Dahn prioritize threat elimination over saving lives, and it always results in more death. I refuse to agree to the way they operate, or give moral credence to their culture."
+                speaker: "Imhotep",
+                dialogue: "I am only half Dahn, and I was raised to be Vessii. The Dahn prioritize threat elimination over saving lives, and it always results in more death. I refuse to agree to the way they operate, or give moral credence to their culture.",
+                emotion: "neutral"
             },
             {
-                Usain: "If you don't like us so much, why keep me as a friend?"
+                speaker: "Usain",
+                dialogue: "If you don't like us so much, why keep me as a friend?",
+                emotion: "neutral"
             },
             {
-                Imhotep: "I didn't mean it like that. Besides, you don't behave like a typical Dahn. You have a more compassionate nature than most. Remember last week when Marinus' son was getting smacked around during his dueling practice?"
+                speaker: "Imhotep",
+                dialogue: "I didn't mean it like that. Besides, you don't behave like a typical Dahn. You have a more compassionate nature than most. Remember last week when Marinus' son was getting smacked around during his dueling practice?",
+                emotion: "neutral"
             },
             {
-                Usain: "Yeah..."
+                speaker: "Usain",
+                dialogue: "Yeah...",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Remember how you found him crying afterwards, snot running down his face, eyes all red and puffy? What did you do?"
+                speaker: "Imhotep",
+                dialogue: "Remember how you found him crying afterwards, snot running down his face, eyes all red and puffy? What did you do?",
+                emotion: "neutral"
             },
             {
-                Usain: "I played with him, I told him one of the sweet pastries had an important message in it, and that we needed to find it before someone else did."
+                speaker: "Usain",
+                dialogue: "I played with him, I told him one of the sweet pastries had an important message in it, and that we needed to find it before someone else did.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "And how did you solve that?"
+                speaker: "Imhotep",
+                dialogue: "And how did you solve that?",
+                emotion: "neutral"
             },
             {
-                Usain: "We had to eat first, before anyone else."
+                speaker: "Usain",
+                dialogue: "We had to eat first, before anyone else.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "See? That's what I expect out of you. When someone's having a bad day you do these little acts of kindness to help them feel better and raise the quality of their life. But when anybody asks you a question, you just reply with what you think the Dahn are supposed to say."
+                speaker: "Imhotep",
+                dialogue: "See? That's what I expect out of you. When someone's having a bad day you do these little acts of kindness to help them feel better and raise the quality of their life. But when anybody asks you a question, you just reply with what you think the Dahn are supposed to say.",
+                emotion: "neutral"
             },
             {
-                Usain: "..."
+                speaker: "Usain",
+                dialogue: "...",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Why not just go with your heart?"
+                speaker: "Imhotep",
+                dialogue: "Why not just go with your heart?",
+                emotion: "neutral"
             },
             {
-                Usain: "...I don't know. It's a terrible choice either way. Both cases make you responsible for someone else's death. Everything I say just feels wrong. Condemn the farmer, why? Because it's more convenient for my conscience? That seems selfish. I don't think I would sleep well after that. At least the town has a fighting chance."
+                speaker: "Usain",
+                dialogue: "...I don't know. It's a terrible choice either way. Both cases make you responsible for someone else's death. Everything I say just feels wrong. Condemn the farmer, why? Because it's more convenient for my conscience? That seems selfish. I don't think I would sleep well after that. At least the town has a fighting chance.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "It's okay Usain. I believe in you. I know you would make the right decision."
+                speaker: "Imhotep",
+                dialogue: "It's okay Usain. I believe in you. I know you would make the right decision.",
+                emotion: "neutral"
             }
         ],
         
