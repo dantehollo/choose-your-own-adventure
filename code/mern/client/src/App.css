@@ -48,10 +48,15 @@ blockquote, q {
 
 /* ********************************************** */
 
-.name-box{
+/* TextBox */
+.name-box {
   border: 1px solid black;
 }
 
-.message-box{
+.message-box {
   border: 1px solid black;
+}
+
+#choice-box {
+  display: none;
 }

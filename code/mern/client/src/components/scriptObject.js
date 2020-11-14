@@ -304,7 +304,7 @@ const Stories = {
             },
             {
                 speaker: "Usain",
-                dialogue: "We had to eat first, before anyone else.",
+                dialogue: "We had to eat them first, before anyone else.",
                 emotion: "neutral"
             },
             {
