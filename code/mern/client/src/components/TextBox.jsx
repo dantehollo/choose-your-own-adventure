@@ -97,19 +97,36 @@ export default class TextBox extends Component {
         choiceArray.push("1")
 
         this.toggleChoiceBox()
-        // console.log(document.getElementById("choice-box").style.display)
-        // console.log(newPath)
     }
 
     // disagrees with speaker, pushes "2" into player choice array and advances story down new path
     disagree = () => {
-        let pathNumber = this.state.storyBox.pathNumber
-        let temp = pathNumber
-        let newPath = temp + 2
+        const playerChoices = this.state.calculationsBox.playerChoices
+        const choiceArray = playerChoices.split('')
+        choiceArray.push("2")
 
-        this.setState({pathNumber: newPath, dialogueNumber: 0})
         this.toggleChoiceBox()
-        console.log(newPath)
+    }
+
+    switchBox = () => {
+        const copyStoryBox = { ...this.state.storyBox }
+
+        switch (this.state.calculationsBox.playerChoices) {
+            // Tehara
+            case "010":
+            case "020":
+                copyStoryBox.pathNumber = 10
+                this.setState({ storyBox: copyStoryBox })
+                break
+            // Vadim
+            case "01010":
+            case "01020":
+            case "02010":
+            case "02020":
+                copyStoryBox.pathNumber = 100
+                this.setState({ storyBox: copyStoryBox })
+                break
+        }
     }
 
     render() {
