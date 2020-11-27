@@ -61,12 +61,19 @@ export default class TextBox extends Component {
 
     // finds if the current path is a set piece or a responce
     detectSetPiece = () => {
+        const copyCalcBox = {...this.state.calculationsBox}
         const playerChoices = this.state.calculationsBox.playerChoices
         const choiceArray = playerChoices.split('')
         
         if(choiceArray[choiceArray.length - 1] === "0" || playerChoices === "0"){
             console.log("this is a set piece of the story")
             this.toggleChoiceBox()
+        } else {
+            console.log('this is a response')
+            choiceArray.push("0")
+            const choiceString = choiceArray.join('')
+            copyCalcBox.playerChoices = choiceString
+            this.setState({calculationsBox: copyCalcBox},this.moralitySwitchBox)
         }
     }
 
@@ -92,11 +99,14 @@ export default class TextBox extends Component {
 
     // agrees with speaker, pushes "1" into player choice array and advances story down new path
     agree = () => {
+        const copyCalcBox = {...this.state.calculationsBox}
         const playerChoices = this.state.calculationsBox.playerChoices
         const choiceArray = playerChoices.split('')
         choiceArray.push("1")
+        const choiceString = choiceArray.join('')
+        copyCalcBox.playerChoices = choiceString
 
-        this.toggleChoiceBox()
+        this.setState({calculationsBox: copyCalcBox}, this.toggleChoiceBox)
     }
 
     // disagrees with speaker, pushes "2" into player choice array and advances story down new path
@@ -108,7 +118,7 @@ export default class TextBox extends Component {
         this.toggleChoiceBox()
     }
 
-    switchBox = () => {
+    moralitySwitchBox = () => {
         const copyStoryBox = { ...this.state.storyBox }
 
         switch (this.state.calculationsBox.playerChoices) {
@@ -116,6 +126,7 @@ export default class TextBox extends Component {
             case "010":
             case "020":
                 copyStoryBox.pathNumber = 10
+                copyStoryBox.dialogueNumber = 0
                 this.setState({ storyBox: copyStoryBox })
                 break
             // Vadim
@@ -124,9 +135,11 @@ export default class TextBox extends Component {
             case "02010":
             case "02020":
                 copyStoryBox.pathNumber = 100
+                copyStoryBox.dialogueNumber = 0
                 this.setState({ storyBox: copyStoryBox })
                 break
         }
+        console.log('switch tripped')
     }
 
     render() {
