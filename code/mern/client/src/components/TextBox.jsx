@@ -61,6 +61,7 @@ export default class TextBox extends Component {
 
     // finds if the current path is a set piece or a responce
     detectSetPiece = () => {
+        const copyStoryBox = {...this.state.storyBox}
         const copyCalcBox = {...this.state.calculationsBox}
         const playerChoices = this.state.calculationsBox.playerChoices
         const choiceArray = playerChoices.split('')
@@ -69,10 +70,12 @@ export default class TextBox extends Component {
             console.log("this is a set piece of the story")
             this.toggleChoiceBox()
         } else {
-            console.log('this is a response')
+            console.log('this is a response')            
+            
             choiceArray.push("0")
             const choiceString = choiceArray.join('')
             copyCalcBox.playerChoices = choiceString
+           
             this.setState({calculationsBox: copyCalcBox},this.moralitySwitchBox)
         }
     }
@@ -100,13 +103,19 @@ export default class TextBox extends Component {
     // agrees with speaker, pushes "1" into player choice array and advances story down new path
     agree = () => {
         const copyCalcBox = {...this.state.calculationsBox}
+        const copyStoryBox = {...this.state.storyBox}
+        
         const playerChoices = this.state.calculationsBox.playerChoices
         const choiceArray = playerChoices.split('')
         choiceArray.push("1")
         const choiceString = choiceArray.join('')
         copyCalcBox.playerChoices = choiceString
 
+        const newPath = this.stripZero(choiceString)
+        copyStoryBox.pathNumber = newPath
+
         this.setState({calculationsBox: copyCalcBox}, this.toggleChoiceBox)
+        this.setState({storyBox: {pathNumber: newPath, dialogueNumber: 0}})
     }
 
     // disagrees with speaker, pushes "2" into player choice array and advances story down new path
@@ -142,6 +151,17 @@ export default class TextBox extends Component {
         console.log('switch tripped')
     }
 
+    stripZero = (str) => {
+        // const copyStoryBox = { ...this.state.storyBox }
+        // const playerChoices = this.state.calculationsBox.playerChoices
+        const path = str.replace(/0/g, '')
+        const pathToInt = parseInt(path)
+        
+        return pathToInt
+        // copyStoryBox.pathNumber = pathToInt
+        // console.log(copyStoryBox)
+    }
+
     render() {
         return (
             <div className= 'text-container'>
@@ -159,6 +179,7 @@ export default class TextBox extends Component {
                     <button onClick = {this.agree}>Agree</button>
                     <button onClick = {this.disagree}>Disagree</button>
                 </div>
+                <button onClick = {this.stripZero}>Test</button>
             </div>
         )
     }
