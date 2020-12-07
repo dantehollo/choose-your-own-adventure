@@ -668,792 +668,1307 @@ const Stories = {
 
         11: [
             {
-                Usain: "I'm kinda on her side here."
+                speaker: "Usain",
+                dialogue: "I'm kinda on her side here.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "What!?"
+                speaker: "Imhotep",
+                dialogue: "What!?",
+                emotion: "neutral"
             },
             {
-                Usain: "If both the town and the farmer are strangers you can play the numbers game. Send the bandits to the farm because it saves more lives. If you know who lives where, the answer changes."
+                speaker: "Usain",
+                dialogue: "If both the town and the farmer are strangers you can play the numbers game. Send the bandits to the farm because it saves more lives. If you know who lives where, the answer changes.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "You just agreed with me!"
+                speaker: "Imhotep",
+                dialogue: "You just agreed with me!",
+                emotion: "neutral"
             },
             {
-                Usain: "What if Aarit was at the farm?"
+                speaker: "Usain",
+                dialogue: "What if Aarit was at the farm?",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Explain yourself."
+                speaker: "Imhotep",
+                dialogue: "Explain yourself.",
+                emotion: "neutral"
             },
             {
-                Usain: "Aarit is half reason we have a chance in this war against Rae. Is the town worth putting everything everyone here has worked on for the past year at risk? Would the freedom of everyone in Toma, your city, plus all the lives of the elves be worth less than the lives of some women and children in a backwater village?"
+                speaker: "Usain",
+                dialogue: "Aarit is half reason we have a chance in this war against Rae. Is the town worth putting everything everyone here has worked on for the past year at risk? Would the freedom of everyone in Toma, your city, plus all the lives of the elves be worth less than the lives of some women and children in a backwater village?",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Some? You make them sound so cheap! Their lives matter!"
+                speaker: "Imhotep",
+                dialogue: "Some? You make them sound so cheap! Their lives matter!",
+                emotion: "neutral"
             },
             {
-                Usain: "More than everyone in Toma and the elven cities?"
+                speaker: "Usain",
+                dialogue: "More than everyone in Toma and the elven cities?",
+                emotion: "neutral"
             },
             {
-                Imhotep: "You can't compare the two like that!"
+                speaker: "Imhotep",
+                dialogue: "You can't compare the two like that!",
+                emotion: "neutral"
             },
             {
-                Tehara: "Oooooo! Admit it, he got you!"
+                speaker: "Tehara",
+                dialogue: "Oooooo! Admit it, he got you!",
+                emotion: "neutral"
             },
             {
-                Imhotep: "No! No, he hasn't. This is Aarit we are talking about. He could probably fight off a whole bandit gang by himself."
+                speaker: "Imhotep",
+                dialogue: "No! No, he hasn't. This is Aarit we are talking about. He could probably fight off a whole bandit gang by himself.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Wow. You trying to grab at the moon with how far you're reaching? Aarit's good, but one old man against enough brigands to wipe out a town? No way."
+                speaker: "Tehara",
+                dialogue: "Wow. You trying to grab at the moon with how far you're reaching? Aarit's good, but one old man against enough brigands to wipe out a town? No way.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Usain, that was your first mission with him, was it not? You raided some bandits that had been threatening villages? That was how you came to be here, with us."
+                speaker: "Imhotep",
+                dialogue: "Usain, that was your first mission with him, was it not? You raided some bandits that had been threatening villages? That was how you came to be here, with us.",
+                emotion: "neutral"
             },
             {
-                Usain: "If by “raid” you mean “sneaked into bandit camp and stole their plans only for me to get caught, forcing Aarit and I to run and hide for the next week”, then yeah, we raided those bandits. We raided them real good."
+                speaker: "Usain",
+                dialogue: "If by “raid” you mean “sneaked into bandit camp and stole their plans only for me to get caught, forcing Aarit and I to run and hide for the next week”, then yeah, we raided those bandits. We raided them real good.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Really? I had heard it told much more...dramatically than that."
+                speaker: "Tehara",
+                dialogue: "Really? I had heard it told much more...dramatically than that.",
+                emotion: "neutral"
             },
             {
-                Usain: "The story has grown some since last I lived it. The point being, when faced with twenty armed thugs Aarit himself ran, even with me there with him."
+                speaker: "Usain",
+                dialogue: "The story has grown some since last I lived it. The point being, when faced with twenty armed thugs Aarit himself ran, even with me there with him.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Heh, I would've run too."
+                speaker: "Tehara",
+                dialogue: "Heh, I would've run too.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Fine, fine! So Aarit can't fight off all the bandits. I still don't believe you should send the bandits to the town!"
+                speaker: "Imhotep",
+                dialogue: "Fine, fine! So Aarit can't fight off all the bandits. I still don't believe you should send the bandits to the town!",
+                emotion: "neutral"
             },
             {
-                Tehara: "Ooo! Ooo! My turn to be the annoying one and ask why!"
+                speaker: "Tehara",
+                dialogue: "Ooo! Ooo! My turn to be the annoying one and ask why!",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Because we shouldn't show favoritism to people we know over people we don't, because life is precious and we have to protect as much of it as we can and because sacrificing children for ANY cause is abhorrent!"
+                speaker: "Imhotep",
+                dialogue: "Because we shouldn't show favoritism to people we know over people we don't, because life is precious and we have to protect as much of it as we can and because sacrificing children for ANY cause is abhorrent!",
+                emotion: "neutral"
             },
             {
-                Usain: "But didn't you just say that we should sacrifice the few to save the many?"
+                speaker: "Usain",
+                dialogue: "But didn't you just say that we should sacrifice the few to save the many?",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Like you have any room to stand. You changed your mind the second this fiery wastrel gave you a reason to. At least I'm being consistent!"
+                speaker: "Imhotep",
+                dialogue: "Like you have any room to stand. You changed your mind the second this fiery wastrel gave you a reason to. At least I'm being consistent!",
+                emotion: "neutral"
             },
             {
-                Tehara: "Consistently stupid, amIright?"
+                speaker: "Tehara",
+                dialogue: "Consistently stupid, amIright?",
+                emotion: "neutral"
             },
             {
-                Usain: "And this is why no one likes fire elves."
+                speaker: "Usain",
+                dialogue: "And this is why no one likes fire elves.",
+                emotion: "neutral"
             }
         ],
 
         12: [
             {
-                Usain: "Tehara, no."
+                speaker: "Usain",
+                dialogue: "Tehara, no.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Are you telling me you would send them to kill your own?"
+                speaker: "Tehara",
+                dialogue: "Are you telling me you would send them to kill your own?",
+                emotion: "neutral"
             },
             {
-                Usain: "I don't think is matters who is where. Besides, we shouldn't be playing favorites."
+                speaker: "Usain",
+                dialogue: "I don't think is matters who is where. Besides, we shouldn't be playing favorites.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Why not? If a man is told to kill a stranger or his wife are you going to blame him for killing the stranger?"
+                speaker: "Tehara",
+                dialogue: "Why not? If a man is told to kill a stranger or his wife are you going to blame him for killing the stranger?",
+                emotion: "neutral"
             },
             {
-                Usain: "Well..."
+                speaker: "Usain",
+                dialogue: "Well...",
+                emotion: "neutral"
             },
             {
-                Tehara: "Well what? You know I'm right."
+                speaker: "Tehara",
+                dialogue: "Well what? You know I'm right.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "It is selfish and short-sighted, Hari."
+                speaker: "Imhotep",
+                dialogue: "It is selfish and short-sighted, Hari.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Selfish? SELFISH! What's selfish about choosing the person that matters to you? A person that you might actually like and want to spare? I save who matters to me, not who matters to anyone else."
+                speaker: "Tehara",
+                dialogue: "Selfish? SELFISH! What's selfish about choosing the person that matters to you? A person that you might actually like and want to spare? I save who matters to me, not who matters to anyone else.",
+                emotion: "neutral"
             },
             {
-                Usain: "What if it was someone you loved versus someone you needed?"
+                speaker: "Usain",
+                dialogue: "What if it was someone you loved versus someone you needed?",
+                emotion: "neutral"
             },
             {
-                Tehara: "Huh?"
+                speaker: "Tehara",
+                dialogue: "Huh?",
+                emotion: "neutral"
             },
             {
-                Usain: "You don't like the emir, Miranus, right?"
+                speaker: "Usain",
+                dialogue: "You don't like the emir, Miranus, right?",
+                emotion: "neutral"
             },
             {
-                Tehara: "Of course not. He's a weaselly Vessii who talks better than he fights. He's rich and rules over a few small towns, but he's gross all the same. I feel like I need a bath after being in the same room as him."
+                speaker: "Tehara",
+                dialogue: "Of course not. He's a weaselly Vessii who talks better than he fights. He's rich and rules over a few small towns, but he's gross all the same. I feel like I need a bath after being in the same room as him.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "He's my cousin and I should be offended by that, but it's hard to argue with."
+                speaker: "Imhotep",
+                dialogue: "He's my cousin and I should be offended by that, but it's hard to argue with.",
+                emotion: "neutral"
             },
             {
-                Usain: "He is financing our war effort though."
+                speaker: "Usain",
+                dialogue: "He is financing our war effort though.",
+                emotion: "neutral"
             },
             {
-                Tehara: "So what?"
+                speaker: "Tehara",
+                dialogue: "So what?",
+                emotion: "neutral"
             },
             {
-                Usain: "We can't fight Rae without his money or his troops, and we can't convince the rest of the council in Toma to back us without his connections."
+                speaker: "Usain",
+                dialogue: "We can't fight Rae without his money or his troops, and we can't convince the rest of the council in Toma to back us without his connections.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Doesn't mean I have to like him."
+                speaker: "Tehara",
+                dialogue: "Doesn't mean I have to like him.",
+                emotion: "neutral"
             },
             {
-                Usain: "You don't have to. However, would you say he's necessary?"
+                speaker: "Usain",
+                dialogue: "You don't have to. However, would you say he's necessary?",
+                emotion: "neutral"
             },
             {
-                Tehara: "Regrettably, yes."
+                speaker: "Tehara",
+                dialogue: "Regrettably, yes.",
+                emotion: "neutral"
             },
             {
-                Usain: "Okay, so who is someone you like?"
+                speaker: "Usain",
+                dialogue: "Okay, so who is someone you like?",
+                emotion: "neutral"
             },
             {
-                Tehara: "Definitely not you guys."
+                speaker: "Tehara",
+                dialogue: "Definitely not you guys.",
+                emotion: "neutral"
             },
             {
-                Usain: "Hari, focus."
+                speaker: "Usain",
+                dialogue: "Hari, focus.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Ugh. I like my dad. Mom and I starved more days than not because he was such a bad thief, but he was good man."
+                speaker: "Tehara",
+                dialogue: "Ugh. I like my dad. Mom and I starved more days than not because he was such a bad thief, but he was good man.",
+                emotion: "neutral"
             },
             {
-                Usain: "Okay, how about this: The bandits are going to raid either Miranus' town where all his armorers, weapon smiths and war chest is located, or they attack a farm your dad is at."
+                speaker: "Usain",
+                dialogue: "Okay, how about this: The bandits are going to raid either Miranus' town where all his armorers, weapon smiths and war chest is located, or they attack a farm your dad is at.",
+                emotion: "neutral"
             },
             {
-                Tehara: "I send them to Miranus' town. If the war chest is there, so too will be his soldiers."
+                speaker: "Tehara",
+                dialogue: "I send them to Miranus' town. If the war chest is there, so too will be his soldiers.",
+                emotion: "neutral"
             },
             {
-                Usain: "Let's say there are no soldiers, just non-combatants."
+                speaker: "Usain",
+                dialogue: "Let's say there are no soldiers, just non-combatants.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Why?"
+                speaker: "Tehara",
+                dialogue: "Why?",
+                emotion: "neutral"
             },
             {
-                Usain: "Because he's stupid! Look, can we move on and not question everything? Let's assume whoever the bandits hit, everyone dies."
+                speaker: "Usain",
+                dialogue: "Because he's stupid! Look, can we move on and not question everything? Let's assume whoever the bandits hit, everyone dies.",
+                emotion: "neutral"
             },
             {
-                Tehara: "But THAT is stupid!"
+                speaker: "Tehara",
+                dialogue: "But THAT is stupid!",
+                emotion: "neutral"
             },
             {
-                Usain: "Tehara, please."
+                speaker: "Usain",
+                dialogue: "Tehara, please.",
+                emotion: "neutral"
             },
             {
-                Tehara: "FINE! So the question is either I sacrifice my dad, or get Miranus killed which leads to Rae annexing Toma and killing all the elves? I choose to save my dad!"
+                speaker: "Tehara", 
+                dialogue: "FINE! So the question is either I sacrifice my dad, or get Miranus killed which leads to Rae annexing Toma and killing all the elves? I choose to save my dad!",
+                emotion: "neutral"
             },
             {
-                Imhotep: "How can you still say that?"
+                speaker: "Imhotep",
+                dialogue: "How can you still say that?",
+                emotion: "neutral"
             },
             {
-                Tehara: "First of all, I say it to spite you two pit-vipers. Second of all, I hate Miranus. Third of all, Toma is your city, not mine. Fourth, and most importantly, HE'S MY DAMN FATHER!"
+                speaker: "Tehara",
+                dialogue: "First of all, I say it to spite you two pit-vipers. Second of all, I hate Miranus. Third of all, Toma is your city, not mine. Fourth, and most importantly, HE'S MY DAMN FATHER!",
+                emotion: "neutral"
             },
             {
-                Usain: "So you don't care for Toma, fine, I'm not too tied to it either. Rae wants to control all of southern Vessa. That means annihilating the elven cities that contest it. Sooner or later, they'll try to wipe out the fire elves too."
+                speaker: "Usain",
+                dialogue: "So you don't care for Toma, fine, I'm not too tied to it either. Rae wants to control all of southern Vessa. That means annihilating the elven cities that contest it. Sooner or later, they'll try to wipe out the fire elves too.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Let them try!"
+                speaker: "Tehara",
+                dialogue: "Let them try!",
+                emotion: "neutral"
             },
             {
-                Usain: "They will, and you can stop them by saving Miranus. So who is more important: your father or your people?"
+                speaker: "Usain",
+                dialogue: "They will, and you can stop them by saving Miranus. So who is more important: your father or your people?",
+                emotion: "neutral"
             },
             {
-                Tehara: "..."
+                speaker: "Tehara",
+                dialogue: "...",
+                emotion: "neutral"
             },
             {
-                Usain: "Well?"
+                speaker: "Usain",
+                dialogue: "Well?",
+                emotion: "neutral"
             },
             {
-                Tehara: "My...my father."
+                speaker: "Tehara",
+                dialogue: "My...my father.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Still?"
+                speaker: "Imhotep",
+                dialogue: "Still?",
+                emotion: "neutral"
             },
             {
-                Tehara: "Yes."
+                speaker: "Tehara",
+                dialogue: "Yes.",
+                emotion: "neutral"
             },
             {
-                Usain: "Can I ask why?"
+                speaker: "Usain",
+                dialogue: "Can I ask why?",
+                emotion: "neutral"
             },
             {
-                Tehara: "What's the greatest honor for a half-Dahn?"
+                speaker: "Tehara",
+                dialogue: "What's the greatest honor for a half-Dahn?",
+                emotion: "neutral"
             },
             {
-                Usain: "To return to Al-Ilbis, to walk the Continent once again after our ancestor's dishonor of mixing with the lesser races has been cleansed."
+                speaker: "Usain",
+                dialogue: "To return to Al-Ilbis, to walk the Continent once again after our ancestor's dishonor of mixing with the lesser races has been cleansed.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Fire elves are half Dahn, half elf. To the proper Dahn, the pure bloods, elves aren't human. In fact, they're worse than mongrels. No fire elf, even though we're half breeds, will ever walk the Continent again. Not even our children, or our children's children will be acceptable. That's why some fire elves cut the points off their ears, so we can rid ourselves of what marks us as elves, instead of Dahn."
+                speaker: "Tehara",
+                dialogue: "Fire elves are half Dahn, half elf. To the proper Dahn, the pure bloods, elves aren't human. In fact, they're worse than mongrels. No fire elf, even though we're half breeds, will ever walk the Continent again. Not even our children, or our children's children will be acceptable. That's why some fire elves cut the points off their ears, so we can rid ourselves of what marks us as elves, instead of Dahn.",
+                emotion: "neutral"
             },
             {
-                Usain: "You still have your points, though."
+                speaker: "Usain",
+                dialogue: "You still have your points, though.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Because my dad told me to keep them. Elf and human, both were important to make me who I am. He told me not to reject one for the other. My mom, she wanted me to be Dahn, she drilled me every damn day in the culture, memorizing the Codes, learning to fight with a spear and shield. In spite of her elf blood, she was more Dahn than most pure Dahn I've ever met and she pushed me to be the same. But dad, a pure blooded Dahn, he liked me for me. He told me that elf ears were pretty, and asked that I keep them."
+                speaker: "Tehara",
+                dialogue: "Because my dad told me to keep them. Elf and human, both were important to make me who I am. He told me not to reject one for the other. My mom, she wanted me to be Dahn, she drilled me every damn day in the culture, memorizing the Codes, learning to fight with a spear and shield. In spite of her elf blood, she was more Dahn than most pure Dahn I've ever met and she pushed me to be the same. But dad, a pure blooded Dahn, he liked me for me. He told me that elf ears were pretty, and asked that I keep them.",
+                emotion: "neutral"
             },
             {
-                Usain: "Hari..."
+                speaker: "Usain",
+                dialogue: "Hari...",
+                emotion: "neutral"
             },
             {
-                Tehara: "I like my dad. I don't like half of my own people, but I love him. Call it selfish if you have to, but if it comes down to it, I choose who I love over everyone else. Every. Single. Time."
+                speaker: "Tehara",
+                dialogue: "I like my dad. I don't like half of my own people, but I love him. Call it selfish if you have to, but if it comes down to it, I choose who I love over everyone else. Every. Single. Time.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "This is what we meant by short-sighted." 
+                speaker: "Imhotep",
+                dialogue: "This is what we meant by short-sighted.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Drink venom, Fae worshiper."
+                speaker: "Tehara",
+                dialogue: "Drink venom, Fae worshiper.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Excuse me!?"
+                speaker: "Imhotep",
+                dialogue: "Excuse me!?",
+                emotion: "neutral"
             },
             {
-                Tehara: "You heard me."
+                speaker: "Tehara",
+                dialogue: "You heard me.",
+                emotion: "neutral"
             }
         ],
 
         21: [
             {
-                Usain: "I'm kinda on her side here."
+                speaker: "Usain",
+                dialogue: "I'm kinda on her side here.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Not you too. Usain, I expected better."
+                speaker: "Imhotep",
+                dialogue: "Not you too. Usain, I expected better.",
+                emotion: "neutral"
             },
             {   
-                Usain: "Hey, if both the town and the farmer are strangers you can play the numbers game. Send the bandits to the farm or town because you think it will save more lives in the long run, right?. If you know who lives where the answer changes."
+                speaker: "Usain",
+                dialogue: "Hey, if both the town and the farmer are strangers you can play the numbers game. Send the bandits to the farm or town because you think it will save more lives in the long run, right?. If you know who lives where the answer changes.",
+                emotion: "neutral"
             },
             {   
-                Imhotep: "How? Please tell me."
+                speaker: "Imhotep",
+                dialogue: "How? Please tell me.",
+                emotion: "neutral"
             },
             {   
-                Usain: "What if Aarit was at the farm?"
+                speaker: "Usain",
+                dialogue: "What if Aarit was at the farm?",
+                emotion: "neutral"
             },
             {   
-                Imhotep: "..."
+                speaker: "Imhotep",
+                dialogue: "...",
+                emotion: "neutral"
             },
             {   
-                Usain: "Aarit is the one who brought Rae's treachery to light. His reputation as a famed general, as Ogma, is half reason anyone is willing to help us in a war against Rae. Rae will kill more people if left unchecked than the bandits ever could. Would the lives of everyone in Toma, your city, be worth less than the lives of a some women and children in a backwater village?"
+                speaker: "Usain",
+                dialogue: "Aarit is the one who brought Rae's treachery to light. His reputation as a famed general, as Ogma, is half reason anyone is willing to help us in a war against Rae. Rae will kill more people if left unchecked than the bandits ever could. Would the lives of everyone in Toma, your city, be worth less than the lives of a some women and children in a backwater village?",
+                emotion: "neutral"
             },
             {   
-                Imhotep: "Backwater villa...!? Usain, listen to yourself!"
+                speaker: "Imhotep",
+                dialogue: "Backwater villa...!? Usain, listen to yourself!",
+                emotion: "neutral"
             },
             {   
-                Usain: "Plus, we know Aarit. He's a good man. A little harsh sometimes, but no one serves as a better moral compass for the army than him. I'm not going to kill him off so a little town can live. Some lives matter more than others."
+                speaker: "Usain",
+                dialogue: "Plus, we know Aarit. He's a good man. A little harsh sometimes, but no one serves as a better moral compass for the army than him. I'm not going to kill him off so a little town can live. Some lives matter more than others.",
+                emotion: "neutral"
             },
             {   
-                Imhotep: "Absolutely not! We were all born of the same Earth. Aarit is more useful to us alive, but his singular life does not outweigh that of a town, no matter how small!"
+                speaker: "Imhotep",
+                dialogue: "Absolutely not! We were all born of the same Earth. Aarit is more useful to us alive, but his singular life does not outweigh that of a town, no matter how small!",
+                emotion: "neutral"
             },
             {   
-                Tehara: "He doesn't even need to be useful, you just have to like him enough to want to save him."
+                speaker: "Tehara",
+                dialogue: "He doesn't even need to be useful, you just have to like him enough to want to save him.",
+                emotion: "neutral"
             },
             {   
-                Usain: "Utility plays a role in that, or are you telling me you would save the town over Aarit if you disliked him?"
+                speaker: "Usain",
+                dialogue: "Utility plays a role in that, or are you telling me you would save the town over Aarit if you disliked him?",
+                emotion: "neutral"
             },
             {   
-                Tehara: "Maybe. He has some nice things I wouldn't mind picking off his corpse."
+                speaker: "Tehara",
+                dialogue: "Maybe. He has some nice things I wouldn't mind picking off his corpse.",
+                emotion: "neutral"
             },
             {   
-                Usain: "Okay, now that's where I'm going to draw the line."
+                speaker: "Usain",
+                dialogue: "Okay, now that's where I'm going to draw the line.",
+                emotion: "neutral"
             },
             {   
-                Imhotep: "Yes, looting the dead is much worse than creating a small hill of bodies. Your callousness is astounding."
+                speaker: "Imhotep",
+                dialogue: "Yes, looting the dead is much worse than creating a small hill of bodies. Your callousness is astounding.",
+                emotion: "neutral"
             },
             {   
-                Tehara: "Thanks!"
+                speaker: "Tehara",
+                dialogue: "Thanks!",
+                emotion: "neutral"
             },
             {   
-                Imhotep: "That wasn't a compliment."
+                speaker: "Imhotep",
+                dialogue: "That wasn't a compliment.",
+                emotion: "neutral"
             },
             {   
-                Tehara: "Don't really care."
+                speaker: "Tehara", 
+                dialogue: "Don't really care.",
+                emotion: "neutral"
             },
             {   
-                Imhotep: "Perfect."
+                speaker: "Imhotep",
+                dialogue: "Perfect.",
+                emotion: "neutral"
             }
         ],
 
         22: [
             {
-                Usain: "Tehara, no."
+                speaker: "Usain",
+                dialogue: "Tehara, no.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Are you telling me you would send them to kill your own?"
+                speaker: "Tehara",
+                dialogue: "Are you telling me you would send them to kill your own?",
+                emotion: "neutral"
             },
             {
-                Usain: "I don't think it matters who is where."
+                speaker: "Usain",
+                dialogue: "I don't think it matters who is where.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Why not? If a man is told to kill a stranger or his wife are you going to blame him for killing the stranger?"
+                speaker: "Tehara",
+                dialogue: "Why not? If a man is told to kill a stranger or his wife are you going to blame him for killing the stranger?",
+                emotion: "neutral"
             },
             {
-                Usain: "Well..."
+                speaker: "Usain", 
+                dialogue: "Well...",
+                emotion: "neutral"
             },
             {
-                Tehara: "Well what? You know I'm right."
+                speaker: "Tehara",
+                dialogue: "Well what? You know I'm right.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "It just seems kind of selfish, Hari."
+                speaker: "Imhotep",
+                dialogue: "It just seems kind of selfish, Hari.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Selfish? SELFISH! What's selfish about choosing the person that matters to you? A person that you actually like and want to spare? I'll save who matters to me, not who matters to anyone else."
+                speaker: "Tehara",
+                dialogue: "Selfish? SELFISH! What's selfish about choosing the person that matters to you? A person that you actually like and want to spare? I'll save who matters to me, not who matters to anyone else.",
+                emotion: "neutral"
             },
             {
-                Usain: "What if you had to choose between someone you loved or someone you hated, but needed?"
+                speaker: "Usain",
+                dialogue: "What if you had to choose between someone you loved or someone you hated, but needed?",
+                emotion: "neutral"
             },
             {
-                Tehara: "Now you're talking like fancy-pants over there. State it plain."
+                speaker: "Tehara",
+                dialogue: "Now you're talking like fancy-pants over there. State it plain.",
+                emotion: "neutral"
             },
             {
-                Usain: "Okay, you don't like the emir, Miranus, right?"
+                speaker: "Usain",
+                dialogue: "Okay, you don't like the emir, Miranus, right?",
+                emotion: "neutral"
             },
             {
-                Tehara: "Of course not. He's a weaselly Vessii who talks better than he fights. Sure, he's rich and rules over a few towns, but he's a gross. I feel like I need a bath after being in the same room as him."
+                speaker: "Tehara",
+                dialogue: "Of course not. He's a weaselly Vessii who talks better than he fights. Sure, he's rich and rules over a few towns, but he's a gross. I feel like I need a bath after being in the same room as him.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "He's my cousin and I should be offended by that."
+                speaker: "Imhotep",
+                dialogue: "He's my cousin and I should be offended by that.",
+                emotion: "neutral"
             },
             {
-                Usain: "He is financing us though. Our war can't happen without him."
+                speaker: "Usain",
+                dialogue: "He is financing us though. Our war can't happen without him.",
+                emotion: "neutral"
             },
             {
-                Tehara: "So what?"
+                speaker: "Tehara",
+                dialogue: "So what?",
+                emotion: "neutral"
             },
             {
-                Usain: "We can't fight Rae without his money or his troops, and we can't convince the rest of the council to help without his connections."
+                speaker: "Usain",
+                dialogue: "We can't fight Rae without his money or his troops, and we can't convince the rest of the council to help without his connections.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Doesn't mean I have to like him."
+                speaker: "Tehara",
+                dialogue: "Doesn't mean I have to like him.",
+                emotion: "neutral"
             },
             {
-                Usain: "You don't have to. However, would you say he's necessary?"
+                speaker: "Usain",
+                dialogue: "You don't have to. However, would you say he's necessary?",
+                emotion: "neutral"
             },
             {
-                Tehara: "Regrettably, yes."
+                speaker: "Tehara",
+                dialogue: "Regrettably, yes.",
+                emotion: "neutral"
             },
             {
-                Usain: "Okay, so who is someone you like?"
+                speaker: "Usain",
+                dialogue: "Okay, so who is someone you like?",
+                emotion: "neutral"
             },
             {
-                Tehara: "Definitely not you guys."
+                speaker: "Tehara",
+                dialogue: "Definitely not you guys.",
+                emotion: "neutral"
             },
             {
-                Usain: "Hari, focus."
+                speaker: "Usain",
+                dialogue: "Hari, focus.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Ugh. I like my dad. Mom and I starved more days than not because he was such a bad thief, but he was good man."
+                speaker: "Tehara",
+                dialogue: "Ugh. I like my dad. Mom and I starved more days than not because he was such a bad thief, but he was good man.",
+                emotion: "neutral"
             },
             {
-                Usain: "Okay, how about this: The bandits are going to raid either Miranus' town where all his armorers, weapon smiths and war chest is located, or they attack a farm your dad is at."
+                speaker: "Usain",
+                dialogue: "Okay, how about this: The bandits are going to raid either Miranus' town where all his armorers, weapon smiths and war chest is located, or they attack a farm your dad is at.",
+                emotion: "neutral"
             },
             {
-                Tehara: "I send them to Miranus' town. If the war chest is there, he'll have soldiers guarding it."
+                speaker: "Tehara",
+                dialogue: "I send them to Miranus' town. If the war chest is there, he'll have soldiers guarding it.",
+                emotion: "neutral"
             },
             {
-                Usain: "Let's say there are no soldiers, just non-combatants."
+                speaker: "Usain",
+                dialogue: "Let's say there are no soldiers, just non-combatants.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Why?"
+                spekaer: "Tehara",
+                dialogue: "Why?",
+                emotion: "neutral"
             },
             {
-                Usain: "Because he's stupid! Look, can we move on and not question everything? Let's assume whoever the bandits hit, everyone dies."
+                speaker: "Usain",
+                dialogue: "Because he's stupid! Look, can we move on and not question everything? Let's assume whoever the bandits hit, everyone dies.",
+                emotion: "neutral"
             },
             {
-                Tehara: "But that's stupid!"
+                speaker: "Tehara",
+                dialogue: "But that's stupid!",
+                emotion: "neutral"
             },
             {
-                Usain: "Tehara, please."
+                speaker: "Usain",
+                dialogue: "Tehara, please.",
+                emotion: "neutral"
             },
             {
-                Tehara: "FINE! So the question is either I sacrifice my dad, or Rae annexes Toma and kills all the elves because Miranus wasn't there to help us? I choose to save my dad!"
+                speaker: "Tehara", 
+                dialogue: "FINE! So the question is either I sacrifice my dad, or Rae annexes Toma and kills all the elves because Miranus wasn't there to help us? I choose to save my dad!",
+                emotion: "neutral"
             },
             {
-                Imhotep: "How can you say that? With everything we just added, you would still kill everyone to save your father? Do the lives of everyone else matter nothing to you? What is it with you and Usain making all the worst calls."
+                speaker: "Imhotep",
+                dialogue: "How can you say that? With everything we just added, you would still kill everyone to save your father? Do the lives of everyone else matter nothing to you? What is it with you and Usain making all the worst calls.",
+                emotion: "neutral"
             },
             {
-                Tehara: "That just means the two of us are smarter than you!"
+                speaker: "Tehara",
+                dialogue: "That just means the two of us are smarter than you!",
+                emotion: "neutral"
             },
             {
-                Imhotep: "What is your problem with me, Tehara? Ever since day one you've done nothing but seek to belittle me like an angry child. Every time we speak there is always some new insult, some new way to put me down like you are so much better than me."
+                speaker: "Imhotep",
+                dialogue: "What is your problem with me, Tehara? Ever since day one you've done nothing but seek to belittle me like an angry child. Every time we speak there is always some new insult, some new way to put me down like you are so much better than me.",
+                emotion: "neutral"
             },
             {
-                Usain: "...guys..."
+                speaker: "Usain",
+                dialogue: "...guys...",
+                emotion: "neutral"
             },
             {
-                Tehara: "Because you're a whiny baby who had everything handed to him! Someone bought you your weapons, you didn't make them. You got those fancy robes to wear around, but what did you do to earn them? Nothing! You haven't even seen a real battle, yet you have the gall to stand here and lecture me about how I should behave?"
+                speaker: "Tehara", 
+                dialogue: "Because you're a whiny baby who had everything handed to him! Someone bought you your weapons, you didn't make them. You got those fancy robes to wear around, but what did you do to earn them? Nothing! You haven't even seen a real battle, yet you have the gall to stand here and lecture me about how I should behave?",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Because you couldn't behave well if it was the only thing that stood between you and returning to your stupid Continent!"
+                speaker: "Imhotep",
+                dialogue: "Because you couldn't behave well if it was the only thing that stood between you and returning to your stupid Continent!",
+                emotion: "neutral"
             },
             {
-                Tehara: "Take that back! Al-Ilbis is the glory of all Dahn!"
+                speaker: "Tehara",
+                dialogue: "Take that back! Al-Ilbis is the glory of all Dahn!",
+                emotion: "neutral"
             },
             {
-                Usain: "Guys..."
+                speaker: "Usain",
+                dialogue: "Guys...",
+                emotion: "neutral"
             },
             {
-                Imhotep: "As if I would! You fire elves are just like the rest of these contemptible Dahn outcasts. You revere some place you've never been, full of a people that hate very existence! It's bad enough they exile their own people for having relations with anyone who isn't Dahn, but the way that they view you elves? Your lower than dogs to them, yet lap up what little attention they give like broken hounds!"
+                speaker: "Imhotep",
+                dialogue: "As if I would! You fire elves are just like the rest of these contemptible Dahn outcasts. You revere some place you've never been, full of a people that hate very existence! It's bad enough they exile their own people for having relations with anyone who isn't Dahn, but the way that they view you elves? Your lower than dogs to them, yet lap up what little attention they give like broken hounds!",
+                emotion: "neutral"
             },
             {
-                Tehara: "You step too far, Vessii scum!"
+                speaker: "Tehara",
+                dialogue: "You step too far, Vessii scum!",
             },
             {
-                Imhotep: "What is it with you Dahnic half-bloods ? What is so attractive about an empty desert continent, a hate spewing people and a culture that glorifies nothing but death?"
+                speaker: "Imhotep",
+                dialogue: "What is it with you Dahnic half-bloods ? What is so attractive about an empty desert continent, a hate spewing people and a culture that glorifies nothing but death?",
+                emotion: "neutral"
             },
             {
-                Usain: "GUYS! SHUT UP, THE BOTH OF YOU! Need I play peacekeeper every time you two come close enough to breathe the same air? By Sun and Sands! I should just let the two of you kill each other to get a little peace! Hari, you goad him too much! You have to stop, before I help him throw you out, you little pismire!"
+                speaker: "Usain",
+                dialogue: "GUYS! SHUT UP, THE BOTH OF YOU! Need I play peacekeeper every time you two come close enough to breathe the same air? By Sun and Sands! I should just let the two of you kill each other to get a little peace! Hari, you goad him too much! You have to stop, before I help him throw you out, you little pismire!",
+                emotion: "neutral"
             },
             {
-                Tehara: "But he..."
+                speaker: "Tehara",
+                dialogue: "But he...",
+                emotion: "neutral"
             },
             {
-                Usain: "Save it for someone who cares! I try to like you in spite of your nature and this is what you give me? I couldn't find a bigger headache than you if I stabbed myself in the face! And you Imhotep, the loving, the kind, the one values all life...unless it's Dahn."
+                speaker: "Usain",
+                dialogue: "Save it for someone who cares! I try to like you in spite of your nature and this is what you give me? I couldn't find a bigger headache than you if I stabbed myself in the face! And you Imhotep, the loving, the kind, the one values all life...unless it's Dahn.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "That's not fair!"
+                speaker: "Imhotep",
+                dialogue: "That's not fair!",
+                emotion: "neutral"
             },
             {
-                Usain: "Isn't it? This whole time you've been complaining about how the desert people are too cold, how we don't think life is sacred enough, how your bleeding Vessi ideals are so much better! Did you forget that I'm Dahn? That Toma is majority Dahn? That we are going to fight a war with the Dahn? For someone who constantly talks up the value of virtue you hold precious little of it yourself."
+                speaker: "Usain",
+                dialogue: "Isn't it? This whole time you've been complaining about how the desert people are too cold, how we don't think life is sacred enough, how your bleeding Vessi ideals are so much better! Did you forget that I'm Dahn? That Toma is majority Dahn? That we are going to fight a war with the Dahn? For someone who constantly talks up the value of virtue you hold precious little of it yourself.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Usain, I..."
+                speaker: "Imhotep",
+                dialogue: "Usain, I...",
+                emotion: "neutral"
             },
             {
-                Usain: "Save it. Just do better. The both of you."
+                speaker: "Usain",
+                dialogue: "Save it. Just do better. The both of you.",
+                emotion: "neutral"
             }
         ],
 
         100: [
             {
-                Vadim: "Hello my friends...What's going on here?"
+                speaker: "Vadim",
+                dialogue: "Hello my friends...What's going on here?",
+                emotion: "neutral"
             },
             {
-                Usain: "Hi, Vadim. We were just, um..."
+                speaker: "Usain",
+                dialogue: "Hi, Vadim. We were just, um...",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Aarit gave Usain a riddle and we are attempting find the solution, without much luck."
+                speaker: "Imhotep",
+                dialogue: "Aarit gave Usain a riddle and we are attempting find the solution, without much luck.",
+                emotion: "neutral"
             },
             {
-                Vadim: "That is all, Usain?"
+                speaker: "Vadim",
+                dialogue: "That is all, Usain?",
+                emotion: "neutral"
             },
             {
-                Usain: "Yeah, that's it."
+                speaker: "Usain",
+                dialogue: "Yeah, that's it.",
+                emotion: "neutral"
             },
             {
-                Vadim: "I believe there is something else here, but if you do not wish to speak, I will not press. What is riddle?"
+                speaker: "Vadim",
+                dialogue: "I believe there is something else here, but if you do not wish to speak, I will not press. What is riddle?",
+                emotion: "neutral"
             },
             {
-                Usain: "A raiding party of bandits catch you at a fork in the road. They rob you, then give you a choice of which path they take next. Down one road there is a little town, but down the other road is a little farm. If you choose the first road, the town will be attacked and many people will die. Choosing the second road will surely kill everyone at the farm. Which do you pick? We haven't had any luck figuring out the answer."
+                speaker: "Usain",
+                dialogue: "A raiding party of bandits catch you at a fork in the road. They rob you, then give you a choice of which path they take next. Down one road there is a little town, but down the other road is a little farm. If you choose the first road, the town will be attacked and many people will die. Choosing the second road will surely kill everyone at the farm. Which do you pick? We haven't had any luck figuring out the answer.",
+                emotion: "neutral"
             },
             {
-                Vadim: "Usain, this is not riddle."
+                speaker: "Vadim",
+                dialogue: "Usain, this is not riddle.",
+                emotion: "neutral"
             },
             {
-                Usain: "Not you too."
+                speaker: "Usain",
+                dialogue: "Not you too.",
+                emotion: "neutral"
             },
             {
-                Vadim: "This is morality puzzle. "
+                speaker: "Vadim",
+                dialogue: "This is morality puzzle.",
+                emotion: "neutral"
             },
             {
-                Usain: "A what?"
+                speaker: "Usain",
+                dialogue: "A what?",
+                emotion: "neutral"
             },
             {
-                Vadim: "Morality puzzle. It is something made for you to think about what is right or wrong. There is no answer."
+                speaker: "Vadim",
+                dialogue: "Morality puzzle. It is something made for you to think about what is right or wrong. There is no answer.",
+                emotion: "neutral"
             },
             {
-                Tehara: "WHAT!?"
+                speaker: "Tehara",
+                dialogue: "WHAT!?",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Really? That makes much more sense."
+                speaker: "Imhotep",
+                dialogue: "Really? That makes much more sense.",
+                emotion: "neutral"
             },
             {
-                Vadim: "Yes, scholars craft these puzzles to teach students about thinking. I never liked them, but others find them useful."
+                speaker: "Vadim",
+                dialogue: "Yes, scholars craft these puzzles to teach students about thinking. I never liked them, but others find them useful.",
+                emotion: "neutral"
             },
             {
-                Usain: "What's wrong with them?"
+                speaker: "Usain",
+                dialogue: "What's wrong with them?",
+                emotion: "neutral"
             },
             {
-                Vadim: "What people say they will do is not always the same as what they really do. I could say I send bandits to the farm to spare village, but when I am in real situation, I freeze and cannot make decision. You understand, yes?"
+                speaker: "Vadim",
+                dialogue: "What people say they will do is not always the same as what they really do. I could say I send bandits to the farm to spare village, but when I am in real situation, I freeze and cannot make decision. You understand, yes?",
+                emotion: "neutral"
             },
             {
-                Usain: "Yeah, I guess that's a drawback. You never really know what you're capable of until you are faced with it."
+                speaker: "Usain",
+                dialogue: "Yeah, I guess that's a drawback. You never really know what you're capable of until you are faced with it.",
+                emotion: "neutral"
             },
             {
-                Vadim: "Exactly, my friend."
+                speaker: "Vadim",
+                dialogue: "Exactly, my friend.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Great! So then we've been arguing over absolutely nothing this whole time!"
+                speaker: "Tehara",
+                dialogue: "Great! So then we've been arguing over absolutely nothing this whole time!",
+                emotion: "neutral"
             },
             {
-                Imhotep: "The esoteric is still important, Tehara."
+                speaker: "Imhotep",
+                dialogue: "The esoteric is still important, Tehara.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Eso-what now?"
+                speaker: "Tehara",
+                dialogue: "Eso-what now?",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Esoteric. It's knowledge known by a few. Maybe it's not universally applicable, but if we don't think about it, how can we prepare for it?"
+                speaker: "Imhotep",
+                dialogue: "Esoteric. It's knowledge known by a few. Maybe it's not universally applicable, but if we don't think about it, how can we prepare for it?",
+                emotion: "neutral"
             },
             {
-                Vadim: "This is also true. My advice? Do not get hung up on it." 
+                speaker: "Vadim",
+                dialogue: "This is also true. My advice? Do not get hung up on it.", 
+                emotion: "neutral"
             },
             {
-                Tehara: "I still feel cheated."
+                speaker: "Tehara",
+                dialogue: "I still feel cheated.",
+                emotion: "neutral"
             },
             {
-                Usain: "Vadim, what would you do?"
+                speaker: "Usain",
+                dialogue: "Vadim, what would you do?",
+                emotion: "neutral"
             },
             {
-                Vadim: "Me? Hmm...I think context is important to situation. Who is in town? Who is at farm? What is my mission?"
+                speaker: "Vadim",
+                dialogue: "Me? Hmm...I think context is important to situation. Who is in town? Who is at farm? What is my mission?",
+                emotion: "neutral"
             },
             {
-                Usain: "Mission?"
+                speaker: "Usain",
+                dialogue: "Mission?",
+                emotion: "neutral"
             },
             {
-                Vadim: "Yes, mission always comes first. I am mercenary. Maybe I have been sent to scout out town's defenses before my army attacks, yes? I can save army's strength and time by sending bandits to town. On other hand, maybe I have to assassinate someone at farm. Then I send bandits to farm."
+                speaker: "Vadim",
+                dialogue: "Yes, mission always comes first. I am mercenary. Maybe I have been sent to scout out town's defenses before my army attacks, yes? I can save army's strength and time by sending bandits to town. On other hand, maybe I have to assassinate someone at farm. Then I send bandits to farm.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Hmm, makes sense."
+                speaker: "Tehara",
+                dialogue: "Hmm, makes sense.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "If you're unpricipled."
+                speaker: "Imhotep",
+                dialogue: "If you're unpricipled.",
+                emotion: "neutral"
             },
             {
-                Usain: "But what if there is no mission? What if you were just traveling between jobs and got attacked?"
+                speaker: "Usain",
+                dialogue: "But what if there is no mission? What if you were just traveling between jobs and got attacked?",
+                emotion: "neutral"
             },
             {
-                Vadim: "Then I send bandits to farm. It is simple. Without mission, only reason to send bandits to town is cruelty. I am not cruel, so I do not send them to town. Not without mission."
+                speaker: "Vadim",
+                dialogue: "Then I send bandits to farm. It is simple. Without mission, only reason to send bandits to town is cruelty. I am not cruel, so I do not send them to town. Not without mission.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Well, I agreed with the first half of that."
+                speaker: "Imhotep",
+                dialogue: "Well, I agreed with the first half of that.",
+                emotion: "neutral"
             },
             {
-                Vadim: "You do not think mission is important?"
+                speaker: "Vadim",
+                dialogue: "You do not think mission is important?",
+                emotion: "neutral"
             },
             {
-                Imhotep: "I think your duty to people and the preservation of life comes before any task you have been given. The gods may have abandoned us, but the spirits can still guide men, and they ask us to guard life. So we have a duty to protect that which is living."
+                speaker: "Imhotep",
+                dialogue: "I think your duty to people and the preservation of life comes before any task you have been given. The gods may have abandoned us, but the spirits can still guide men, and they ask us to guard life. So we have a duty to protect that which is living.",
+                emotion: "neutral"
             },
             {
-                Vadim: "Ah, this is Vessi religion?"
+                speaker: "Vadim",
+                dialogue: "Ah, this is Vessi religion?",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Yes, we believe life is sacred and needs to be preserved, particularly the lives of humans and elves. Pure elves believe much the same as us, except they value the grasses and trees as much as themselves. Even so, the Vessii and Elven Cites get along well enough that we're willing to help them against Rae. Unlike the Dahn."
+                speaker: "Imhotep",
+                dialogue: "Yes, we believe life is sacred and needs to be preserved, particularly the lives of humans and elves. Pure elves believe much the same as us, except they value the grasses and trees as much as themselves. Even so, the Vessii and Elven Cites get along well enough that we're willing to help them against Rae. Unlike the Dahn.",
+                emotion: "neutral"
             },
             {
-                Tehara: "'If you can't defend yourself, you must be destroyed, so that the strong may have your part.'"
+                speaker: "Tehara",
+                dialogue: "'If you can't defend yourself, you must be destroyed, so that the strong may have your part.'",
+                emotion: "neutral"
             },
             {
-                Imhotep: "More Dahnic proverbs. Wonderful."
+                speaker: "Imhotep",
+                dialogue: "More Dahnic proverbs. Wonderful.",
+                emotion: "neutral"
             },
             {
-                Usain: "Getting us back on track, according to you, Vadim, the best thing to do in the situation is whatever serves you best?"
+                speaker: "Usain",
+                dialogue: "Getting us back on track, according to you, Vadim, the best thing to do in the situation is whatever serves you best?",
+                emotion: "neutral"
             },
             {
-                Vadim: "No, it is whatever serves mission best. It may hurt me or someone else, but if mission is accomplished, then all is good."
+                speaker: "Vadim",
+                dialogue: "No, it is whatever serves mission best. It may hurt me or someone else, but if mission is accomplished, then all is good.",
+                emotion: "neutral"
             },
             {
-                Usain: "Even if someone else's life hangs in the balance?"
+                speaker: "Usain",
+                dialogue: "Even if someone else's life hangs in the balance?",
+                emotion: "neutral"
             },
             {
-                Vadim: "Again, I am mercenary. That is usually case."
+                speaker: "Vadim",
+                dialogue: "Again, I am mercenary. That is usually case.",
+                emotion: "neutral"
             },
             {
-                Usain: "What if someone you loved was at the farm and someone you needed but hated was at in the town? What would you do then?"
+                speaker: "Usain",
+                dialogue: "What if someone you loved was at the farm and someone you needed but hated was at in the town? What would you do then?",
+                emotion: "neutral"
             },
             {
-                Vadim: "Like if cousin Basil was at farm and the Emir Marinus was at town?"
+                speaker: "Vadim",
+                dialogue: "Like if cousin Basil was at farm and the Emir Marinus was at town?",
+                emotion: "neutral"
             },
             {
-                Tehara: "Heh, you hate him too?"
+                speaker: "Tehara",
+                dialogue: "Heh, you hate him too?",
+                emotion: "neutral"
             },
             {
-                Vadim: "He is weasel without honor. I cannot like man that I cannot trust."
+                speaker: "Vadim",
+                dialogue: "He is weasel without honor. I cannot like man that I cannot trust.",
+                emotion: "neutral"
             },
             {
-                Usain: "So the mission is to protect Marinus, but Basil is at the farm. What do you do?"
+                speaker: "Usain",
+                dialogue: "So the mission is to protect Marinus, but Basil is at the farm. What do you do?",
+                emotion: "neutral"
             },
             {
-                Vadim: "Sorry cousin Basil, mission must come first. I send bandits to farm."
+                speaker: "Vadim",
+                dialogue: "Sorry cousin Basil, mission must come first. I send bandits to farm.",
+                emotion: "neutral"
             },
             {
-                Tehara: "But he's your family!"
+                speaker: "Tehara",
+                dialogue: "But he's your family!",
+                emotion: "neutral"
             },
             {
-                Vadim: "Yes, and I would grieve greatly for him. But I have mission to protect Marinus. Basil cannot get in way."
+                speaker: "Vadim",
+                dialogue: "Yes, and I would grieve greatly for him. But I have mission to protect Marinus. Basil cannot get in way.",
+                emotion: "neutral"
             }
         ],
         111: [
             {
-                Usain: "That makes sense."
+                speaker: "Usain",
+                dialogue: "That makes sense.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Woah, woah, woah! YOU just agreed with ME."
+                speaker: "Tehara",
+                dialogue: "Woah, woah, woah! YOU just agreed with ME.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "After you agreed with me."
+                speaker: "Imhotep",
+                dialogue: "After you agreed with me.",
+                emotion: "neutral"
             },
             {
-                Vadim: "Hoho! Usain, can you not make up your mind?"
+                speaker: "Vadim",
+                dialogue: "Hoho! Usain, can you not make up your mind?",
+                emotion: "neutral"
             },
             {
-                Usain: "Well everyone just keeps making up valid points and I thought that..."
+                speaker: "Usain",
+                dialogue: "Well everyone just keeps making up valid points and I thought that...",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Thought what? You could just rely on us for answers to questions you can't figure out yourself?"
+                speaker: "Imhotep",
+                dialogue: "Thought what? You could just rely on us for answers to questions you can't figure out yourself?",
+                emotion: "neutral"
             },
             {
-                Usain: "It's not like that at all!"
+                speaker: "Usain",
+                dialogue: "It's not like that at all!",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Then what is it, Usain? "
+                speaker: "Imhotep",
+                dialogue: "Then what is it, Usain?",
+                emotion: "neutral"
             },
             {
-                Tehara: "Yeah, pick a side!"
+                speaker: "Tehara",
+                dialogue: "Yeah, pick a side!",
+                emotion: "neutral"
             },
             {
-                Vadim: "Seems I have stepped into heated debate without knowing. What are sides?"
+                speaker: "Vadim",
+                dialogue: "Seems I have stepped into heated debate without knowing. What are sides?",
+                emotion: "neutral"
             },
             {
-                Tehara: "I think you should save whoever matters to you most."
+                speaker: "Tehara",
+                dialogue: "I think you should save whoever matters to you most.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "I think you should save the town regardless of the circumstance. It's your moral obligation."
+                speaker: "Imhotep",
+                dialogue: "I think you should save the town regardless of the circumstance. It's your moral obligation.",
+                emotion: "neutral"
             },
             {
-                Vadim: "I see. And Usain, you think both are right?"
+                speaker: "Vadim",
+                dialogue: "I see. And Usain, you think both are right?",
+                emotion: "neutral"
             },
             {
-                Usain: "Yeah, but like...I don't know. Both make sense, in their own way. Sending the bandits to the town is bad and I would never want to do that, but I also think I should save my friends and family."
+                speaker: "Usain",
+                dialogue: "Yeah, but like...I don't know. Both make sense, in their own way. Sending the bandits to the town is bad and I would never want to do that, but I also think I should save my friends and family.",
+                emotion: "neutral"
             },
             {
-                Vadim: "But Usain, you cannot have it both ways. What if you must make decision quickly? You must know these things, how to act, before you are confronted with situation. How else will you become mercenary if you freeze like this?"
+                speaker: "Vadim",
+                dialogue: "But Usain, you cannot have it both ways. What if you must make decision quickly? You must know these things, how to act, before you are confronted with situation. How else will you become mercenary if you freeze like this?",
+                emotion: "neutral"
             },
             {
-                Usain: "But I..."
+                speaker: "Usain",
+                dialogue: "But I...",
+                emotion: "neutral"
             },
             {
-                Tehara: "C'mon, Usain, old buddy, old pal! You know I'm right!"
+                speaker: "Tehara",
+                dialogue: "C'mon, Usain, old buddy, old pal! You know I'm right!",
+                emotion: "neutral"
             },
             {
-                Imhotep: "As if. Usain, I know you will pick the right choice. Don't be so easily persuaded by this devilish little urchin."
+                speaker: "Imhotep",
+                dialogue: "As if. Usain, I know you will pick the right choice. Don't be so easily persuaded by this devilish little urchin.",
+                emotion: "neutral"
             },
             {
-                Tehara: "How's about you shut up and let him decide for himself?"
+                speaker: "Tehara",
+                dialogue: "How's about you shut up and let him decide for himself?",
+                emotion: "neutral"
             },
             {
-                Vadim: "I admit, I am curious what Usain will say as well." 
+                speaker: "Vadim",
+                dialogue: "I admit, I am curious what Usain will say as well.",
+                emotion: "neutral"
             },
             {
-                Usain: "Hey now..."
+                speaker: "Usain",
+                dialogue: "Hey now...",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Come Usain, speak up. What does your heart say?"
+                speaker: "Imhotep",
+                dialogue: "Come Usain, speak up. What does your heart say?",
+                emotion: "neutral"
             },
             {
-                Usain: "I would...well..."
+                speaker: "Usain",
+                dialogue: "I would...well...",
+                emotion: "neutral"
             },
             {
-                Vadim: "We're waiting, friend."
+                speaker: "Vadim",
+                dialogue: "We're waiting, friend.",
+                emotion: "neutral"
             },
             {
-                Usain: "Well I..."
+                speaker: "Usain",
+                dialogue: "Well I...",
+                emotion: "neutral"
             },
             {
-                Tehara: "Spit it out already!"
+                speaker: "Tehara",
+                dialogue: "Spit it out already!",
+                emotion: "neutral"
             },
             {
-                Usain: "I don't...I don't know."
+                speaker: "Usain",
+                dialogue: "I don't...I don't know.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "You don't know? Really?"
+                speaker: "Imhotep",
+                dialogue: "You don't know? Really?",
+                emotion: "neutral"
             },
             {
-                Usain: "What do you expect me to say? That you're right? That they are wrong? That any of your choices are more righteous than the others? Is that it? Sorry, I can't do that. Maybe I'm just not righteous enough myself to make a call like this."
+                speaker: "Usain",
+                dialogue: "What do you expect me to say? That you're right? That they are wrong? That any of your choices are more righteous than the others? Is that it? Sorry, I can't do that. Maybe I'm just not righteous enough myself to make a call like this.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "No one is calling you righteous, Usain."
+                speaker: "Imhotep",
+                dialogue: "No one is calling you righteous, Usain.",
+                emotion: "neutral"
             },
             {
-                Usain: "No one should call you righteous either! All your fancy rules are just there to shirk off any sense responsibility!"
+                speaker: "Usain",
+                dialogue: "No one should call you righteous either! All your fancy rules are just there to shirk off any sense responsibility!",
+                emotion: "neutral"
             },
             {
-                Imhotep: "I didn't mean it like..."
+                speaker: "Imhotep",
+                dialogue: "I didn't mean it like...",
+                emotion: "neutral"
             },
             {
-                Vadim: "Usain, it is okay. We are all friends here, yes? No need to get angry."
+                speaker: "Vadim",
+                dialogue: "Usain, it is okay. We are all friends here, yes? No need to get angry.",
+                emotion: "neutral"
             },
             {
-                Usain: "Too late for that!"
+                speaker: "Usain",
+                dialogue: "Too late for that!",
+                emotion: "neutral"
             },
             {
-                Tehara: "If I recall correctly, you and Imhotep were the ones that roped me into this. Don't go acting like this whole argument wasn't your idea in the first place!"
+                speaker: "Tehara",
+                dialogue: "If I recall correctly, you and Imhotep were the ones that roped me into this. Don't go acting like this whole argument wasn't your idea in the first place!",
+                emotion: "neutral"
             },
             {
-                Usain: "Yeah, and I regret ever bringing it up now."
+                speaker: "Usain",
+                dialogue: "Yeah, and I regret ever bringing it up now.",
+                emotion: "neutral"
             },
             {
-                Tehara: "You should!"
+                speaker: "Tehara",
+                dialogue: "You should!",
+                emotion: "neutral"
             },
             {
-                Vadim: "Tehara, you are only making this worse."
+                speaker: "Vadim",
+                dialogue: "Tehara, you are only making this worse.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Me!? This isn't even my fault!"
+                speaker: "Tehara",
+                dialogue: "Me!? This isn't even my fault!",
+                emotion: "neutral"
             },
             {
-                Usain: "You know what? Forget it. I'll go figure this out by myself some other time. Good night."
+                speaker: "Usain",
+                dialogue: "You know what? Forget it. I'll go figure this out by myself some other time. Good night.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Come now, Usain. Don't be like that. The sun hasn't even set yet. We can reconcile."
+                speaker: "Imhotep",
+                dialogue: "Come now, Usain. Don't be like that. The sun hasn't even set yet. We can reconcile.",
+                emotion: "neutral"
             },
             {
-                Usain: "Try me after I get eaten out by Aarit for not having a good enough answer for him."
+                speaker: "Usain",
+                dialogue: "Try me after I get eaten out by Aarit for not having a good enough answer for him.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "I think I might have pushed him too hard."
+                speaker: "Imhotep",
+                dialogue: "I think I might have pushed him too hard.",
+                emotion: "neutral"
             },
             {
-                Tehara: "You can say that again."
+                speaker: "Tehara",
+                dialogue: "You can say that again.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "You didn't help either."
+                speaker: "Imhotep",
+                dialogue: "You didn't help either.",
+                emotion: "neutral"
             },
             {
-                Tehara: "What did I do? This is all your fault!"
+                speaker: "Tehara",
+                dialogue: "What did I do? This is all your fault!",
+                emotion: "neutral"
             },
             {
-                Vadim: "Shut up, both of you! You have already lost one friend for night, do you really want eat alone?"
+                speaker: "Vadim",
+                dialogue: "Shut up, both of you! You have already lost one friend for night, do you really want eat alone?",
+                emotion: "neutral"
             },
             {
-               Imhotep: "..."
+               speaker: "Imhotep",
+               dialogue: "...",
+               emotion: "neutral"
             },
             {
-                Tehara: "What are you thinking?"
+                speaker: "Tehara",
+                dialogue: "What are you thinking?",
+                emotion: "neutral"
             },
             {
-                Imhotep: "If we got him a sweet from the pantry, do you think he would forgive us?"
+                speaker: "Imhotep",
+                dialogue: "If we got him a sweet from the pantry, do you think he would forgive us?",
+                emotion: "neutral"
             },
             {
-                Tehara: "I don't need his forgiveness...but he might start talking to us sooner if we stole him a couple."
+                speaker: "Tehara",
+                dialogue: "I don't need his forgiveness...but he might start talking to us sooner if we stole him a couple.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "If it's for a good cause, I guess I'll help. Vadim, care to join us?"
+                speaker: "Imhotep",
+                dialogue: "If it's for a good cause, I guess I'll help. Vadim, care to join us?",
+                emotion: "neutral"
             },
             {
-                Vadim: "I cannot. I have previous engagement in my own camp."
+                speaker: "Vadim",
+                dialogue: "I cannot. I have previous engagement in my own camp.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Very well. Tehara, shall we be off?"
+                speaker: "Imhotep",
+                dialogue: "Very well. Tehara, shall we be off?",
+                emotion: "neutral"
             },
             {
-                Tehara: "I suppose so. But just so we're clear, I'm doing this for him, not you."
+                speaker: "Tehara",
+                dialogue: "I suppose so. But just so we're clear, I'm doing this for him, not you.",
+                emotion: "neutral"
             },
             {
-                Imhotep: "To put it bluntly, I rather be stung by a scorpion than stand near you. I don't want him going to sleep angry at me though, so I'll endure you."
+                speaker: "Imhotep",
+                dialogue: "To put it bluntly, I rather be stung by a scorpion than stand near you. I don't want him going to sleep angry at me though, so I'll endure your company.",
+                emotion: "neutral"
             },
             {
-                Tehara: "Geez, with a tongue like that, no wonder he's mad at you. You play the look out, got it?"
+                speaker: "Tehara",
+                dialogue: "Geez, with a tongue like that, no wonder he's mad at you. You play the look out, got it?",
+                emotion: "neutral"
             },
             {
-                Imhotep: "Yes, yes, very well. Let's get this over with. So long Vadim."
+                speaker: "Imhotep",
+                dialogue: "Yes, yes, very well. Let's get this over with. So long Vadim.",
+                emotion: "neutral"
             },
             {
-                Tehara: "See ya!"
+                speaker: "Tehara",
+                dialogue: "See ya!",
+                emotion: "neutral"
             },
             {
-                Vadim: "Good luck friends. With any luck, this will all work out to our advantage."
+                speaker: "Vadim",
+                dialogue: "Good luck friends. With any luck, this will all work out to our advantage.",
+                emotion: "neutral"
             }
         ],
         112: [

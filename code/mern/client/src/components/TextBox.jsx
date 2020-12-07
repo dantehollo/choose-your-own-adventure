@@ -6,7 +6,7 @@ import { Stories } from './scriptObject.js'
 export default class TextBox extends Component {
     state = {
         
-        // holds player decisions
+        // holds player decisions and if choice buttons should be displayed
         calculationsBox: {
             playerChoices: '0',
             choice: true,
@@ -18,17 +18,6 @@ export default class TextBox extends Component {
             pathNumber: 0
         }
     }
-
-    // componentDidMount() {
-    //     this.refreshTextBox()
-    // }
-
-    // refreshTextBox = () => {
-    //     axios.get('api/script')
-    //     .then((response) => {
-    //         this.setState({paths: response.data})
-    //     })
-    // }
 
     // moves player to next line of dialogue
     nextLine = () => {
@@ -54,14 +43,12 @@ export default class TextBox extends Component {
         if(this.state.storyBox.dialogueNumber === (Stories.moralityProblem[pathNumber].length) - 1) {
             console.log("end of path")
             this.detectSetPiece()
-            // this.toggleChoiceBox()
-            // this.startSetPiece()
         }
     }
 
     // finds if the current path is a set piece or a responce
     detectSetPiece = () => {
-        const copyStoryBox = {...this.state.storyBox}
+        // const copyStoryBox = {...this.state.storyBox}
         const copyCalcBox = {...this.state.calculationsBox}
         const playerChoices = this.state.calculationsBox.playerChoices
         const choiceArray = playerChoices.split('')
@@ -100,14 +87,14 @@ export default class TextBox extends Component {
         
     }
 
-    // agrees with speaker, pushes "1" into player choice array and advances story down new path
-    agree = () => {
+    // answers speaker, pushes value into player choice array and advances story down new path
+    response = (event) => {
         const copyCalcBox = {...this.state.calculationsBox}
         const copyStoryBox = {...this.state.storyBox}
         
         const playerChoices = this.state.calculationsBox.playerChoices
         const choiceArray = playerChoices.split('')
-        choiceArray.push("1")
+        choiceArray.push(event.target.value)
         const choiceString = choiceArray.join('')
         copyCalcBox.playerChoices = choiceString
 
@@ -116,15 +103,6 @@ export default class TextBox extends Component {
 
         this.setState({calculationsBox: copyCalcBox}, this.toggleChoiceBox)
         this.setState({storyBox: {pathNumber: newPath, dialogueNumber: 0}})
-    }
-
-    // disagrees with speaker, pushes "2" into player choice array and advances story down new path
-    disagree = () => {
-        const playerChoices = this.state.calculationsBox.playerChoices
-        const choiceArray = playerChoices.split('')
-        choiceArray.push("2")
-
-        this.toggleChoiceBox()
     }
 
     moralitySwitchBox = () => {
@@ -148,18 +126,16 @@ export default class TextBox extends Component {
                 this.setState({ storyBox: copyStoryBox })
                 break
         }
+        
         console.log('switch tripped')
     }
 
+    // takes 0's out of calcBox.playerchoices
     stripZero = (str) => {
-        // const copyStoryBox = { ...this.state.storyBox }
-        // const playerChoices = this.state.calculationsBox.playerChoices
         const path = str.replace(/0/g, '')
         const pathToInt = parseInt(path)
         
         return pathToInt
-        // copyStoryBox.pathNumber = pathToInt
-        // console.log(copyStoryBox)
     }
 
     render() {
@@ -176,8 +152,18 @@ export default class TextBox extends Component {
                     </div>
                 </div>
                 <div id='choice-box'>
-                    <button onClick = {this.agree}>Agree</button>
-                    <button onClick = {this.disagree}>Disagree</button>
+                    <button 
+                        onClick = {this.response} 
+                        type = 'string' 
+                        value = '1'>
+                            Agree
+                    </button>
+                    <button 
+                        onClick = {this.response} 
+                        type = 'string' 
+                        value = '2'>
+                            Disagree
+                    </button>
                 </div>
                 <button onClick = {this.stripZero}>Test</button>
             </div>
