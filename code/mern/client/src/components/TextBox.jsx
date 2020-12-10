@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-// import axios from 'axios'
 import { Stories } from './scriptObject.js'
-// import { Link } from 'react-router-dom'
 
 export default class TextBox extends Component {
     state = {
@@ -14,7 +12,7 @@ export default class TextBox extends Component {
         
         // determines where in the story the player is
         storyBox: {
-            dialogueNumber: 17,
+            dialogueNumber: 0,
             pathNumber: 0
         }
     }
@@ -30,25 +28,24 @@ export default class TextBox extends Component {
         this.setState({storyBox: copyStoryBox}, this.detectEndOfPath)        
     }
 
-    //seeing the async of setState is screwing me over
-    waitForState(functionName) {
-        setTimeout(functionName(), 1000)
-        console.log("wait for state")
-    } 
-
     // finds end of path to trigger either choice or set piece
     detectEndOfPath = () => {
+        const dialogueNumber = this.state.storyBox.dialogueNumber
         const pathNumber = this.state.storyBox.pathNumber
         
-        if(this.state.storyBox.dialogueNumber === (Stories.moralityProblem[pathNumber].length) - 1) {
+        if(dialogueNumber >= (Stories.moralityProblem[pathNumber].length) - 1) {
             console.log("end of path")
-            this.detectSetPiece()
+            try {
+                this.detectSetPiece()
+            } 
+            catch(err) {
+                this.moralitySwitchBox()
+            }
         }
     }
 
     // finds if the current path is a set piece or a responce
     detectSetPiece = () => {
-        // const copyStoryBox = {...this.state.storyBox}
         const copyCalcBox = {...this.state.calculationsBox}
         const playerChoices = this.state.calculationsBox.playerChoices
         const choiceArray = playerChoices.split('')
@@ -63,7 +60,7 @@ export default class TextBox extends Component {
             const choiceString = choiceArray.join('')
             copyCalcBox.playerChoices = choiceString
            
-            this.setState({calculationsBox: copyCalcBox},this.moralitySwitchBox)
+            this.setState({calculationsBox: copyCalcBox})
         }
     }
 
@@ -71,6 +68,7 @@ export default class TextBox extends Component {
     toggleChoiceBox = () => {
         const choiceBox = document.getElementById("choice-box")
         const copyCalcBox = {...this.state.calculationsBox}
+        
         copyCalcBox.choice = !copyCalcBox.choice
         this.setState({calculationsBox: copyCalcBox})
 
@@ -79,10 +77,10 @@ export default class TextBox extends Component {
         
         if(this.state.calculationsBox.choice === true) {
             choiceBox.style.display = 'block'
-            console.log("first triggered")
+            // console.log("first triggered")
         } else {
             choiceBox.style.display = 'none'
-            console.log("second triggered")
+            // console.log("second triggered")
         }
         
     }
@@ -105,6 +103,7 @@ export default class TextBox extends Component {
         this.setState({storyBox: {pathNumber: newPath, dialogueNumber: 0}})
     }
 
+    // determines which set piece player moves to
     moralitySwitchBox = () => {
         const copyStoryBox = { ...this.state.storyBox }
 
@@ -125,6 +124,8 @@ export default class TextBox extends Component {
                 copyStoryBox.dialogueNumber = 0
                 this.setState({ storyBox: copyStoryBox })
                 break
+            default:
+                break
         }
         
         console.log('switch tripped')
@@ -138,10 +139,32 @@ export default class TextBox extends Component {
         return pathToInt
     }
 
+    // checks if nextLine will create an error
+    nextLineError = () => {
+        try {
+            console.log(Stories.moralityProblem[this.state.storyBox.pathNumber][this.state.storyBox.dialogueNumber + 1].speaker)
+            this.nextLine()
+        }
+        catch (err) {
+            this.moralitySwitchBox()
+        }
+    }
+    
+    // test function
+    testCatch = () => {
+        try {
+            console.log(Stories.moralityProblem[this.state.storyBox.pathNumber][this.state.storyBox.dialogueNumber + 1].speaker)
+            this.nextLine()
+        }
+        catch (err) {
+            this.moralitySwitchBox()
+        }
+    }
+
     render() {
         return (
             <div className= 'text-container'>
-                <div className='textbox-main' onClick = {this.nextLine}>
+                <div className='textbox-main' onClick = {this.nextLineError}>
                     <div className='name-box'>
                         {Stories.moralityProblem[this.state.storyBox.pathNumber][this.state.storyBox.dialogueNumber].speaker}
                     </div>
@@ -165,7 +188,7 @@ export default class TextBox extends Component {
                             Disagree
                     </button>
                 </div>
-                <button onClick = {this.stripZero}>Test</button>
+                {/* <button onClick = {this.testCatch}>Test</button> */}
             </div>
         )
     }
