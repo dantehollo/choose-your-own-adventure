@@ -125,10 +125,41 @@ export default class TextBox extends Component {
                 this.setState({ storyBox: copyStoryBox })
                 break
             default:
+                alert(`Congratulations! You have reached ending number ${this.stripZero(this.state.calculationsBox.playerChoices)}`)
+                // <div className='end-box'>
+                //     <h1>
+                //         You have reached the end of the story. <br/>
+                //         Would you like to play again?
+                //     </h1>
+                //     <button>
+                //         {/* run reset function on click */}
+                //         Yes
+                //     </button>
+                //     <button>
+                //         {/* return to title card */}
+                //         No
+                //     </button>
+                // </div>
                 break
         }
-        
-        console.log('switch tripped')
+        // console.log('switch tripped')
+    }
+
+    // endCard function
+
+    // reset function
+    reset = () => {
+        this.setState({
+            calculationsBox: {
+                playerChoices: '0',
+                choice: true,
+            },
+            
+            storyBox: {
+                dialogueNumber: 0,
+                pathNumber: 0
+            }
+        })
     }
 
     // takes 0's out of calcBox.playerchoices
@@ -188,7 +219,7 @@ export default class TextBox extends Component {
                             Disagree
                     </button>
                 </div>
-                {/* <button onClick = {this.testCatch}>Test</button> */}
+                <button onClick = {this.reset}>Reset</button>
             </div>
         )
     }
