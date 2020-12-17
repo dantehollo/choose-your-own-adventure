@@ -1,8 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import TextBox from './components/TextBox'
-import Stage from './components/Stage'
+// import TextBox from './components/TextBox'
+// import Stage from './components/Stage'
 import './App.css';
+import Theater from './components/Theater';
 
 function App() {
   return (
@@ -11,8 +12,7 @@ function App() {
         <Switch>
           <Route/>
         </Switch>
-        <Stage/>
-        <TextBox/>
+        <Theater/>
       </Router>
     </div>
   );
