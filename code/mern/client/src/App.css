@@ -61,6 +61,11 @@ blockquote, q {
   display: none;
 }
 
+.textbox-main {
+	height: 10vh;
+	border: 1px solid black;
+}
+
 /* Stage */
 #stage {
 	height: 80vh;
@@ -74,3 +79,4 @@ blockquote, q {
 	width: 350px;
 	background-color: crimson;
 }
+

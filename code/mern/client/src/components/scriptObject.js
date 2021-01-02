@@ -1,4 +1,3 @@
-// "0" denotes a set piece
 // "1" denotes agreement with speaker of preceding set piece
 // "2" denotes disagreement with speaker of preceding set piece
 
@@ -6,24 +5,26 @@ const Stories = {
     moralityProblem: {
         0: [
             {
+                enter: 1,
                 speaker: "Usain",
                 dialogue: "I don't know about this one. Nothing makes sense. I thought riddles were supposed to have one good answer that made all the pieces come together. But this one...I just can't figure it out.",
                 emotion: "neutral"
             },
             {
+                enter: 2,
                 speaker: "Imhotep",
                 dialogue: "Good afternoon friend! Splendid day we're having, is it not? Are you heading for the mess hall for dinner?",
-                emotion: "neutral"
+                emotion: "happy"
             },
             {
                 speaker: "Usain",
                 dialogue: "Oh, hey Imhotep. Is it that late already? I must have lost track of the time.",
-                emotion: "neutral"
+                emotion: "angry"
             },
             {
                 speaker: "Imhotep",
                 dialogue: "Is there something on your mind?",
-                emotion: "neutral"
+                emotion: "shock"
             },
             {
                 speaker: "Usain",
@@ -33,22 +34,22 @@ const Stories = {
             {
                 speaker: "Imhotep",
                 dialogue: "I see.",
-                emotion: "neutral"
+                emotion: "happy"
             },
             {
                 speaker: "Usain",
                 dialogue: "Yeah, this one is really hard. He gave it to me around lunch and I've been thinking about nothing but it since. No matter which way I come at it, there doesn't seem to be an easy answer.",
-                emotion: "neutral"
+                emotion: "happy"
             },
             {
                 speaker: "Imhotep",
                 dialogue: "Maybe because answers are supposed to be hard fought and well earned. Now that you mentioned it, I think I did see Aarit arguing with the Emir Marinus and Lae Ling this morning. It looked heated. They were probably discussing the coming war, if I was to hazard a guess.",
-                emotion: "neutral"
+                emotion: "sad"
             },
             {
                 speaker: "Usain",
                 dialogue: "Fantastic. Every time those three butt heads, I wind up the worse for it. If I didn't know better, I would say Aarit is trying to get back at them by hurting me.",
-                emotion: "neutral"
+                emotion: "angry"
             },
             {
                 speaker: "Imhotep",
@@ -88,22 +89,22 @@ const Stories = {
             {
                 speaker: "Usain",
                 dialogue: "That's not really the issue here, but yeah, now that you mention it, that's a little weird.",
-                emotion: "neutral"
+                emotion: "angry"
             },
             {
                 speaker: "Imhotep",
                 dialogue: "Why were you having a hard time with this? The answer is obvious. You should send the troop of bandits to the farm.",
-                emotion: "neutral"
+                emotion: "sad"
             },
             {
                 speaker: "Usain",
                 dialogue: "Why though? That's what Aarit's going to ask.",
-                emotion: "neutral"
+                emotion: "happy"
             },
             {
                 speaker: "Imhotep", 
                 dialogue: "To save the most lives of course. Directing the bandits to the town does nothing but put more blood on your hands. It's a bad choice either way, but one is clearly better than the other. Why? What were you going to say?",
-                emotion: "neutral"
+                emotion: "shock"
             }
         ],
         
@@ -111,7 +112,7 @@ const Stories = {
             {
                 speaker: "Usain", 
                 dialogue: "I agree, send the bandits to the farmers house. Only one person dies in that scenario.",
-                emotion: "neutral"
+                emotion: "angry"
             },
             {
                 speaker: "Imhotep",
@@ -229,7 +230,7 @@ const Stories = {
             {
                 speaker: "Usain",
                 dialogue: "I actually would send them to the town.",
-                emotion: "neutral"
+                emotion: "sad"
             },
             {
                 speaker: "Imhotep",
@@ -342,7 +343,7 @@ const Stories = {
             {
                 speaker: "Tehara",
                 dialogue: "Hey guys! What's going on? You look like you just sucked venom from a snake through its teeth.",
-                emotion: "neutral"
+                emotion: "happy"
             },
             {
                 speaker: "Usain",

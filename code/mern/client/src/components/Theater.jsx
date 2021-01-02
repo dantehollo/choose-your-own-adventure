@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { Stories } from './scriptObject'
 import TextBox from './TextBox'
 import Stage from './Stage'
+import Character from './Character'
+import ReactDOM from 'react-dom'
 
 export default class Theater extends Component {
     state = {
@@ -16,29 +18,41 @@ export default class Theater extends Component {
         storyBox: {
             dialogueNumber: 0,
             pathNumber: 0
+        },
+
+        // holds the emotional state of each character
+        emotionBox: {
+            Usain: 'neutral',
+            Imhotep: 'neutral',
+            Tehara: 'neutral',
+            Vadim: 'neutral'
         }
     }
+
+    // TextBox Functions
 
     // moves player to next line of dialogue
     nextLine = () => {
         let dialogueNumber = this.state.storyBox.dialogueNumber
         let temp = dialogueNumber + 1
-
+        
         const copyStoryBox = {...this.state.storyBox}
-        copyStoryBox.dialogueNumber = temp
 
-        this.setState({storyBox: copyStoryBox}, this.detectEndOfPath)        
+        copyStoryBox.dialogueNumber = temp
+        this.setState({storyBox: copyStoryBox}, this.detectEndOfPath)
     }
 
     // finds end of path to trigger either choice or set piece
     detectEndOfPath = () => {
         const dialogueNumber = this.state.storyBox.dialogueNumber
         const pathNumber = this.state.storyBox.pathNumber
+        const speaker = Stories.moralityProblem[this.state.storyBox.pathNumber][this.state.storyBox.dialogueNumber].speaker
         
         if(dialogueNumber >= (Stories.moralityProblem[pathNumber].length) - 1) {
-            // console.log("end of path")
             this.detectSetPiece()
         }
+        this.portraitSwap(speaker)
+        this.characterEnters()
     }
 
     // finds if the current path is a set piece or a responce
@@ -158,6 +172,13 @@ export default class Theater extends Component {
             storyBox: {
                 dialogueNumber: 0,
                 pathNumber: 0
+            },
+            
+            emotionBox: {
+                Usain: 'neutral',
+                Imhotep: 'neutral',
+                Tehara: 'neutral',
+                Vadim: 'neutral'
             }
         })
         
@@ -189,27 +210,90 @@ export default class Theater extends Component {
         }
     }
     
-    // test function
-    testCatch = () => {
-        try {
-            console.log(Stories.moralityProblem[this.state.storyBox.pathNumber][this.state.storyBox.dialogueNumber + 1].speaker)
-            this.nextLine()
+    syncUp = (functionOne, functionTwo, parameterOne, parameterTwo) => {
+        const firstFunction = new Promise ((resolve, reject) => {
+            this.functionOne(parameterOne)
+            resolve('first function ran')
+            reject('first failed')
+        })
+
+        firstFunction.then((parameterTwo) => {
+            this.functionTwo(parameterTwo)
+            console.log('second function ran')
+        })
+    }
+
+    // test function, it's in the name
+    testFunction = () => {
+        // testing promises
+        const stage = document.getElementById('stage')
+
+        console.log(stage.childNodes)
+        stage.removeChild(stage.childNodes[1])
+        console.log(stage.childNodes)
+    }
+    /* *************************************************************************** */
+
+    // Stage Functions
+
+    // swap portraits
+    portraitSwap = (speakerName) => {
+        const copyEmoteBox = {...this.state.emotionBox}
+        const characterEmotion = Stories.moralityProblem[this.state.storyBox.pathNumber][this.state.storyBox.dialogueNumber].emotion
+
+        if(speakerName === undefined){
+            return
         }
-        catch (err) {
-            this.moralitySwitchBox()
+
+        copyEmoteBox[speakerName] = characterEmotion
+        this.setState({emotionBox: copyEmoteBox}, null)
+    }
+
+    // place portrait
+    characterEnters = () => {
+        const storyPlace = Stories.moralityProblem[this.state.storyBox.pathNumber][this.state.storyBox.dialogueNumber]
+        const stagePlace = document.getElementById(storyPlace.enter)
+
+        // console.log(stagePlace)
+        
+        if(storyPlace.enter !== undefined){            
+            console.log(` ${storyPlace.speaker} enters at position ${storyPlace.enter}`)
+            
+            ReactDOM.render(<Character
+                name = {storyPlace.speaker}
+                emotion = {storyPlace.emotion}/>,
+                stagePlace)
+
+            // console.log("if triggered")
         }
     }
+
+    // remove portrait
+    characterLeaves = () => {
+        const stagePositions = document.getElementById('stage')
+
+        console.log(stagePositions)
+    }
+
+    // highlight speaker
     render() {
         return(
-            <div>
+            <div id='theater'>
                 {/* <MenuBar/> */}
-                <Stage/>
+                <Stage
+                    characterName = {Stories.moralityProblem[this.state.storyBox.pathNumber][this.state.storyBox.dialogueNumber].speaker}
+                    usainEmotion = {this.state.emotionBox.Usain}
+                    imhotepEmotion = {this.state.emotionBox.Imhotep}
+                    teharaEmotion = {this.state.emotionBox.Tehara}
+                    vadimEmotion = {this.state.emotionBox.Vadim}
+                        />
                 <TextBox
                     characterName = {Stories.moralityProblem[this.state.storyBox.pathNumber][this.state.storyBox.dialogueNumber].speaker}
-                    characterDialogue= {Stories.moralityProblem[this.state.storyBox.pathNumber][this.state.storyBox.dialogueNumber].dialogue}
+                    characterDialogue = {Stories.moralityProblem[this.state.storyBox.pathNumber][this.state.storyBox.dialogueNumber].dialogue}
                     continue = {this.nextLineError}
                     responce = {this.playerResponce}
                     resetGame = {this.reset}
+                    testButton = {this.testFunction}
                 />
             </div>
         )

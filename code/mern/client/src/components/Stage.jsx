@@ -1,34 +1,35 @@
 import React, { Component } from 'react'
-// import { Stories } from './scriptObject.js'
+import Character from './Character'
+// import { emotionPortraits } from './images/portraits.js'
 
 export default class Stage extends Component {
-    // consider using a statless component
-    state = {
-
-    }
-
-    // swap portraits
-
-    // place portrait
-
-    // remove portrait
-
-    // highlight speaker
 
     render() {
         return (
             <div id='stage'>
-                <div id='one' className='stage-place'>
-                    <img className='portrait' src={this.props.characterPortraitThree} alt=''/>
+                <div id={3} className='stage-place'>
+                    <Character
+                        name = 'Tehara'
+                        emotion = {this.props.teharaEmotion}
+                        />
                 </div>
-                <div id='two' className='stage-place'>
-                    <img className='portrait' src={this.props.characterPortraitTwo} alt=''/>
+                <div id={1} className='stage-place'>
+                    <Character
+                        name = 'Usain'
+                        emotion = {this.props.usainEmotion}
+                        />
                 </div>
-                <div id='three' className='stage-place'>
-                    <img className='portrait' src={this.props.characterPortraitOne} alt=''/>
+                <div id={2} className='stage-place'>
+                    {/* <Character
+                        name = 'Imhotep'
+                        emotion = {this.props.imhotepEmotion}
+                        /> */}
                 </div>
-                <div id='four' className='stage-place'>
-                    <img className='portrait' src={this.props.characterPortraitFour} alt=''/>
+                <div id={4} className='stage-place'>
+                    <Character
+                        name = 'Vadim'
+                        emotion = {this.props.vadimEmotion}
+                        />
                 </div>
             </div>
         )

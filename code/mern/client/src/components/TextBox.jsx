@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Theater from'./Theater'
 
 export default class TextBox extends Component {
     // displayProps = () => {
@@ -35,6 +34,7 @@ export default class TextBox extends Component {
                     </button>
                 </div>
                 <button onClick = {this.props.resetGame}>Reset</button>
+                <button onClick = {this.props.testButton}>Test Button</button>
             </div>
         )
     }
