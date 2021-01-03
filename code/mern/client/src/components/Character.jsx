@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import { emotionPortraits } from './images/portraits.js'
 
 export default class Character extends Component {
-    // componentWillUnmount() {
-
-    // }
+    componentWillUnmount() {
+        console.log(`${this.props.name} left the stage`)
+    }
 
     render() {
         return(

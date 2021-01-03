@@ -53,6 +53,7 @@ export default class Theater extends Component {
         }
         this.portraitSwap(speaker)
         this.characterEnters()
+        this.characterExits()
     }
 
     // finds if the current path is a set piece or a responce
@@ -252,12 +253,12 @@ export default class Theater extends Component {
     // place portrait
     characterEnters = () => {
         const storyPlace = Stories.moralityProblem[this.state.storyBox.pathNumber][this.state.storyBox.dialogueNumber]
-        const stagePlace = document.getElementById(storyPlace.enter)
+        const stagePlace = document.getElementById(storyPlace.position)
 
         // console.log(stagePlace)
         
-        if(storyPlace.enter !== undefined){            
-            console.log(` ${storyPlace.speaker} enters at position ${storyPlace.enter}`)
+        if(storyPlace.command === 'enter'){            
+            console.log(` ${storyPlace.speaker} enters at position ${storyPlace.position}`)
             
             ReactDOM.render(<Character
                 name = {storyPlace.speaker}
@@ -269,10 +270,17 @@ export default class Theater extends Component {
     }
 
     // remove portrait
-    characterLeaves = () => {
-        const stagePositions = document.getElementById('stage')
+    characterExits = () => {
+        const storyPlace = Stories.moralityProblem[this.state.storyBox.pathNumber][this.state.storyBox.dialogueNumber]
+        const stagePlace = document.getElementById(storyPlace.position)
 
-        console.log(stagePositions)
+        if(storyPlace.command === 'exit'){            
+            console.log(` ${storyPlace.speaker} leaves scene from position ${storyPlace.position}`)
+            
+            ReactDOM.unmountComponentAtNode(stagePlace)
+
+            console.log("if triggered")
+        }
     }
 
     // highlight speaker

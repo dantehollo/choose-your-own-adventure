@@ -8,16 +8,16 @@ export default class Stage extends Component {
         return (
             <div id='stage'>
                 <div id={3} className='stage-place'>
-                    <Character
+                    {/* <Character
                         name = 'Tehara'
                         emotion = {this.props.teharaEmotion}
-                        />
+                        /> */}
                 </div>
                 <div id={1} className='stage-place'>
-                    <Character
+                    {/* <Character
                         name = 'Usain'
                         emotion = {this.props.usainEmotion}
-                        />
+                        /> */}
                 </div>
                 <div id={2} className='stage-place'>
                     {/* <Character
@@ -26,10 +26,10 @@ export default class Stage extends Component {
                         /> */}
                 </div>
                 <div id={4} className='stage-place'>
-                    <Character
+                    {/* <Character
                         name = 'Vadim'
                         emotion = {this.props.vadimEmotion}
-                        />
+                        /> */}
                 </div>
             </div>
         )

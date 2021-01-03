@@ -5,16 +5,35 @@ const Stories = {
     moralityProblem: {
         0: [
             {
-                enter: 1,
+                dialogue: 'It\'s a bright and sunny day, yet Usain\'s face is dark and stormy.'
+            },
+            {
+                command: 'enter',
+                position: 1,
                 speaker: "Usain",
                 dialogue: "I don't know about this one. Nothing makes sense. I thought riddles were supposed to have one good answer that made all the pieces come together. But this one...I just can't figure it out.",
                 emotion: "neutral"
             },
             {
-                enter: 2,
+                command: 'enter',
+                position: 2,
                 speaker: "Imhotep",
                 dialogue: "Good afternoon friend! Splendid day we're having, is it not? Are you heading for the mess hall for dinner?",
                 emotion: "happy"
+            },
+            {
+                command: 'enter',
+                position: 3,
+                speaker: "Tehara",
+                dialogue: "Wait! I'm not supposed to be here yet!",
+                emotion: "shock"
+            },
+            {
+                command: 'exit',
+                position: 3,
+                speaker: "Tehara",
+                dialogue: "Goodbye!",
+                emotion: "shock"
             },
             {
                 speaker: "Usain",
