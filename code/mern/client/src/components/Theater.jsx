@@ -29,7 +29,7 @@ export default class Theater extends Component {
         }
     }
 
-    // TextBox Functions
+    /* ***TEXTBOX*** */ 
 
     // moves player to next line of dialogue
     nextLine = () => {
@@ -39,21 +39,29 @@ export default class Theater extends Component {
         const copyStoryBox = {...this.state.storyBox}
 
         copyStoryBox.dialogueNumber = temp
-        this.setState({storyBox: copyStoryBox}, this.detectEndOfPath)
+        this.setState({storyBox: copyStoryBox}, this.onClickTiggers)
     }
 
+    // list of functions to execute on each click
+    onClickTiggers = () => {
+        const speaker = Stories.moralityProblem[this.state.storyBox.pathNumber][this.state.storyBox.dialogueNumber].speaker
+        
+        this.detectEndOfPath()
+        this.portraitSwap(speaker)
+        this.characterEnters()
+        this.characterExits()
+        this.focusSpeaker()
+    }
+    
     // finds end of path to trigger either choice or set piece
     detectEndOfPath = () => {
         const dialogueNumber = this.state.storyBox.dialogueNumber
         const pathNumber = this.state.storyBox.pathNumber
-        const speaker = Stories.moralityProblem[this.state.storyBox.pathNumber][this.state.storyBox.dialogueNumber].speaker
+        
         
         if(dialogueNumber >= (Stories.moralityProblem[pathNumber].length) - 1) {
             this.detectSetPiece()
         }
-        this.portraitSwap(speaker)
-        this.characterEnters()
-        this.characterExits()
     }
 
     // finds if the current path is a set piece or a responce
@@ -182,6 +190,11 @@ export default class Theater extends Component {
                 Vadim: 'neutral'
             }
         })
+
+        for(let i = 1; i <= 4; i++){
+            const stagePlace = document.getElementById(i)
+            ReactDOM.unmountComponentAtNode(stagePlace)
+        }
         
         document.getElementById('choice-box').style.display = 'none'
     
@@ -233,9 +246,8 @@ export default class Theater extends Component {
         stage.removeChild(stage.childNodes[1])
         console.log(stage.childNodes)
     }
-    /* *************************************************************************** */
-
-    // Stage Functions
+    
+    /* ***STAGE*** */ 
 
     // swap portraits
     portraitSwap = (speakerName) => {
@@ -258,7 +270,7 @@ export default class Theater extends Component {
         // console.log(stagePlace)
         
         if(storyPlace.command === 'enter'){            
-            console.log(` ${storyPlace.speaker} enters at position ${storyPlace.position}`)
+            // console.log(` ${storyPlace.speaker} enters at position ${storyPlace.position}`)
             
             ReactDOM.render(<Character
                 name = {storyPlace.speaker}
@@ -275,15 +287,31 @@ export default class Theater extends Component {
         const stagePlace = document.getElementById(storyPlace.position)
 
         if(storyPlace.command === 'exit'){            
-            console.log(` ${storyPlace.speaker} leaves scene from position ${storyPlace.position}`)
+            // console.log(` ${storyPlace.speaker} leaves scene from position ${storyPlace.position}`)
             
             ReactDOM.unmountComponentAtNode(stagePlace)
 
-            console.log("if triggered")
+            // console.log("if triggered")
         }
     }
 
     // highlight speaker
+    focusSpeaker = () => {
+        // change speaker portrait to brighten of speaking and dim if not speaking
+        const storyPlace = Stories.moralityProblem[this.state.storyBox.pathNumber][this.state.storyBox.dialogueNumber]
+        const portraitArray = document.getElementsByTagName("img")
+        
+        for(let i = 0; i <= portraitArray.length - 1; i++){
+            portraitArray[i].style.backgroundColor = 'white'
+            if(portraitArray[i].id !== storyPlace.speaker){
+                
+                portraitArray[i].style.backgroundColor = 'blue'
+                console.log(portraitArray[i].id)
+            
+            }
+        }
+    }
+
     render() {
         return(
             <div id='theater'>
@@ -301,7 +329,7 @@ export default class Theater extends Component {
                     continue = {this.nextLineError}
                     responce = {this.playerResponce}
                     resetGame = {this.reset}
-                    testButton = {this.testFunction}
+                    testButton = {this.focusSpeaker}
                 />
             </div>
         )

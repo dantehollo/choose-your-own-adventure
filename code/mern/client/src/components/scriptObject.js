@@ -5,7 +5,7 @@ const Stories = {
     moralityProblem: {
         0: [
             {
-                dialogue: 'It\'s a bright and sunny day, yet Usain\'s face is dark and stormy.'
+                dialogue: "It's a bright and sunny day, yet Usain's face is dark and stormy."
             },
             {
                 command: 'enter',

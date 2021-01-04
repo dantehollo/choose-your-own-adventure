@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Character from './Character'
+// import Character from './Character'
 // import { emotionPortraits } from './images/portraits.js'
 
 export default class Stage extends Component {
