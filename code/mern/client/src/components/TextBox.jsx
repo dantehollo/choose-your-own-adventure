@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+
 export default class TextBox extends Component {
     // displayProps = () => {
     //     console.log(this.props)
@@ -8,33 +9,31 @@ export default class TextBox extends Component {
         return (
             <div className= 'text-container'>
                 <div className='textbox-main' onClick = {this.props.continue}>
-                    <div className='name-box'>
-                        <h3 className='char-name'>
-                            {this.props.characterName}
-                        </h3>
-                    </div>
-                    <div className='message-box'>
-                        <p>
+                    <h3 className='char-name'>
+                        {this.props.characterName}
+                    </h3>
+                    <p className='dialouge'>
                         {this.props.characterDialogue}
-                        </p>
+                    </p>
+                    <div id='choice-box'>
+                        <div className='button-text-container'>
+                            <button 
+                                className='dialouge-button-agree'
+                                onClick={this.props.response} 
+                                type='string' 
+                                value='1'>
+                            </button>
+                        </div>
+                        <div className='button-text-container'>
+                            <button 
+                                className='dialouge-button-disagree' 
+                                onClick={this.props.response} 
+                                type='string' 
+                                value='2'>
+                            </button>
+                        </div>
                     </div>
                 </div>
-                <div id='choice-box'>
-                    <button 
-                        onClick = {this.props.responce} 
-                        type = 'string' 
-                        value = '1'>
-                            Agree
-                    </button>
-                    <button 
-                        onClick = {this.props.responce} 
-                        type = 'string' 
-                        value = '2'>
-                            Disagree
-                    </button>
-                </div>
-                <button onClick = {this.props.resetGame}>Reset</button>
-                <button onClick = {this.props.testButton}>Test Button</button>
             </div>
         )
     }
