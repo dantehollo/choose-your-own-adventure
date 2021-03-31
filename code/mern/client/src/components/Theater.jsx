@@ -110,19 +110,11 @@ export default class Theater extends Component {
         // returns path to interger value, without the zeros
         const newPath = this.stripZero(choiceString)
         copyStoryBox.pathNumber = newPath
-
-        // console.log(playerChoices)
-        // console.log(choiceArray)
-        // console.log(choiceString)
-        // console.log(newPath)
-        // console.log(choiceString)
-        // console.log(choiceString)
-        // console.log(choiceString)
         
-        // const speaker = Stories.moralityProblem[newPath][0].speaker
+        const speaker = Stories.moralityProblem[newPath][0].speaker
         
         this.setState({calculationsBox: copyCalcBox}, this.toggleChoiceBox)
-        this.setState({storyBox: {pathNumber: newPath, dialogueNumber: 0}})
+        this.setState({storyBox: {pathNumber: newPath, dialogueNumber: 0}}, this.focusSpeaker)
     }
 
     // determines which set piece player moves to
@@ -284,14 +276,11 @@ export default class Theater extends Component {
         const portraitArray = document.getElementsByClassName('character-image')
         
         for(let i = 0; i <= portraitArray.length - 1; i++){
-            // portraitArray[i].style.backgroundColor = 'white'
             portraitArray[i].classList.add('is-active')
             portraitArray[i].classList.remove('is-inactive')
             if(portraitArray[i].id !== storyPlace.speaker){
                 portraitArray[i].classList.add('is-inactive')
             portraitArray[i].classList.remove('is-active')
-                // portraitArray[i].style.backgroundColor = 'blue'
-                // console.log(portraitArray[i].style)
             }
         }
     }

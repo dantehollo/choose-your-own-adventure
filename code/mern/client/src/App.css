@@ -348,7 +348,7 @@ a:hover {
 }
 
 /* Media Queries */
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 800px) {
 	.nav {
 		background-image: unset;
 		height: 20px;
@@ -434,4 +434,46 @@ a:hover {
 		color:rgb(225, 225, 225);
 		transition: text-decoration 250ms;
 	}
+}
+
+@media only screen and (max-width: 450px) {
+	.character-image {
+		height: 60vh;
+	}
+
+	.is-active {
+		display: block;
+	}
+
+	.is-inactive {
+		display: none;
+	}
+
+	 #stage {
+		 position: fixed;
+		 top: 14%;
+		 left: 20%;
+	 }
+
+	 .text-container
+
+	 .button-text-container {
+		 margin: 10px
+	 }
+
+	 .dialouge-button-agree {
+		 height: 5vh;
+	 }
+
+	 .dialouge-button-disagree {
+		height: 5vh;
+	 }
+
+	 #Vadim {
+		 height: 70vh;
+	 }
+
+	 #credits-pop-up {
+		margin-left: -40%; 
+	 }
 }
