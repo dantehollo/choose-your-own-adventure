@@ -49,7 +49,12 @@ const Stories = {
             },
             {
                 speaker: "Imhotep",
-                dialogue: "Maybe because answers are supposed to be hard fought and well earned. Now that you mentioned it, I think I did see Aarit arguing with the Emir Marinus and Lae Ling this morning. It looked heated. They were probably discussing the coming war, if I was to hazard a guess.",
+                dialogue: "Maybe because answers are supposed to be hard fought and well earned. Now that you mentioned it, I think I did see Aarit arguing with the Emir Marinus and Lae Ling this morning. It looked heated.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Imhotep",
+                dialogue: "They were probably discussing the coming war, if I was to hazard a guess.",
                 emotion: "neutral"
             },
             {
@@ -59,7 +64,12 @@ const Stories = {
             },
             {
                 speaker: "Imhotep",
-                dialogue: "The Ogma hurting his own student? I think that's part of the deal, friend. You can't expect to be groomed by one of the greatest warrior-poets of our time without some challenges. Though I will admit, your training does...intensify when Aarit is fights with my cousin or the elf.",
+                dialogue: "The Ogma hurting his own student? I think that's part of the deal, friend. You can't expect to be groomed by one of the greatest warrior-poets of our time without some challenges.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Imhotep",
+                dialogue: "Though I will admit, your training does...intensify when Aarit is fights with my cousin or the elf.",
                 emotion: "neutral"
             },
             {
@@ -69,7 +79,12 @@ const Stories = {
             },
             {
                 speaker: "Imhotep", 
-                dialogue: "Stop the sarcasm. We are preparing for a war with Rae, a foe much more powerful than we are. Those three are in charge of everything, from the logistics and supplies, troop training and influence peddling for support back home in Toma. This is no small undertaking. Frankly, I am surprised they aren't constantly at each other's throats.",
+                dialogue: "Stop the sarcasm. We are preparing for a war with Rae, a foe much more powerful than we are. Those three are in charge of everything, from the logistics and supplies, troop training and influence peddling for support back home in Toma.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Imhotep", 
+                dialogue: "This is no small undertaking. Frankly, I am surprised they aren't constantly at each other's throats.",
                 emotion: "neutral"
             },
             {
@@ -84,7 +99,12 @@ const Stories = {
             },
             {
                 speaker: "Usain",
-                dialogue: "'A raiding party of bandits catch you at a fork in the road. They rob you, then give you a choice of which path they take next. Down one road there is a little town, but down the other road is a little farm where only one person lives. If you choose the first road, the town will be attacked and many people will die. Choosing the second road will surely kill the farmer. Which way do you pick?'",
+                dialogue: "'A raiding party of bandits catch you at a fork in the road. They rob you, then give you a choice of which path they take next. Down one road there is a little town, but down the other road is a little farm where only one person lives.'",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Usain",
+                dialogue: "'If you choose the first road, the town will be attacked and many people will die. Choosing the second road will surely kill the farmer. Which way do you pick?'",
                 emotion: "neutral"
             },
             {
@@ -183,7 +203,12 @@ const Stories = {
             },
             {
                 speaker: "Imhotep",
-                dialogue: "I know, I know. However, the more I think upon it is the less I like either choice. I abhor the idea of arbitrarily condemning a man I don't know to death. I'm Vessii, and consider life sacred, It's my duty to protect it where I can. Though I can rightly justify my actions, every reason I tell myself makes the decision sound so unbearably cold. Hearing you say it out loud only makes it worse. The Dahn make the individual life seem so despicably trivial.",
+                dialogue: "I know, I know. However, the more I think upon it is the less I like either choice. I abhor the idea of arbitrarily condemning a man I don't know to death. I'm Vessii, and consider life sacred, It's my duty to protect it where I can.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Imhotep",
+                dialogue: "Though I can rightly justify my actions, every reason I tell myself makes the decision sound so unbearably cold. Hearing you say it out loud only makes it worse. The Dahn make the individual life seem so despicably trivial.",
                 emotion: "neutral"
             },
             {
@@ -321,7 +346,12 @@ const Stories = {
             },
             {
                 speaker: "Imhotep",
-                dialogue: "See? That's what I expect out of you. When someone's having a bad day you do these little acts of kindness to help them feel better and raise the quality of their life. But when anybody asks you a question, you just reply with what you think the Dahn are supposed to say.",
+                dialogue: "See? That's what I expect out of you. When someone's having a bad day you do these little acts of kindness to help them feel better and raise the quality of their life.",
+                emotion: "happy"
+            },
+            {
+                speaker: "Imhotep",
+                dialogue: "But when anybody asks you a question, you just reply with what you think the Dahn are supposed to say.",
                 emotion: "happy"
             },
             {
@@ -336,7 +366,12 @@ const Stories = {
             },
             {
                 speaker: "Usain",
-                dialogue: "...I don't know. It's a terrible choice either way. Both cases make you responsible for someone else's death. Everything I say just feels wrong. Condemn the farmer, why? Because it's more convenient for my conscience? That seems selfish. I don't think I would sleep well after that. At least the town has a fighting chance.",
+                dialogue: "...I don't know. It's a terrible choice either way. Both cases make you responsible for someone else's death. Everything I say just feels wrong. Condemn the farmer, why? Because it's more convenient for my conscience? That seems selfish.",
+                emotion: "sad"
+            },
+            {
+                speaker: "Usain",
+                dialogue: "I don't think I would sleep well after that. At least the town has a fighting chance.",
                 emotion: "sad"
             },
             {
@@ -411,7 +446,17 @@ const Stories = {
             },
             {   
                 speaker: "Usain",
-                dialogue: "Hari, the only reason anyone puts up with your antics is because Aarit freed you after your gang of highwaymen left you behind when they failed to raid Lae Ling's caravan. Gods know why he's willing to put up with a fire elf, but he does when no one else will. So maybe try not to pick fights with his students, AND your only friends.",
+                dialogue: "Hari, the only reason anyone puts up with your antics is because Aarit freed you after your gang of highwaymen left you behind when they failed to raid Lae Ling's caravan.",
+                emotion: "neutral"
+            },
+            {   
+                speaker: "Usain",
+                dialogue: "Gods know why he's willing to put up with a fire elf, but he does when no one else will.",
+                emotion: "neutral"
+            },
+            {   
+                speaker: "Usain",
+                dialogue: "So maybe try not to pick fights with his students, AND your only friends.",
                 emotion: "neutral"
             },
             {   
@@ -476,7 +521,12 @@ const Stories = {
             },
             {   
                 speaker: "Usain",
-                dialogue: "So, a raiding party of bandits catch you at a fork in the road. They rob you, then give you a choice of which path they take next. Down one road there is a little town, but down the other road is a little farm where only one person lives. If you choose the first road, the town will be attacked and many people will die. Choosing the second road will surely kill the farmer. Which do you pick?",
+                dialogue: "So, a raiding party of bandits catch you at a fork in the road. They rob you, then give you a choice of which path they take next. Down one road there is a little town, but down the other road is a little farm where only one person lives.",
+                emotion: "neutral"
+            },
+            {   
+                speaker: "Usain",
+                dialogue: "If you choose the first road, the town will be attacked and many people will die. Choosing the second road will surely kill the farmer. Which do you pick?",
                 emotion: "neutral"
             },
             {   
@@ -631,7 +681,12 @@ const Stories = {
             },
             {   
                 speaker: "Tehara",
-                dialogue: "Well, like I said, I would have to know who is in the town and who is at the farm. If the town is full of Vessii, and a fire elf lives at the farm, I'll send the bandits to the town. Saving the life of another fire elf matters more to me than a village full of strangers.",
+                dialogue: "Well, like I said, I would have to know who is in the town and who is at the farm. If the town is full of Vessii, and a fire elf lives at the farm, I'll send the bandits to the town.",
+                emotion: "neutral"
+            },
+            {   
+                speaker: "Tehara",
+                dialogue: "Saving the life of another fire elf matters more to me than a village full of strangers.",
                 emotion: "neutral"
             },
             {   
@@ -709,7 +764,12 @@ const Stories = {
             },
             {
                 speaker: "Usain",
-                dialogue: "Aarit is half reason we have a chance in this war against Rae. Is the town worth putting everything everyone here has worked on for the past year at risk? Would the freedom of everyone in Toma, your city, plus all the lives of the elves be worth less than the lives of some women and children in a backwater village?",
+                dialogue: "Aarit is half reason we have a chance in this war against Rae. Is the town worth putting everything everyone here has worked on for the past year at risk?",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Usain",
+                dialogue: "Would the freedom of everyone in Toma, your city, plus all the lives of the elves be worth less than the lives of some women and children in a backwater village?",
                 emotion: "neutral"
             },
             {
@@ -1027,7 +1087,17 @@ const Stories = {
             },
             {
                 speaker: "Tehara",
-                dialogue: "Fire elves are half Dahn, half elf. To the proper Dahn, the pure bloods, elves aren't human. In fact, they're worse than mongrels. No fire elf, even though we're half breeds, will ever walk the Continent again. Not even our children, or our children's children will be acceptable. That's why some fire elves cut the points off their ears, so we can rid ourselves of what marks us as elves, instead of Dahn.",
+                dialogue: "Fire elves are half Dahn, half elf. To the proper Dahn, the pure bloods, elves aren't human. In fact, they're worse than mongrels. No fire elf, even though we're half breeds, will ever walk the Continent again.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Tehara",
+                dialogue: "Not even our children, or our children's children will be acceptable.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Tehara",
+                dialogue: "That's why some fire elves cut the points off their ears, so we can rid ourselves of what marks us as elves, instead of Dahn.",
                 emotion: "neutral"
             },
             {
@@ -1037,7 +1107,17 @@ const Stories = {
             },
             {
                 speaker: "Tehara",
-                dialogue: "Because my dad told me to keep them. Elf and human, both were important to make me who I am. He told me not to reject one for the other. My mom, she wanted me to be Dahn, she drilled me every damn day in the culture, memorizing the Codes, learning to fight with a spear and shield. In spite of her elf blood, she was more Dahn than most pure Dahn I've ever met and she pushed me to be the same. But dad, a pure blooded Dahn, he liked me for me. He told me that elf ears were pretty, and asked that I keep them.",
+                dialogue: "Because my dad told me to keep them. Elf and human, both were important to make me who I am. He told me not to reject one for the other.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Tehara",
+                dialogue: "My mom, she wanted me to be Dahn, she drilled me every damn day in the culture, memorizing the Codes, learning to fight with a spear and shield.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Tehara",
+                dialogue: "In spite of her elf blood, she was more Dahn than most pure Dahn I've ever met and she pushed me to be the same. But dad, a pure blooded Dahn, he liked me for me. He told me that elf ears were pretty, and asked that I keep them.",
                 emotion: "neutral"
             },
             {
@@ -1105,7 +1185,12 @@ const Stories = {
             },
             {   
                 speaker: "Usain",
-                dialogue: "Aarit is the one who brought Rae's treachery to light. His reputation as a famed general, as Ogma, is half the reason anyone is willing to help us in a war against Rae. Rae will kill more people if left unchecked than the bandits ever could. Would the lives of everyone in Toma, your city, be worth less than the lives of a some women and children in a backwater village?",
+                dialogue: "Aarit is the one who brought Rae's treachery to light. His reputation as a famed general, as Ogma, is half the reason anyone is willing to help us in a war against Rae. Rae will kill more people if left unchecked than the bandits ever could.",
+                emotion: "neutral"
+            },
+            {   
+                speaker: "Usain",
+                dialogue: "Would the lives of everyone in Toma, your city, be worth less than the lives of a some women and children in a backwater village?",
                 emotion: "neutral"
             },
             {   
@@ -1302,7 +1387,7 @@ const Stories = {
                 emotion: "neutral"
             },
             {
-                spekaer: "Tehara",
+                speaker: "Tehara",
                 dialogue: "Why?",
                 emotion: "neutral"
             },
@@ -1348,7 +1433,12 @@ const Stories = {
             },
             {
                 speaker: "Tehara", 
-                dialogue: "Because you're a whiny baby who had everything handed to him! Someone bought you your weapons, you didn't make them. You got those fancy robes to wear around, but what did you do to earn them? Nothing! You haven't even seen a real battle, yet you have the gall to stand here and lecture me about how I should behave?",
+                dialogue: "Because you're a whiny baby who had everything handed to him! Someone bought you your weapons, you didn't make them. You got those fancy robes to wear around, but what did you do to earn them? Nothing!",
+                emotion: "angry"
+            },
+            {
+                speaker: "Tehara", 
+                dialogue: "You haven't even seen a real battle, yet you have the gall to stand here and lecture me about how I should behave?",
                 emotion: "angry"
             },
             {
@@ -1368,7 +1458,12 @@ const Stories = {
             },
             {
                 speaker: "Imhotep",
-                dialogue: "As if I would! You fire elves are just like the rest of these contemptible Dahn outcasts. You revere some place you've never been, full of a people that hate very existence! It's bad enough they exile their own people for having relations with anyone who isn't Dahn, but the way that they view you elves? Your lower than dogs to them, yet lap up what little attention they give like broken hounds!",
+                dialogue: "As if I would! You fire elves are just like the rest of these contemptible Dahn outcasts. You revere some place you've never been, full of a people that hate very existence!",
+                emotion: "angry"
+            },
+            {
+                speaker: "Imhotep",
+                dialogue: "It's bad enough they exile their own people for having relations with anyone who isn't Dahn, but the way that they view you elves? Your lower than dogs to them, yet lap up what little attention they give like broken hounds!",
                 emotion: "angry"
             },
             {
@@ -1383,7 +1478,17 @@ const Stories = {
             },
             {
                 speaker: "Usain",
-                dialogue: "GUYS! SHUT UP, THE BOTH OF YOU! Need I play peacekeeper every time you two come close enough to breathe the same air? By Sun and Sands! I should just let the two of you kill each other to get a little peace! Hari, you goad him too much! You have to stop, before I help him throw you out, you little pismire!",
+                dialogue: "GUYS! SHUT UP, THE BOTH OF YOU!",
+                emotion: "angry"
+            },
+            {
+                speaker: "Usain",
+                dialogue: "Need I play peacekeeper every time you two come close enough to breathe the same air? By Sun and Sands! I should just let the two of you kill each other to get a little peace!",
+                emotion: "angry"
+            },
+            {
+                speaker: "Usain",
+                dialogue: "Hari, you goad him too much! You have to stop, before I help him throw you out!",
                 emotion: "angry"
             },
             {
@@ -1403,7 +1508,12 @@ const Stories = {
             },
             {
                 speaker: "Usain",
-                dialogue: "Isn't it? This whole time you've been complaining about how the desert people are too cold, how we don't think life is sacred enough, how your bleeding Vessi ideals are so much better! Did you forget that I'm Dahn? That Toma is majority Dahn? That we are going to fight a war with the Dahn? For someone who constantly talks up the value of virtue you hold precious little of it yourself.",
+                dialogue: "Isn't it? This whole time you've been complaining about how the desert people are too cold, how we don't think life is sacred enough, how your bleeding Vessi ideals are so much better!",
+                emotion: "angry"
+            },
+            {
+                speaker: "Usain",
+                dialogue: "Did you forget that I'm Dahn? That Toma is majority Dahn? That we are going to fight a war with the Dahn? For someone who constantly talks up the value of virtue you hold precious little of it yourself.",
                 emotion: "angry"
             },
             {
@@ -1453,7 +1563,12 @@ const Stories = {
             },
             {
                 speaker: "Usain",
-                dialogue: "A raiding party of bandits catch you at a fork in the road. They rob you, then give you a choice of which path they take next. Down one road there is a little town, but down the other road is a little farm. If you choose the first road, the town will be attacked and many people will die. Choosing the second road will surely kill everyone at the farm. Which do you pick? We haven't had any luck figuring out the answer.",
+                dialogue: "A raiding party of bandits catch you at a fork in the road. They rob you, then give you a choice of which path they take next. Down one road there is a little town, but down the other road is a little farm.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Usain",
+                dialogue: "If you choose the first road, the town will be attacked and many people will die. Choosing the second road will surely kill everyone at the farm. Which do you pick? We haven't had any luck figuring out the answer.",
                 emotion: "neutral"
             },
             {
@@ -1563,7 +1678,12 @@ const Stories = {
             },
             {
                 speaker: "Vadim",
-                dialogue: "Yes, mission always comes first. I am mercenary. Maybe I have been sent to scout out town's defenses before my army attacks, yes? I can save army's strength and time by sending bandits to town. On other hand, maybe I have to assassinate someone at farm. Then I send bandits to farm.",
+                dialogue: "Yes, mission always comes first. I am mercenary. Maybe I have been sent to scout out town's defenses before my army attacks, yes?",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Vadim",
+                dialogue: "I can save army's strength and time by sending bandits to town. On other hand, maybe I have to assassinate someone at farm. Then I send bandits to farm.",
                 emotion: "neutral"
             },
             {
@@ -1608,7 +1728,12 @@ const Stories = {
             },
             {
                 speaker: "Imhotep",
-                dialogue: "Yes, we believe life is sacred and needs to be preserved, particularly the lives of humans and elves. Pure elves believe much the same as us, except they value the grasses and trees as much as themselves. Even so, the Vessii and Elven Cites get along well enough that we're willing to help them against Rae. Unlike the Dahn.",
+                dialogue: "Yes, we believe life is sacred and needs to be preserved, particularly the lives of humans and elves. Pure elves believe much the same as us, except they value the grasses and trees as much as themselves.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Imhotep",
+                dialogue: "Even so, the Vessii and Elven Cites get along well enough that we're willing to help them against Rae. Unlike the Dahn.",
                 emotion: "neutral"
             },
             {
@@ -2133,7 +2258,12 @@ const Stories = {
             },
             {
                 speaker: "Vadim",
-                dialogue: "Nothing at all. Might I suggest, my friend, a change in career? I know you are trying to become legendary mercenary like myself, but if you do not wish to hurt people you love, it will not be a good job. Mercenaries often fight their friends on the battlefield.",
+                dialogue: "Nothing at all!",
+                emotion: "happy"
+            },
+            {
+                speaker: "Vadim",
+                dialogue: "Might I suggest, my friend, a change in career? I know you are trying to become legendary mercenary like myself, but if you do not wish to hurt people you love, it will not be a good job. Mercenaries often fight their friends on the battlefield.",
                 emotion: "neutral"
             },
             {
@@ -2425,7 +2555,7 @@ const Stories = {
             {
                 speaker: "Tehara",
                 dialogue: "And thievery, banditry, marauding and gambling.",
-                emotion: "neatral"
+                emotion: "neutral"
             },
             {
                 speaker: "Imhotep",
@@ -2463,7 +2593,7 @@ const Stories = {
                 emotion: "neutral"
             },
             {
-                spekaer: "Imhotep",
+                speaker: "Imhotep",
                 dialogue: "Hari, no...",
                 emotion: "neutral"
             },
@@ -2650,7 +2780,12 @@ const Stories = {
             },
             {
                 speaker: "Vadim",
-                dialogue: "If you do not do what is practical, how can you accomplish mission? How can you accomplish your war? You save town. Let us say you save this one town and it does not change chances in war. But you save many towns? Now Rae wins, and all elves die and people of Toma are enslaved.",
+                dialogue: "If you do not do what is practical, how can you accomplish mission? How can you accomplish your war?",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Vadim",
+                dialogue: "You save town. Let us say you save this one town and it does not change chances in war. But you save many towns? Now Rae wins, and all elves die and people of Toma are enslaved.",
                 emotion: "neutral"
             },
             {
@@ -2710,7 +2845,12 @@ const Stories = {
             },
             {
                 speaker: "Imhotep",
-                dialogue: "So let's say we sacrifice a village to save Marinus. Then, we sacrifice a larger town to save Lae Ling, the elven diplomat. Then, we sacrifice the whole city of Goshen to save Aarit. Eventually, Toma wins, Rae is defeated, and we have sacrificed everyone else in Vessa.",
+                dialogue: "So let's say we sacrifice a village to save Marinus. Then, we sacrifice a larger town to save Lae Ling, the elven diplomat. Then, we sacrifice the whole city of Goshen to save Aarit.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Imhotep",
+                dialogue: "Eventually, Toma wins, Rae is defeated, and we have sacrificed everyone else in Vessa.",
                 emotion: "neutral"
             },
             {
@@ -2755,7 +2895,12 @@ const Stories = {
             },
             {
                 speaker: "Vadim",
-                dialogue: "Ah, my friend, unfortunately no, you have not. I still believe that my mission must take precedent over my moral core, as you call it. If Toma wins and all else burns, I will be satisfied. Perhaps it is because I am mercenary, but I believe goal justifies methods.",
+                dialogue: "Ah, my friend, unfortunately no, you have not.",
+                emotion: "sad"
+            },
+            {
+                speaker: "Vadim",
+                dialogue: "I still believe that my mission must take precedent over my moral core, as you call it. If Toma wins and all else burns, I will be satisfied. Perhaps it is because I am mercenary, but I believe goal justifies methods.",
                 emotion: "sad"
             },
             {
@@ -2937,12 +3082,22 @@ const Stories = {
             },
             {
                 speaker: "Usain",
-                dialogue: "Look, all I'm saying that I don't think spirits, fae or otherwise, should be the decider of all our morals. I think that we, the people in the situations, are better off deciding for ourselves what is best. The gods are dead and you can't trust fae or magic. Why leave your life's choices in the hands of something that can't see?",
+                dialogue: "Look, all I'm saying that I don't think spirits, fae or otherwise, should be the decider of all our morals. I think that we, the people in the situations, are better off deciding for ourselves what is best.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Usain",
+                dialogue: "The gods are dead and you can't trust fae or magic. Why leave your life's choices in the hands of something that can't see?",
                 emotion: "neutral"
             },
             {
                 speaker: "Imhotep",
-                dialogue: "Because I can see the good it does the world by following their guidance. I can see that lives are enriched by adhering to the principles the Spirits taught us. The gods are gone, but doesn't mean the supernatural holds no sway over our lives. We are still beings of half flesh and half spirit. Someday, our spirit selves will join the Spirits of the Earth and answer for our deeds upon it.",
+                dialogue: "Because I can see the good it does the world by following their guidance. I can see that lives are enriched by adhering to the principles the Spirits taught us. The gods are gone, but doesn't mean the supernatural holds no sway over our lives.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Imhotep",
+                dialogue: "We are still beings of half flesh and half spirit. Someday, our spirit selves will join the Spirits of the Earth and answer for our deeds upon it.",
                 emotion: "neutral"
             },
             {
@@ -2957,7 +3112,12 @@ const Stories = {
             },
             {
                 speaker: "Vadim",
-                dialogue: "I believe I understand what Imhotep is trying to say. In Rodina. we follow Eternal King and Mother, Arianne. We follow her by fulfilling our duties to our lords and lieges, and by seeking honor through courageous acts. As we gain her favor, she blesses us with a seat in her Great Hall. It gives much inspiration to us, who fight in her name. There is comfort in knowing that someone is watching, that life has purpose beyond this earth.",
+                dialogue: "I believe I understand what Imhotep is trying to say. In Rodina. we follow Eternal King and Mother, Arianne. We follow her by fulfilling our duties to our lords and lieges, and by seeking honor through courageous acts.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Vadim",
+                dialogue: "As we gain her favor, she blesses us with a seat in her Great Hall. It gives much inspiration to us, who fight in her name. There is comfort in knowing that someone is watching, that life has purpose beyond this earth.",
                 emotion: "neutral"
             },
             {
@@ -2977,7 +3137,12 @@ const Stories = {
             },
             {
                 speaker: "Usain",
-                dialogue: "We don't really worship anything as much as honor and revere them. And only a few things as they benefit the people, the Dahn, as a whole. Like, we honor the Continent, Al-Ilbis, because it is our home. We honor the sun because it gives light so we can see. Same thing with the sands and water. Everything we honor is real and tangible, but we would never pray to them.",
+                dialogue: "We don't really worship anything as much as honor them. And only a few things as they benefit the people, the Dahn, as a whole.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Usain",
+                dialogue: "Like, we honor the Continent, Al-Ilbis, because it is our home. We honor the sun because it gives light so we can see. Same thing with the sands and water. Everything we honor is real and tangible, but we would never pray to them.",
                 emotion: "neutral"
             },
             {
@@ -2987,7 +3152,12 @@ const Stories = {
             },
             {
                 speaker: "Usain",
-                dialogue: "Yeah, but why follow gods or spirits? Why are their choices better than anyone else's? I can use my own judgment on a situation, and deal with the consequences afterward. But I don't think it's smart to trust these spirit-things. They could just be my imagination for all I know.",
+                dialogue: "Yeah, but why follow gods or spirits? Why are their choices better than anyone else's? I can use my own judgment on a situation, and deal with the consequences afterward.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Usain",
+                dialogue: "But I don't think it's smart to trust these spirit-things. They could just be my imagination for all I know.",
                 emotion: "neutral"
             },
             {
@@ -3007,7 +3177,17 @@ const Stories = {
             },
             {
                 speaker: "Usain",
-                dialogue: "So, let's say I sacrifice the farm with Aarit on it to save the town from the bandits. Without Aarit's reputation, Marinus can't muster enough support from the other emir's and Toma bows to Rae, who then goes on to murder all the elves and half-elves in Southern Vessa. How does life 'flourish' in that?",
+                dialogue: "So, let's say I sacrifice the farm with Aarit on it to save the town from the bandits.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Usain",
+                dialogue: "Without Aarit's reputation, Marinus can't muster enough support from the other emir's and Toma bows to Rae, who then goes on to murder all the elves and half-elves in Southern Vessa.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Usain",
+                dialogue: "How does life 'flourish' in that?",
                 emotion: "neutral"
             },
             {
@@ -3194,7 +3374,12 @@ const Stories = {
             },
             {
                 speaker: "Vadim",
-                dialogue: "Let us say, you become Ogma. Now let us say, you fight for city, you command their armies, yes? Now let us say, your friend is captured by enemy city, and they say you must change sides and sabotage the city you fight for, or else they kill your friend. Do you not have obligation to city that hired you?",
+                dialogue: "Let us say, you become Ogma. Now let us say, you fight for city, you command their armies, yes? Now let us say, your friend is captured by enemy city, and they say you must change sides and sabotage the city you fight for, or else they kill your friend.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Vadim",
+                dialogue: "Do you not have obligation to city that hired you?",
                 emotion: "neutral"
             },
             {
@@ -3460,7 +3645,12 @@ const Stories = {
             },
             {
                 speaker: "Imhotep",
-                dialogue: "What if you were hired by the tyrant of Rae to kill Emir Marinus? You know as well as we do that Rae seeks the extermination of all the elves. Would you continue the mission, in spite of that, knowing full well the misery you are going to spread and the extent of the lives that will be lost?",
+                dialogue: "What if you were hired by the tyrant of Rae to kill Emir Marinus? You know as well as we do that Rae seeks the extermination of all the elves.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Imhotep",
+                dialogue: "Would you continue the mission, in spite of that, knowing full well the misery you are going to spread and the extent of the lives that will be lost?",
                 emotion: "neutral"
             },
             {
@@ -3540,7 +3730,12 @@ const Stories = {
             },
             {
                 speaker: "Tehara",
-                dialogue: "What if what is best for you is bad for your duty? Let's go back to the scenario where you save Marinus or Basil and let's assume you complete the mission and sacrifice Basil to protect Marinus, but now everyone knows you are responsible for Basil's death. Wouldn't that that be horrible for you reputation?",
+                dialogue: "What if what is best for you is bad for your duty? Let's go back to the scenario where you save Marinus or Basil and let's assume you complete the mission and sacrifice Basil to protect Marinus, but now everyone knows you are responsible for Basil's death.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Tehara",
+                dialogue: "Wouldn't that that be horrible for you reputation?",
                 emotion: "neutral"
             },
             {
@@ -3560,12 +3755,17 @@ const Stories = {
             },
             {
                 speaker: "Usain",
-                dialogue: "Yeah, this I can get behind. Every action I take will have consequences and I can't worry about them all. If I try to control every echo, ripple and wave I create, I will never be able to do anything. Instead, do what I have to, and keep moving forward. The world can sort itself out.",
+                dialogue: "Yeah, this I can get behind. Every action I take will have consequences and I can't worry about them all. If I try to control every echo, ripple and wave I create, I will never be able to do anything.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Usain",
+                dialogue: "Instead, do what I have to, and keep moving forward. The world can sort itself out.",
                 emotion: "neutral"
             },
             {
                 speaker: "Vadim",
-                dialogue: "This is the way.",
+                dialogue: "As it should be.",
                 emotion: "neutral"
             },
             {
@@ -3585,7 +3785,12 @@ const Stories = {
             },
             {
                 speaker: "Imhotep",
-                dialogue: "Usain, will you really bring this to Aarit and tell him it doesn't matter where you send the bandits so long as it follows orders? Ogma are philosophers as much as they are warriors. Do you really think he will be content with you leaving moral decisions to others?",
+                dialogue: "Usain, will you really bring this to Aarit and tell him it doesn't matter where you send the bandits so long as it follows orders? Ogma are philosophers as much as they are warriors.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Imhotep",
+                dialogue: "Do you really think he will be content with you leaving moral decisions to others?",
                 emotion: "neutral"
             },
             {
@@ -3752,7 +3957,17 @@ const Stories = {
             },
             {
                 speaker: "Usain",
-                dialogue: "I send the bandits to the farm. Then I run to the town and tell them of the threat, marshal them into fighting groups and pursue the bandits. Meanwhile, I should send runners from the town to other nearby settlements to warn them of the bandit horde and recruit more capable fighters. Then, when we catch up to them we wait, ambush and kill every single one of them.",
+                dialogue: "I send the bandits to the farm. Then I run to the town and tell them of the threat, marshal them into fighting groups and pursue the bandits.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Usain",
+                dialogue: "Meanwhile, I should send runners from the town to other nearby settlements to warn them of the bandit horde and recruit more capable fighters.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Usain",
+                dialogue: "Then, when we catch up to them we wait, ambush and kill every single one.",
                 emotion: "neutral"
             },
             {
@@ -3832,7 +4047,12 @@ const Stories = {
             },
             {
                 speaker: "Imhotep",
-                dialogue: "Of course not! The reason behind the action is just as important as the action itself. Usain's reason is just senselessly following an old, murderous code. He's not acting on his own ideas and that's what Aarit is going after. Even he doesn't like the Dahnic Code.",
+                dialogue: "Of course not! The reason behind the action is just as important as the action itself. Usain's reason is just senselessly following an old, murderous code.",
+                emotion: "neutral"
+            },
+            {
+                speaker: "Imhotep",
+                dialogue: "He's not acting on his own ideas and that's what Aarit is going after. Even he doesn't like the Dahnic Code.",
                 emotion: "neutral"
             },
             {

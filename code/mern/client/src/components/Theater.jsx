@@ -38,6 +38,27 @@ export default class Theater extends Component {
         this.setState({storyBox: copyStoryBox}, this.onClickTiggers)
     }
 
+    // moves the player back one object of the story array
+    back = () => {
+        let dialogueNumber = this.state.storyBox.dialogueNumber
+        let temp = dialogueNumber - 1
+
+        const copyStoryBox = {...this.state.storyBox}
+
+        copyStoryBox.dialogueNumber = temp
+        try {
+            if(this.state.calculationsBox.choice === false ){
+                return
+            }
+            console.log(Stories.moralityProblem[copyStoryBox.pathNumber][copyStoryBox.dialogueNumber - 1].speaker)
+            this.setState({storyBox: copyStoryBox}, this.onClickTiggers)
+        }
+        catch (err) {
+            alert('you can go back no farther')
+            return
+        }
+    }
+
     // list of functions to execute on each click
     onClickTiggers = () => {
         const speaker = Stories.moralityProblem[this.state.storyBox.pathNumber][this.state.storyBox.dialogueNumber].speaker
@@ -110,8 +131,6 @@ export default class Theater extends Component {
         // returns path to interger value, without the zeros
         const newPath = this.stripZero(choiceString)
         copyStoryBox.pathNumber = newPath
-        
-        const speaker = Stories.moralityProblem[newPath][0].speaker
         
         this.setState({calculationsBox: copyCalcBox}, this.toggleChoiceBox)
         this.setState({storyBox: {pathNumber: newPath, dialogueNumber: 0}}, this.focusSpeaker)
@@ -286,6 +305,7 @@ export default class Theater extends Component {
     }
 
     /* ***MENUBAR*** */
+    
     revealCredits = () => {
         const credits = document.getElementById('credits-pop-up')
 
@@ -301,10 +321,8 @@ export default class Theater extends Component {
     render() {
         const copyEmotionBox = {...this.state.emotionBox}
         const EmoBoxArray = Object.entries(copyEmotionBox)
-        // console.log(EmoBoxArray)
         
         const stagePlaces = EmoBoxArray.map((characterProperties, index) => {
-            // console.log(characterProperties)
             return <Character
                 key = {index}
                 id = {index}
@@ -331,6 +349,7 @@ export default class Theater extends Component {
                     resetGame = {this.reset}
                     testButton = {this.focusSpeaker}
                     buttonStyle = {this.state.calculationsBox.button}
+                    previousLine = {this.back}
                 />
             </div>
         )

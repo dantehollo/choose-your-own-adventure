@@ -40,52 +40,54 @@ export default class MenuBar extends Component {
                         x
                     </button>
                     <table>
-                        <tr>
-                            <th>Creator:</th>
-                        </tr>
-                        <tr>
-                            <td>Matthew Caravaggio</td>
-                            <td>Programming and Story</td>
-                            <td>
-                                <a href='https://msc-portfolio.herokuapp.com/'>Portfolio</a>
-                            </td>
-                            <td>
-                                <a href="https://github.com/dantehollo">Github</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>Assets Used:</th>
-                        </tr>
-                        <tr>
-                            <td>Erda Enos</td>
-                            <td>Character Art</td>
-                            <td>
-                                <a href='https://www.patreon.com/erdaenos'>Patreon</a>
-                            </td>
-                            <td>
-                                <a href='https://erdaenos.itch.io/'>itch.io</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Konnet</td>
-                            <td>Background Art</td>
-                            <td>
-                                <a href='https://twitter.com/cosmickonett'>Twitter</a>
-                            </td>
-                            <td>
-                                <a href='https://konett.itch.io/'>itch.io</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>ilonitta</td>
-                            <td>Text Box Art</td>
-                            <td>
-                                <a href='https://ilonitta.com'>Ilonitta.com</a>
-                            </td>
-                            <td>
-                                <a href="https://www.freepik.com/vectors/floral">Freepik</a>
-                            </td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <th>Creator:</th>
+                            </tr>
+                            <tr>
+                                <td>Matthew Caravaggio</td>
+                                <td>Programming and Story</td>
+                                <td>
+                                    <a href='https://msc-portfolio.herokuapp.com/'>Portfolio</a>
+                                </td>
+                                <td>
+                                    <a href="https://github.com/dantehollo">Github</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Assets Used:</th>
+                            </tr>
+                            <tr>
+                                <td>Erda Enos</td>
+                                <td>Character Art</td>
+                                <td>
+                                    <a href='https://www.patreon.com/erdaenos'>Patreon</a>
+                                </td>
+                                <td>
+                                    <a href='https://erdaenos.itch.io/'>itch.io</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Konnet</td>
+                                <td>Background Art</td>
+                                <td>
+                                    <a href='https://twitter.com/cosmickonett'>Twitter</a>
+                                </td>
+                                <td>
+                                    <a href='https://konett.itch.io/'>itch.io</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>ilonitta</td>
+                                <td>Text Box Art</td>
+                                <td>
+                                    <a href='https://ilonitta.com'>Ilonitta.com</a>
+                                </td>
+                                <td>
+                                    <a href="https://www.freepik.com/vectors/floral">Freepik</a>
+                                </td>
+                            </tr>
+                        </tbody>
                     </table>
                     <h1 className='and-you'>
                         And a special thanks to <br/><span id='credits-you'>YOU!</span>
