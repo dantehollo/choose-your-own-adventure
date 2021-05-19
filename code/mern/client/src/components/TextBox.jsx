@@ -14,8 +14,8 @@ export default class TextBox extends Component {
                     </p>
                 </div>
                 <div className = 'progress-box'>
-                    <div className = 'container-buttons' onClick = {this.props.previousLine}/>
-                    <div className = 'container-buttons' onClick = {this.props.continue}/>
+                    <div className = 'container-buttons-back' onClick = {this.props.previousLine}/>
+                    <div className = 'container-buttons-forward' onClick = {this.props.continue}/>
                 </div>
                 <div id='choice-box'>
                     <div className='button-text-container'>

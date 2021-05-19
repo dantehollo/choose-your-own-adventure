@@ -117,17 +117,15 @@ a:hover {
 		linear-gradient(to top, rgba(5, 5, 5, 0.75), rgba(5, 5, 5, 0.5)),
 		url(./components/images/backgrounds/tear-drop-blue.svg);
 		border-radius: 10px;
-	/* overflow: scroll; */
 }
 
 .textbox-main {
-	/* background-color: blue; */
 	color: white;
 	font-family:"Lato", sans-serif;
 	font-weight: 700;
 	font-size: 25px;
 	padding: 10px 75px;
-	z-index: 100;
+	z-index: 50;
 }
 
 .progress-box {
@@ -140,12 +138,49 @@ a:hover {
 	justify-content: space-between;
 }
 
-.container-buttons {
+.container-buttons-back, .container-buttons-forward {
 	display: inline;
-	/* background-color: rgba(49, 8, 8, 0.5); */
 	height: 100%;
 	width: 50%;
-	z-index: -100;
+	z-index: 1;
+}
+
+.container-buttons-back::before {
+	position: absolute;
+	content: "";
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 50%;
+	background-image: 
+		linear-gradient(to left, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.15));
+	opacity: 0;
+	z-index: -1;
+	transition: opacity 250ms linear;
+}
+
+.container-buttons-forward::before {
+	position: absolute;
+	content: "";
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 50%;
+	width: 50%;
+	background-image: 
+		linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.15));
+	opacity: 0;
+	z-index: -1;
+	transition: opacity 250ms linear;
+}
+
+.container-buttons-back:hover::before {
+	opacity: 1;
+}
+
+.container-buttons-forward:hover::before {
+	opacity: 1;
 }
 
 #choice-box {
