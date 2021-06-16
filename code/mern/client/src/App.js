@@ -1,19 +1,17 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-// import TextBox from './components/TextBox'
-// import Stage from './components/Stage'
 import './App.css';
 import Theater from './components/Theater';
+import LaunchPage from './components/LaunchPage';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Switch>
-          <Route/>
+          <Route exact path="/" component={LaunchPage}/>
+          <Route exact path="/stories/:id" component={Theater}/>
         </Switch>
-        {/* <Stage/> */}
-        <Theater/>
       </Router>
     </div>
   );

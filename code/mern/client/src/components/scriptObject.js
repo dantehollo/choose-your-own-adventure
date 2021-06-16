@@ -2,11 +2,11 @@
 // "2" denotes disagreement with speaker of preceding set piece
 
 const Stories = {
-    moralityProblem: {
+    // moralityProblem: {
         0: [
             {
                 dialogue: "It's a bright and sunny day, yet Usain's face is dark and stormy.",
-                emotions: 'netral'
+                emotion: 'netral'
             },
             {
                 command: 'enter',
@@ -4195,7 +4195,7 @@ const Stories = {
                 emotion: "sad"
             }
         ]
-    }
+    // }
 }
 
-export { Stories }
+// export { Stories }
